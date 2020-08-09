@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephen E. L. Howell | Mike Brady</title>
+    <link>https://m9brady.github.io/author/stephen-e.-l.-howell/</link>
+      <atom:link href="https://m9brady.github.io/author/stephen-e.-l.-howell/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stephen E. L. Howell</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Mike Brady</copyright><lastBuildDate>Thu, 19 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://m9brady.github.io/images/icon_hu06b9fad0ffef352b94013d26d9b44337_57215_512x512_fill_lanczos_center_2.png</url>
+      <title>Stephen E. L. Howell</title>
+      <link>https://m9brady.github.io/author/stephen-e.-l.-howell/</link>
+    </image>
+    
+    <item>
+      <title>Sensitivity of Ice Drift to Form Drag and Ice Strength Parameterization in a Coupled Ice-Ocean Model</title>
+      <link>https://m9brady.github.io/publication/tandf_tato2057_329/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/tandf_tato2057_329/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dynamic Response of Sea Ice to Warming in the Canadian Arctic Archipelago</title>
+      <link>https://m9brady.github.io/publication/2019gl085116/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/2019gl085116/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent changes in sea ice area flux through the Beaufort Sea during the summer</title>
+      <link>https://m9brady.github.io/publication/2015jc011464/</link>
+      <pubDate>Tue, 22 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/2015jc011464/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiyear ice replenishment in the Canadian Arctic Archipelago: 1997–2013</title>
+      <link>https://m9brady.github.io/publication/2015jc010696/</link>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/2015jc010696/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

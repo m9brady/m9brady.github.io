@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Justin Beckers | Mike Brady</title>
+    <link>https://m9brady.github.io/author/justin-beckers/</link>
+      <atom:link href="https://m9brady.github.io/author/justin-beckers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Justin Beckers</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Mike Brady</copyright><lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://m9brady.github.io/images/icon_hu06b9fad0ffef352b94013d26d9b44337_57215_512x512_fill_lanczos_center_2.png</url>
+      <title>Justin Beckers</title>
+      <link>https://m9brady.github.io/author/justin-beckers/</link>
+    </image>
+    
+    <item>
+      <title>Local-scale variability of snow density on Arctic sea ice</title>
+      <link>https://m9brady.github.io/publication/tc-2019-305/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/tc-2019-305/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

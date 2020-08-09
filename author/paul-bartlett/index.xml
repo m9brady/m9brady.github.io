@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Bartlett | Mike Brady</title>
+    <link>https://m9brady.github.io/author/paul-bartlett/</link>
+      <atom:link href="https://m9brady.github.io/author/paul-bartlett/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paul Bartlett</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Mike Brady</copyright><lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://m9brady.github.io/images/icon_hu06b9fad0ffef352b94013d26d9b44337_57215_512x512_fill_lanczos_center_2.png</url>
+      <title>Paul Bartlett</title>
+      <link>https://m9brady.github.io/author/paul-bartlett/</link>
+    </image>
+    
+    <item>
+      <title>Comparison and Assessment of Regional and Global Land Cover Datasets for Use in CLASS over Canada</title>
+      <link>https://m9brady.github.io/publication/rs11192286/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/rs11192286/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

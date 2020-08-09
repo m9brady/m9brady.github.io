@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Torsten Geldsetzer | Mike Brady</title>
+    <link>https://m9brady.github.io/author/torsten-geldsetzer/</link>
+      <atom:link href="https://m9brady.github.io/author/torsten-geldsetzer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Torsten Geldsetzer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Mike Brady</copyright><lastBuildDate>Wed, 18 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://m9brady.github.io/images/icon_hu06b9fad0ffef352b94013d26d9b44337_57215_512x512_fill_lanczos_center_2.png</url>
+      <title>Torsten Geldsetzer</title>
+      <link>https://m9brady.github.io/author/torsten-geldsetzer/</link>
+    </image>
+    
+    <item>
+      <title>Comparing L- and C-band synthetic aperture radar estimates of sea ice motion over different ice regimes</title>
+      <link>https://m9brady.github.io/publication/howell2018380/</link>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://m9brady.github.io/publication/howell2018380/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
