@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Mike Brady</title><link>https://m9brady.github.io/post/</link><atom:link href="https://m9brady.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-ca</language><copyright>© 2022 Mike Brady</copyright><lastBuildDate>Sun, 16 Jan 2022 16:15:40 -0500</lastBuildDate><image><url>https://m9brady.github.io/media/icon_hu06b9fad0ffef352b94013d26d9b44337_57215_512x512_fill_lanczos_center_3.png</url><title>Posts</title><link>https://m9brady.github.io/post/</link></image><item><title>NSIDC Ice Age Exploration</title><link>https://m9brady.github.io/post/iceage-xarray-beaufort/</link><pubDate>Sun, 16 Jan 2022 16:15:40 -0500</pubDate><guid>https://m9brady.github.io/post/iceage-xarray-beaufort/</guid><description>
+&lt;figure id="figure-point_up-end-result-of-the-following-code-snippets-point_down">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt=":point_up: **End result of the following code snippets** :point_down:" srcset="
+/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_42852f792bc2025de930fd85bb6f5b74.webp 400w,
+/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_775903b7a532c861b215b3446b1f96a0.webp 760w,
+/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_42852f792bc2025de930fd85bb6f5b74.webp"
+width="760"
+height="326"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+☝️ &lt;strong>End result of the following code snippets&lt;/strong> 👇
+&lt;/figcaption>&lt;/figure>
+&lt;p>Checking out a really neat historical sea ice age dataset from NSIDC:
+&lt;a href="https://nsidc.org/data/nsidc-0611" target="_blank" rel="noopener">https://nsidc.org/data/nsidc-0611&lt;/a>&lt;/p>
+&lt;pre>&lt;code class="language-python">from io import BytesIO
+from netrc import netrc
+from pathlib import Path
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import requests
+import xarray as xr
+from matplotlib.colors import ListedColormap
+&lt;/code>&lt;/pre>
+&lt;p>We need to get the data first (requires a &lt;a href="https://urs.earthdata.nasa.gov/" target="_blank" rel="noopener">NASA EarthData account&lt;/a>!)&lt;/p>
+&lt;pre>&lt;code class="language-python">local_nc = Path('./iceage_nsidc.nc')
+if local_nc.exists():
+ds = xr.open_dataset(
+local_nc,
+chunks={'time': 200, 'x': 722, 'y': 722} # try to have ~100MB chunks
+)
+else:
+resp = input(
+'Local dataset does not exist - confirm you ' \
+'want to download from NSIDC? (Approx bandwidth usage: 1GB)'
+)
+if resp.lower() == 'y':
+base_url = 'https://daacdata.apps.nsidc.org/pub/DATASETS/' \
+'nsidc0611_seaice_age_v4/data/' \
+'iceage_nh_12.5km_{year}0101_{year}1231_v4.1.nc'
+urls = [
+base_url.format(year=y)
+for y in range(1984,2021) # 2021 is still preliminary
+]
+user, _, password = netrc().authenticators('urs.earthdata.nasa.gov')
+with requests.Session() as sesh:
+sesh.auth = (user, password)
+ds = xr.open_mfdataset(
+[
+BytesIO(sesh.get(url).content)
+for url in urls
+],
+data_vars=['age_of_sea_ice']
+)
+else:
+raise FileNotFoundError(
+'Local dataset not found user decided not to download'
+)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">ds
+&lt;/code>&lt;/pre>
+&lt;p style="text-align:center">
+&lt;iframe
+src="./cell4.html"
+width="100%"
+height="540px"
+style="border:none;">
+&lt;/iframe>
+&lt;/p>
+&lt;pre>&lt;code class="language-python">ds['age_of_sea_ice']
+&lt;/code>&lt;/pre>
+&lt;p style="text-align:center">
+&lt;iframe
+src="./cell5.html"
+width="100%"
+height="650px"
+style="border:none;">
+&lt;/iframe>
+&lt;/p>
+&lt;pre>&lt;code class="language-python">print('Approximate size of uncompressed dataset: %.2f MB' % (
+ds.nbytes / 1024**2
+))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>Approximate size of uncompressed dataset: 960.49 MB
+&lt;/code>&lt;/pre>
+&lt;p>Here we take a single time slice and try to figure out the best way to get a Beaufort-Only subset&lt;/p>
+&lt;pre>&lt;code class="language-python">time_slice = ds.isel(time=1200)
+time_slice['age_of_sea_ice'].data
+&lt;/code>&lt;/pre>
+&lt;p style="text-align:center">
+&lt;iframe
+src="./cell7.html"
+width="60%"
+height="240px"
+style="border:none;">
+&lt;/iframe>
+&lt;/p>
+&lt;p>What does the slice look like?&lt;/p>
+&lt;pre>&lt;code class="language-python">time_slice['age_of_sea_ice'].plot(figsize=(11,11), add_colorbar=False);
+&lt;/code>&lt;/pre>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/output_10_0_hu14390f648e272a6774bea5228fe9cbf6_93136_73624f37d36b85a409517df2f2edbed1.webp 400w,
+/post/iceage-xarray-beaufort/output_10_0_hu14390f648e272a6774bea5228fe9cbf6_93136_4a5fb120914b0b4c79a5cb51e56c30e9.webp 760w,
+/post/iceage-xarray-beaufort/output_10_0_hu14390f648e272a6774bea5228fe9cbf6_93136_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_10_0_hu14390f648e272a6774bea5228fe9cbf6_93136_73624f37d36b85a409517df2f2edbed1.webp"
+width="663"
+height="659"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Let&amp;rsquo;s plot with the NSIDC colormap&lt;/p>
+&lt;pre>&lt;code class="language-python"># this implementation is imperfect but seems to work okay
+cmap = ListedColormap(
+[
+'#FFFFFF', '#3F51A3', '#6FCBDB', '#69BF4E', '#F3B226',
+'#F12411', '#F12411', '#F12411', '#F12411', '#F12411',
+'#F12411', '#F12411', '#F12411', '#F12411', '#F12411',
+'#F12411'
+],
+name='Sea Ice Age',
+N=16,
+)
+cmap.set_over('#A1A1A1')
+cmap
+&lt;/code>&lt;/pre>
+&lt;p style="text-align:center">
+&lt;iframe
+src="./cell9.html"
+width="70%"
+height="160px"
+style="border:none;">
+&lt;/iframe>
+&lt;/p>
+&lt;pre>&lt;code class="language-python"># note how we mask out the land/channels with a nice little conditional
+xr.where(
+time_slice['age_of_sea_ice'] &amp;gt;= 20,
+np.nan,
+time_slice['age_of_sea_ice']
+).plot(
+figsize=(11,11),
+cmap=cmap,
+add_colorbar=False
+);
+&lt;/code>&lt;/pre>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/output_13_0_hu14390f648e272a6774bea5228fe9cbf6_66309_16de8baed9464d4702fd986e8ee64127.webp 400w,
+/post/iceage-xarray-beaufort/output_13_0_hu14390f648e272a6774bea5228fe9cbf6_66309_0a140f123432ff6ef54410699a7e5164.webp 760w,
+/post/iceage-xarray-beaufort/output_13_0_hu14390f648e272a6774bea5228fe9cbf6_66309_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_13_0_hu14390f648e272a6774bea5228fe9cbf6_66309_16de8baed9464d4702fd986e8ee64127.webp"
+width="663"
+height="659"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Create a Mask based on Dave&amp;rsquo;s Figure 1B: &lt;a href="https://doi.org/10.1002/essoar.10509833.1" target="_blank" rel="noopener">https://doi.org/10.1002/essoar.10509833.1&lt;/a>&lt;/p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/babb_fig1b_hu92dfa500ce8d485d2db6161009910553_49410_5a9c579fb6b0ae002ef1ab62368a3f9c.webp 400w,
+/post/iceage-xarray-beaufort/babb_fig1b_hu92dfa500ce8d485d2db6161009910553_49410_3978cf990d66b6971491759a8b602209.webp 760w,
+/post/iceage-xarray-beaufort/babb_fig1b_hu92dfa500ce8d485d2db6161009910553_49410_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/babb_fig1b_hu92dfa500ce8d485d2db6161009910553_49410_5a9c579fb6b0ae002ef1ab62368a3f9c.webp"
+width="568"
+height="460"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;pre>&lt;code class="language-python">min_lon = -150
+max_lon = -120
+min_lat = 68
+max_lat = 76
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">lons = time_slice['longitude'].data.copy()
+lons[lons &amp;lt; min_lon] = np.nan
+lons[lons &amp;gt; max_lon] = np.nan
+lons[~np.isnan(lons)] = 1
+lats = time_slice['latitude'].data.copy()
+lats[lats &amp;gt; max_lat] = np.nan
+lats[lats &amp;lt; min_lat] = np.nan
+lats[~np.isnan(lats)] = 1
+mask = lons * lats
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">fig, (
+ax_lons, ax_lats, ax_mask, ax_data
+) = plt.subplots(ncols=4, nrows=1, figsize=(18,6))
+ax_lons.imshow(lons, origin='lower')
+ax_lons.set_title('Beaufort Lon mask (&amp;gt;= -150 and &amp;lt;= -120)')
+ax_lats.imshow(lats, origin='lower')
+ax_lats.set_title('Beaufort Lat mask (&amp;gt;= 68 and &amp;lt;=76)')
+ax_mask.imshow(mask, origin='lower')
+ax_mask.imshow(lons, origin='lower', cmap='Greens_r', alpha=0.4, zorder=-2)
+ax_mask.imshow(lats, origin='lower', cmap='Blues_r', alpha=0.4, zorder=-2)
+ax_mask.set_title('Beaufort mask (lon * lat)')
+ax_mask.set_xlim(150, 350)
+ax_mask.set_ylim(375, 575)
+ax_data.imshow(time_slice['age_of_sea_ice'] * mask, cmap=cmap, vmin=0, vmax=16)
+ax_data.set_title('Masked Ice Age data')
+ax_data.set_xlim(150, 350)
+ax_data.set_ylim(375, 575)
+fig.tight_layout();
+&lt;/code>&lt;/pre>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/output_18_0_hu216274d293662b05b5e593a1427887c2_78283_d92a3c7a42280b93c4b446f7c608b101.webp 400w,
+/post/iceage-xarray-beaufort/output_18_0_hu216274d293662b05b5e593a1427887c2_78283_61e228ba8082dfe0c7089443824ff3fd.webp 760w,
+/post/iceage-xarray-beaufort/output_18_0_hu216274d293662b05b5e593a1427887c2_78283_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_18_0_hu216274d293662b05b5e593a1427887c2_78283_d92a3c7a42280b93c4b446f7c608b101.webp"
+width="760"
+height="190"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>With these two index ranges we can minimize our masked dataset&lt;/p>
+&lt;pre>&lt;code class="language-python"># just eyeballed these based on the above figure
+xs = xr.DataArray(range(220, 300), dims='x')
+ys = xr.DataArray(range(415, 535), dims='y')
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">(time_slice['age_of_sea_ice'] * mask).isel(
+x=xs, y=ys
+).plot(cmap=cmap, vmin=0, vmax=16, add_colorbar=False);
+&lt;/code>&lt;/pre>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/output_21_0_hu527292a5ec44678fd8ce3bccf459a865_35118_bc94c432fd750f9800cec2b2ec9af70c.webp 400w,
+/post/iceage-xarray-beaufort/output_21_0_hu527292a5ec44678fd8ce3bccf459a865_35118_20212d8ab92d970d8d3677e56b39d22d.webp 760w,
+/post/iceage-xarray-beaufort/output_21_0_hu527292a5ec44678fd8ce3bccf459a865_35118_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_21_0_hu527292a5ec44678fd8ce3bccf459a865_35118_bc94c432fd750f9800cec2b2ec9af70c.webp"
+width="386"
+height="278"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>Now that we have our slicers we can reduce the dataset to just the Beaufort AOI&lt;/p>
+&lt;pre>&lt;code class="language-python">result = (ds['age_of_sea_ice'].isel(x=xs, y=ys) * mask[415:535, 220:300])
+result
+&lt;/code>&lt;/pre>
+&lt;iframe
+src="./cell17.html"
+width="100%"
+height="430px"
+style="border:none;">
+&lt;/iframe>
+&lt;pre>&lt;code class="language-python">print('Approximate size of minimized dataset: %.2f MB' %
+result.nbytes / 1024**2
+))
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>Approximate size of minimized dataset: 70.46 MB
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">fig, ax = plt.subplots(figsize=(11,11))
+xr.where(
+result &amp;gt;= 20,
+np.nan,
+result
+).mean(dim='time').plot(
+cmap=cmap,
+ax=ax,
+vmin=0,
+vmax=16,
+add_colorbar=False
+)
+ax.set_title(
+'Mean Ice Age ' +\
+result[&amp;quot;time&amp;quot;].min().dt.strftime(&amp;quot;%Y-%m-%d&amp;quot;).data +\
+' to ' +\
+result[&amp;quot;time&amp;quot;].max().dt.strftime(&amp;quot;%Y-%m-%d&amp;quot;).data}
+);
+&lt;/code>&lt;/pre>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/output_26_0_hua6d1e7051b0ba5ef017136900310ab88_47264_bb5c26f11f416e8152cf32ce1123bd5f.webp 400w,
+/post/iceage-xarray-beaufort/output_26_0_hua6d1e7051b0ba5ef017136900310ab88_47264_d2d21b249e02a34f56e7b03eca7bff3f.webp 760w,
+/post/iceage-xarray-beaufort/output_26_0_hua6d1e7051b0ba5ef017136900310ab88_47264_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_26_0_hua6d1e7051b0ba5ef017136900310ab88_47264_bb5c26f11f416e8152cf32ce1123bd5f.webp"
+width="665"
+height="659"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;p>What about the last week of April like in Dave&amp;rsquo;s paper?&lt;/p>
+&lt;pre>&lt;code class="language-python"># any ice age greater than 5 will be given the &amp;quot;5+&amp;quot; moniker
+data = xr.where(result &amp;gt;= 20, np.nan, result)
+data = xr.where(data &amp;gt; 5, 5, data)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python"># imperfect but works
+last_week_apr = data.loc[
+(data['time'].dt.month == 4) &amp;amp;
+((31 - data['time'].dt.day) &amp;lt; 5)
+]
+assert \
+len(last_week_apr['time']) == \
+len(range(
+data['time.year'].min().values,
+data['time.year'].max().values+1
+))
+last_week_apr
+&lt;/code>&lt;/pre>
+&lt;p style="text-align:center">
+&lt;iframe
+src="./cell21.html"
+width="100%"
+height="460px"
+style="border:none;">
+&lt;/iframe>
+&lt;/p>
+&lt;p>Now that we have our last-week-of-April timeseries we can construct a nice figure&lt;/p>
+&lt;pre>&lt;code class="language-python">df = pd.DataFrame({
+'Year': [],
+'FYI': [],
+'MYI 2': [],
+'MYI 3': [],
+'MYI 4': [],
+'MYI 5+': []
+})
+# if it's stupid and it works - it's not stupid
+for year in last_week_apr['time.year'].values:
+flat = last_week_apr.isel(time=last_week_apr['time.year'].isin([year])).values.ravel()
+vals, counts = np.unique(flat[~np.isnan(flat)], return_counts=True)
+if vals[0] != 0:
+df = df.append(
+pd.DataFrame({
+'Year': [year],
+'FYI': [counts[0]],
+'MYI 2': [counts[1]],
+'MYI 3': [counts[2]],
+'MYI 4': [counts[3]],
+'MYI 5+': [counts[4]]
+}),
+ignore_index=True
+)
+else:
+df = df.append(
+pd.DataFrame({
+'Year': [year],
+'FYI': [counts[1]],
+'MYI 2': [counts[2]],
+'MYI 3': [counts[3]],
+'MYI 4': [counts[4]],
+'MYI 5+': [counts[5]]
+}),
+ignore_index=True
+)
+df = df.set_index(df['Year'].astype('uint32')).drop('Year', axis=1)
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python"># convert pixel counts into fraction of total
+totals = df.sum(axis=1) / 100
+for col in df.columns:
+df[col] /= totals
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code class="language-python">fig, ax = plt.subplots(figsize=(22,9))
+# need to invert column order to match dave's figure 3c
+df[df.columns[::-1]].plot(
+kind='bar',
+stacked=True,
+ax=ax,
+width=0.9,
+color=['#3F51A3', '#6FCBDB', '#69BF4E', '#F3B226', '#F12411'][::-1],
+edgecolor='k'
+)
+ax.set_xlim(-0.5, len(df)-0.5)
+ax.set_ylim(0, 100)
+ax.set_ylabel('Ice Age Distribution [%]')
+ax.legend(framealpha=1, loc='upper right', fontsize=12)
+[lab.set_rotation(0) for lab in ax.get_xticklabels()]
+ax.set_title('Beaufort Sea - Sea Ice Age Distribution for Last Week of April');
+&lt;/code>&lt;/pre>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_42852f792bc2025de930fd85bb6f5b74.webp 400w,
+/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_775903b7a532c861b215b3446b1f96a0.webp 760w,
+/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_1200x1200_fit_q90_h2_lanczos.webp 1200w"
+src="https://m9brady.github.io/post/iceage-xarray-beaufort/output_32_0_huebee8aa6fcfe415b9d8fa3e462a1b21f_159834_42852f792bc2025de930fd85bb6f5b74.webp"
+width="760"
+height="326"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure></description></item><item><title>Modis Greenland GDAL Conversion</title><link>https://m9brady.github.io/post/modis-greenland/</link><pubDate>Tue, 06 Apr 2021 16:28:05 -0500</pubDate><guid>https://m9brady.github.io/post/modis-greenland/</guid><description>&lt;p>Started as a quick response on Twitter&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="und" dir="ltr">This seems to do the trick? &lt;br>&lt;br>gdal_translate -of GTiff -ot Byte -a_ullr -675000 -3387500 887500 -575000 -a_srs EPSG:3411 -a_nodata 255 NETCDF:&amp;quot;&lt;a href="https://t.co/pbBrlEEfZs">https://t.co/pbBrlEEfZs&lt;/a>&amp;quot;:Albedo MODGRNLD.2019365.0105.swath.v01.1.tif&lt;/p>&amp;mdash; Mike Brady (@m2brady) &lt;a href="https://twitter.com/m2brady/status/1377768865522978824?ref_src=twsrc%5Etfw">April 1, 2021&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>&amp;hellip; but then formalized in a Gist:&lt;/p>
+&lt;script type="application/javascript" src="https://gist.github.com/m9brady/652d8178a27092ec5398de3558ed9714.js">&lt;/script></description></item></channel></rss>
