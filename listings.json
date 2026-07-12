@@ -1,0 +1,70 @@
+[
+  {
+    "listing": "/presentations/index.html",
+    "items": [
+      "/presentations/presentations-content/igs-bremerhaven-2023/index.html",
+      "/presentations/presentations-content/crss-fredericton-2019/index.html",
+      "/presentations/presentations-content/gis-day-yorku-2018/index.html"
+    ]
+  },
+  {
+    "listing": "/code/index.html",
+    "items": [
+      "/code/code-content/infrasnow-downloader/index.html",
+      "/code/code-content/pyEM31/index.html",
+      "/code/code-content/eodms-api-client/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/post-content/nsidc-iceage-xarray-2022/index.html",
+      "/posts/post-content/gdal-modis-conversion-2021/index.html"
+    ]
+  },
+  {
+    "listing": "/maps/index.html",
+    "items": [
+      "/maps/map-content/arcticnet-2022/index.html",
+      "/maps/map-content/mudryk-impact-2021/index.html",
+      "/maps/map-content/king-local-scale-2020/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/articles/komarov-role-2026/index.html",
+      "/publications/articles/mcneil-synoptic-2026/index.html",
+      "/publications/articles/howell-near-2025/index.html",
+      "/publications/articles/montpetit-snow-2025/index.html",
+      "/publications/articles/driedger-melt-2025/index.html",
+      "/publications/articles/thoman-arctic-2025/index.html",
+      "/publications/articles/plante-sea-2025/index.html",
+      "/publications/articles/mortimer-use-2024/index.html",
+      "/publications/articles/howell-baffin-2024/index.html",
+      "/publications/articles/montpetit-retrieval-2024/index.html",
+      "/publications/articles/cook-sea-2024/index.html",
+      "/publications/articles/howell-sea-2024/index.html",
+      "/publications/articles/moore-evolving-2023/index.html",
+      "/publications/articles/howell-comparison-2023/index.html",
+      "/publications/articles/howell-multi-year-2022/index.html",
+      "/publications/articles/mortimer-benchmarking-2022/index.html",
+      "/publications/articles/howell-generating-2022/index.html",
+      "/publications/articles/babb-sea-2021/index.html",
+      "/publications/articles/vionnet-canadian-2021/index.html",
+      "/publications/articles/moore-first-2021/index.html",
+      "/publications/articles/mudryk-impact-2021/index.html",
+      "/publications/articles/moore-anomalous-2021/index.html",
+      "/publications/articles/howell-spring-2020/index.html",
+      "/publications/articles/king-local-scale-2020/index.html",
+      "/publications/articles/mudryk-historical-2020/index.html",
+      "/publications/articles/chikhar-sensitivity-2019/index.html",
+      "/publications/articles/howell-dynamic-2019/index.html",
+      "/publications/articles/wang-comparison-2019/index.html",
+      "/publications/articles/howell-estimating-2019/index.html",
+      "/publications/articles/howell-comparing-2018/index.html",
+      "/publications/articles/howell-recent-2016/index.html",
+      "/publications/articles/howell-multiyear-2015/index.html"
+    ]
+  }
+]

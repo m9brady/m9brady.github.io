@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://m9brady.github.io/sitemap.xml

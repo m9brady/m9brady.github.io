@@ -1,0 +1,1143 @@
+[
+  {
+    "objectID": "presentations/index.html",
+    "href": "presentations/index.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Venue\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nVenue\n\n\n\n\n\n\n\n\n2023-06-09\n\n\nPan-Arctic sea ice motion from synthetic aperture radar using the Environment and Climate Change Canada automated sea ice tracking system\n\n\nIGS Symposium on Sea Ice across Spatial and Temporal Scales, Bremerhaven, DE\n\n\n\n\n\n\n2019-06-06\n\n\nAutomated Pan-Arctic Sea Ice Motion Tracking from RADARSAT Constellation Mission and Sentinel-1\n\n\n40th Canadian Symposium on Remote Sensing and Geomatics Atlantic, Fredericton, NB\n\n\n\n\n\n\n2018-11-14\n\n\nGIS Activities at ECCC-CRD-CPS\n\n\nYork University, Toronto, ON\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mike Brady",
+    "section": "",
+    "text": "I am a Physical Sciences Specialist at Environment and Climate Change Canada primarily interested in studying long-term changes in Arctice sea ice dynamics using satellite remote sensing.\nPart of my work also involves helping fellow scientists make their work more accessible and reproducible through git and jupyter notebooks.\nIn my free time, I enjoy drone photography, biking, 3D printing, laser engraving, and making maps and figures."
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Mike Brady",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n Satellite Data Processing and Analysis\n Climate Dataset Intercomparison\n GIS Processing and Cartography\n Python Scripting and Packaging\n Distributed and Parallel Computing\n Software Containerization\n Database Design and Administration"
+  },
+  {
+    "objectID": "code/index.html",
+    "href": "code/index.html",
+    "title": "Code",
+    "section": "",
+    "text": "Below you can find a curated collection of my open-source work and data science repositories.\n\n\n\n\n\n\n\n\n\n\n\n\ninfrasnow-downloader\n\n\n\nfield-measurements\n\netl\n\n\n\nRetrieving data from SLF Infrasnow Instrument\n\n\n\nMike Brady\n\n\nMay 6, 2026\n\n\n\n\n\n\n\n\n\n\n\npyEM31\n\n\n\nfield-measurements\n\nnmea0813\n\netl\n\n\n\nConverting raw data from Geonics EM31 instruments\n\n\n\nJosh King, Mike Brady\n\n\nJan 28, 2026\n\n\n\n\n\n\n\n\n\n\n\neodms-api-client (archived)\n\n\n\ntools\n\nearth-observation\n\n\n\nInteracting with Natural Resources Canada’s Earth Observation and Data Management System (EODMS)\n\n\n\nMike Brady\n\n\nDec 5, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/articles/wang-comparison-2019/index.html",
+    "href": "publications/articles/wang-comparison-2019/index.html",
+    "title": "Comparison and assessment of regional and global land cover datasets for use in CLASS over canada",
+    "section": "",
+    "text": "Type: Journal Article Venue: Remote Sensing Year: 2019\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/wang-comparison-2019/index.html#abstract",
+    "href": "publications/articles/wang-comparison-2019/index.html#abstract",
+    "title": "Comparison and assessment of regional and global land cover datasets for use in CLASS over canada",
+    "section": "Abstract",
+    "text": "Abstract\nGlobal land cover information is required to initialize land surface and Earth system models. In recent years, new land cover (LC) datasets at finer spatial resolutions have become available while those currently implemented in most models are outdated. This study assesses the applicability of the Climate Change Initiative (CCI) LC product for use in the Canadian Land Surface Scheme (CLASS) through comparison with finer resolution datasets over Canada, assisted with reference sample data and a vegetation continuous field tree cover fraction dataset. The results show that in comparison with the finer resolution maps over Canada, the 300 m CCI product provides much improved LC distribution over that from the 1 km GLC2000 dataset currently used to provide initial surface conditions in CLASS. However, the CCI dataset appears to overestimate needleleaf forest cover especially in the taiga-tundra transition zone of northwestern Canada. This may have partly resulted from limited availability of clear sky MEdium Resolution Imaging Spectrometer (MERIS) images used to generate the CCI classification maps due to the long snow cover season in Canada. In addition, changes based on the CCI time series are not always consistent with those from the MODIS or a Landsat-based forest cover change dataset, especially prior to 2003 when only coarse spatial resolution satellite data were available for change detection in the CCI product. It will be helpful for application in global simulations to determine whether these results also apply to other regions with similar landscapes, such as Eurasia. Nevertheless, the detailed LC classes and finer spatial resolution in the CCI dataset provide an improved reference map for use in land surface models in Canada. The results also suggest that uncertainties in the current cross-walking tables are a major source of the often large differences in the plant functional types (PFT) maps, and should be an area of focus in future work."
+  },
+  {
+    "objectID": "publications/articles/wang-comparison-2019/index.html#citation",
+    "href": "publications/articles/wang-comparison-2019/index.html#citation",
+    "title": "Comparison and assessment of regional and global land cover datasets for use in CLASS over canada",
+    "section": "Citation",
+    "text": "Citation\nLibo Wang, Paul Bartlett, Darren Pouliot, Ed Chan, Céline Lamarche, Michael A. Wulder, Pierre Defourny, and Mike Brady (2019). Comparison and assessment of regional and global land cover datasets for use in CLASS over canada. Remote Sensing. https://doi.org/10.3390/rs11192286"
+  },
+  {
+    "objectID": "publications/articles/wang-comparison-2019/index.html#bibtex",
+    "href": "publications/articles/wang-comparison-2019/index.html#bibtex",
+    "title": "Comparison and assessment of regional and global land cover datasets for use in CLASS over canada",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{wang_comparison_2019,\n    title = {Comparison and Assessment of Regional and Global Land Cover Datasets for Use in {CLASS} over Canada},\n    volume = {11},\n    issn = {2072-4292},\n    url = {https://www.mdpi.com/2072-4292/11/19/2286},\n    doi = {10.3390/rs11192286},\n    abstract = {Global land cover information is required to initialize land surface and Earth system models. In recent years, new land cover ({LC}) datasets at finer spatial resolutions have become available while those currently implemented in most models are outdated. This study assesses the applicability of the Climate Change Initiative ({CCI}) {LC} product for use in the Canadian Land Surface Scheme ({CLASS}) through comparison with finer resolution datasets over Canada, assisted with reference sample data and a vegetation continuous field tree cover fraction dataset. The results show that in comparison with the finer resolution maps over Canada, the 300 m {CCI} product provides much improved {LC} distribution over that from the 1 km {GLC}2000 dataset currently used to provide initial surface conditions in {CLASS}. However, the {CCI} dataset appears to overestimate needleleaf forest cover especially in the taiga-tundra transition zone of northwestern Canada. This may have partly resulted from limited availability of clear sky {MEdium} Resolution Imaging Spectrometer ({MERIS}) images used to generate the {CCI} classification maps due to the long snow cover season in Canada. In addition, changes based on the {CCI} time series are not always consistent with those from the {MODIS} or a Landsat-based forest cover change dataset, especially prior to 2003 when only coarse spatial resolution satellite data were available for change detection in the {CCI} product. It will be helpful for application in global simulations to determine whether these results also apply to other regions with similar landscapes, such as Eurasia. Nevertheless, the detailed {LC} classes and finer spatial resolution in the {CCI} dataset provide an improved reference map for use in land surface models in Canada. The results also suggest that uncertainties in the current cross-walking tables are a major source of the often large differences in the plant functional types ({PFT}) maps, and should be an area of focus in future work.},\n    number = {19},\n    journaltitle = {Remote Sensing},\n    author = {Wang, Libo and Bartlett, Paul and Pouliot, Darren and Chan, Ed and Lamarche, Céline and Wulder, Michael A. and Defourny, Pierre and Brady, Mike},\n    date = {2019-09-30},\n}"
+  },
+  {
+    "objectID": "publications/articles/wang-comparison-2019/index.html#notes",
+    "href": "publications/articles/wang-comparison-2019/index.html#notes",
+    "title": "Comparison and assessment of regional and global land cover datasets for use in CLASS over canada",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-recent-2016/index.html",
+    "href": "publications/articles/howell-recent-2016/index.html",
+    "title": "Recent changes in sea ice area flux through the beaufort sea during the summer",
+    "section": "",
+    "text": "Type: Journal Article Venue: Journal of Geophysical Research: Oceans Year: 2016\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-recent-2016/index.html#abstract",
+    "href": "publications/articles/howell-recent-2016/index.html#abstract",
+    "title": "Recent changes in sea ice area flux through the beaufort sea during the summer",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Over the annual cycle, sea ice is sequestered from the Canadian Basin and transported through the Beaufort Sea toward the Chukchi Sea. In recent years, the Beaufort Sea has experienced considerable ice loss during the summer, which may be indicative of recent changes to this process. In order to investigate this, we quantify the sea ice area flux using RADARSAT from 1997 to 2014 at three gates in Beaufort Sea: the Canadian Basin (entrance), mid-Beaufort (midpoint), and Chukchi (exit). There was a mean annual flux of 42 ± 56 × 103 km2 at the Canadian Basin gate, 94 ± 92 × 103 km2 at the mid-Beaufort gate and −83 ± 68 × 103 km2 at the Chukchi gate (positive and negative flux signs correspond to ice inflow and outflow, respectively). The majority of ice transport in Beaufort Sea was found to occur from October to May providing replenishment for ice lost during the summer months. The cross-strait gradient in sea level pressure explains ∼40% of the variance in the ice area flux at the gates. Remarkably, the mean July–October net sea ice area flux at the Chukchi gate decreased by ∼80% from 2008 to 2014 relative to 1997–2007 and became virtually ice-free every year since 2008. This reduction was associated with younger (thinner) ice that was unable to survive the summer melt season when either being sequestered from the Canadian Basin and transported through Beaufort Sea during the melt season (2008–2011) or remaining immobile and present in the vicinity of the Chukchi gate during the melt season (2012–2014)."
+  },
+  {
+    "objectID": "publications/articles/howell-recent-2016/index.html#citation",
+    "href": "publications/articles/howell-recent-2016/index.html#citation",
+    "title": "Recent changes in sea ice area flux through the beaufort sea during the summer",
+    "section": "Citation",
+    "text": "Citation\nStephen E. L. Howell, Michael Brady, Chris Derksen, and Richard E. J. Kelly (2016). Recent changes in sea ice area flux through the beaufort sea during the summer. Journal of Geophysical Research: Oceans. https://doi.org/https://doi.org/10.1002/2015JC011464"
+  },
+  {
+    "objectID": "publications/articles/howell-recent-2016/index.html#bibtex",
+    "href": "publications/articles/howell-recent-2016/index.html#bibtex",
+    "title": "Recent changes in sea ice area flux through the beaufort sea during the summer",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_recent_2016,\n    title = {Recent changes in sea ice area flux through the Beaufort Sea during the summer},\n    volume = {121},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015JC011464},\n    doi = {https://doi.org/10.1002/2015JC011464},\n    abstract = {Abstract Over the annual cycle, sea ice is sequestered from the Canadian Basin and transported through the Beaufort Sea toward the Chukchi Sea. In recent years, the Beaufort Sea has experienced considerable ice loss during the summer, which may be indicative of recent changes to this process. In order to investigate this, we quantify the sea ice area flux using {RADARSAT} from 1997 to 2014 at three gates in Beaufort Sea: the Canadian Basin (entrance), mid-Beaufort (midpoint), and Chukchi (exit). There was a mean annual flux of 42 ± 56 × 103 km2 at the Canadian Basin gate, 94 ± 92 × 103 km2 at the mid-Beaufort gate and −83 ± 68 × 103 km2 at the Chukchi gate (positive and negative flux signs correspond to ice inflow and outflow, respectively). The majority of ice transport in Beaufort Sea was found to occur from October to May providing replenishment for ice lost during the summer months. The cross-strait gradient in sea level pressure explains ∼40\\% of the variance in the ice area flux at the gates. Remarkably, the mean July–October net sea ice area flux at the Chukchi gate decreased by ∼80\\% from 2008 to 2014 relative to 1997–2007 and became virtually ice-free every year since 2008. This reduction was associated with younger (thinner) ice that was unable to survive the summer melt season when either being sequestered from the Canadian Basin and transported through Beaufort Sea during the melt season (2008–2011) or remaining immobile and present in the vicinity of the Chukchi gate during the melt season (2012–2014).},\n    pages = {2659--2672},\n    number = {4},\n    journaltitle = {Journal of Geophysical Research: Oceans},\n    author = {Howell, Stephen E. L. and Brady, Michael and Derksen, Chris and Kelly, Richard E. J.},\n    date = {2016-03-22},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC011464},\n    keywords = {sea ice, {RADARSAT}, Beaufort Sea},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-recent-2016/index.html#notes",
+    "href": "publications/articles/howell-recent-2016/index.html#notes",
+    "title": "Recent changes in sea ice area flux through the beaufort sea during the summer",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/mudryk-historical-2020/index.html",
+    "href": "publications/articles/mudryk-historical-2020/index.html",
+    "title": "Historical northern hemisphere snow cover trends and projected changes in the CMIP6 multi-model ensemble",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2020\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/mudryk-historical-2020/index.html#citation",
+    "href": "publications/articles/mudryk-historical-2020/index.html#citation",
+    "title": "Historical northern hemisphere snow cover trends and projected changes in the CMIP6 multi-model ensemble",
+    "section": "Citation",
+    "text": "Citation\nL. Mudryk, M. Santolaria-Otín, G. Krinner, M. Ménégoz, C. Derksen, C. Brutel-Vuilmet, M. Brady, and R. Essery (2020). Historical northern hemisphere snow cover trends and projected changes in the CMIP6 multi-model ensemble. The Cryosphere. https://doi.org/10.5194/tc-14-2495-2020"
+  },
+  {
+    "objectID": "publications/articles/mudryk-historical-2020/index.html#bibtex",
+    "href": "publications/articles/mudryk-historical-2020/index.html#bibtex",
+    "title": "Historical northern hemisphere snow cover trends and projected changes in the CMIP6 multi-model ensemble",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{mudryk_historical_2020,\n    title = {Historical Northern Hemisphere snow cover trends and projected changes in the {CMIP}6 multi-model ensemble},\n    volume = {14},\n    url = {https://tc.copernicus.org/articles/14/2495/2020/},\n    doi = {10.5194/tc-14-2495-2020},\n    pages = {2495--2514},\n    number = {7},\n    journaltitle = {The Cryosphere},\n    author = {Mudryk, L. and Santolaria-Otín, M. and Krinner, G. and Ménégoz, M. and Derksen, C. and Brutel-Vuilmet, C. and Brady, M. and Essery, R.},\n    date = {2020-07-31},\n}"
+  },
+  {
+    "objectID": "publications/articles/mudryk-historical-2020/index.html#notes",
+    "href": "publications/articles/mudryk-historical-2020/index.html#notes",
+    "title": "Historical northern hemisphere snow cover trends and projected changes in the CMIP6 multi-model ensemble",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/vionnet-canadian-2021/index.html",
+    "href": "publications/articles/vionnet-canadian-2021/index.html",
+    "title": "Canadian historical snow water equivalent dataset (CanSWE, 1928–2020)",
+    "section": "",
+    "text": "Type: Journal Article Venue: Earth System Science Data Year: 2021\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/vionnet-canadian-2021/index.html#citation",
+    "href": "publications/articles/vionnet-canadian-2021/index.html#citation",
+    "title": "Canadian historical snow water equivalent dataset (CanSWE, 1928–2020)",
+    "section": "Citation",
+    "text": "Citation\nV. Vionnet, C. Mortimer, M. Brady, L. Arnal, and R. Brown (2021). Canadian historical snow water equivalent dataset (CanSWE, 1928–2020). Earth System Science Data. https://doi.org/10.5194/essd-13-4603-2021"
+  },
+  {
+    "objectID": "publications/articles/vionnet-canadian-2021/index.html#bibtex",
+    "href": "publications/articles/vionnet-canadian-2021/index.html#bibtex",
+    "title": "Canadian historical snow water equivalent dataset (CanSWE, 1928–2020)",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{vionnet_canadian_2021,\n    title = {Canadian historical Snow Water Equivalent dataset ({CanSWE}, 1928–2020)},\n    volume = {13},\n    url = {https://essd.copernicus.org/articles/13/4603/2021/},\n    doi = {10.5194/essd-13-4603-2021},\n    pages = {4603--4619},\n    number = {9},\n    journaltitle = {Earth System Science Data},\n    author = {Vionnet, V. and Mortimer, C. and Brady, M. and Arnal, L. and Brown, R.},\n    date = {2021-09-24},\n}"
+  },
+  {
+    "objectID": "publications/articles/vionnet-canadian-2021/index.html#notes",
+    "href": "publications/articles/vionnet-canadian-2021/index.html#notes",
+    "title": "Canadian historical snow water equivalent dataset (CanSWE, 1928–2020)",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-multi-year-2022/index.html",
+    "href": "publications/articles/howell-multi-year-2022/index.html",
+    "title": "Multi-year sea ice conditions in the northwest passage: 1968–2020",
+    "section": "",
+    "text": "Type: Journal Article Venue: Atmosphere-Ocean Year: 2022\nDOI URL BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-multi-year-2022/index.html#abstract",
+    "href": "publications/articles/howell-multi-year-2022/index.html#abstract",
+    "title": "Multi-year sea ice conditions in the northwest passage: 1968–2020",
+    "section": "Abstract",
+    "text": "Abstract\nThe Northwest Passage is often referred to as the “Holy Grail” of ship navigation as it provides a shorter route connecting the Atlantic and Pacific Oceans compared to the Northern Sea Route, Panama Canal, Suez Canal, and transiting around Cape Horn. Here, we summarize 52 years of observed multi-year ice (MYI) conditions from 1968 to 2020 in the western Canadian Arctic regions of the Northwest Passage updating a previous study that considered 1968–2006. Results indicate that on average, MYI area anomalies during the shipping season were +28% from 1968 to 2006 but −33% from 2007 to 2020 relative to the 1991–2020 climatology. The frequency of negative MYI area anomalies from 2007 to 2020 was unprecedented over the 52-year record. 13 of the past 14 years were negative in the Beaufort Sea, Franklin, and the Western Arctic Waterway; 10 of the past 14 years were negative in Western Parry Channel and Queen Elizabeth Islands; and 9 of the past 14 years were negative in the M’Clintock Channel. Despite strong and frequent negative MYI anomalies from 2007 to 2020, MYI recovery from first-year ice (FYI) aging and MYI dynamic import continued, but was reduced by 47% and 22%, respectively compared to 1968–2006. We demonstrate that from 2007 to 2020 (i) MYI dynamic recovery decreased because Arctic Ocean MYI has been primarily flowing into the Canadian Arctic via the smaller apertures in the Queen Elizabeth Islands and not from the Beaufort Sea via the M’Clure Strait and (ii) FYI aging decreased because recent changes in thermodynamic forcing have contributed to more melt. Overall, our results re-affirm that light MYI years in the Northwest Passage may occur more frequently as the Arctic continues to warm, but MYI recovery will continue to present a significant hazard to navigation for the foreseeable future."
+  },
+  {
+    "objectID": "publications/articles/howell-multi-year-2022/index.html#citation",
+    "href": "publications/articles/howell-multi-year-2022/index.html#citation",
+    "title": "Multi-year sea ice conditions in the northwest passage: 1968–2020",
+    "section": "Citation",
+    "text": "Citation\nStephen E. L. Howell, David G. Babb, Jack C. Landy, and Mike Brady (2022). Multi-year sea ice conditions in the northwest passage: 1968–2020. Atmosphere-Ocean. https://doi.org/10.1080/07055900.2022.2136061"
+  },
+  {
+    "objectID": "publications/articles/howell-multi-year-2022/index.html#bibtex",
+    "href": "publications/articles/howell-multi-year-2022/index.html#bibtex",
+    "title": "Multi-year sea ice conditions in the northwest passage: 1968–2020",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_multi-year_2022,\n    title = {Multi-Year Sea Ice Conditions in the Northwest Passage: 1968–2020},\n    volume = {61},\n    url = {https://doi.org/10.1080/07055900.2022.2136061},\n    doi = {10.1080/07055900.2022.2136061},\n    abstract = {The Northwest Passage is often referred to as the “Holy Grail” of ship navigation as it provides a shorter route connecting the Atlantic and Pacific Oceans compared to the Northern Sea Route, Panama Canal, Suez Canal, and transiting around Cape Horn. Here, we summarize 52 years of observed multi-year ice ({MYI}) conditions from 1968 to 2020 in the western Canadian Arctic regions of the Northwest Passage updating a previous study that considered 1968–2006. Results indicate that on average, {MYI} area anomalies during the shipping season were +28\\% from 1968 to 2006 but −33\\% from 2007 to 2020 relative to the 1991–2020 climatology. The frequency of negative {MYI} area anomalies from 2007 to 2020 was unprecedented over the 52-year record. 13 of the past 14 years were negative in the Beaufort Sea, Franklin, and the Western Arctic Waterway; 10 of the past 14 years were negative in Western Parry Channel and Queen Elizabeth Islands; and 9 of the past 14 years were negative in the M’Clintock Channel. Despite strong and frequent negative {MYI} anomalies from 2007 to 2020, {MYI} recovery from first-year ice ({FYI}) aging and {MYI} dynamic import continued, but was reduced by 47\\% and 22\\%, respectively compared to 1968–2006. We demonstrate that from 2007 to 2020 (i) {MYI} dynamic recovery decreased because Arctic Ocean {MYI} has been primarily flowing into the Canadian Arctic via the smaller apertures in the Queen Elizabeth Islands and not from the Beaufort Sea via the M’Clure Strait and (ii) {FYI} aging decreased because recent changes in thermodynamic forcing have contributed to more melt. Overall, our results re-affirm that light {MYI} years in the Northwest Passage may occur more frequently as the Arctic continues to warm, but {MYI} recovery will continue to present a significant hazard to navigation for the foreseeable future.},\n    pages = {202--216},\n    number = {4},\n    journaltitle = {Atmosphere-Ocean},\n    publisher = {Taylor \\& Francis},\n    author = {Howell, Stephen E. L. and Babb, David G. and Landy, Jack C. and Brady, Mike},\n    date = {2022-10-21},\n    note = {\\_eprint: https://doi.org/10.1080/07055900.2022.2136061},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-multi-year-2022/index.html#notes",
+    "href": "publications/articles/howell-multi-year-2022/index.html#notes",
+    "title": "Multi-year sea ice conditions in the northwest passage: 1968–2020",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/mortimer-benchmarking-2022/index.html",
+    "href": "publications/articles/mortimer-benchmarking-2022/index.html",
+    "title": "Benchmarking algorithm changes to the snow CCI+ snow water equivalent product",
+    "section": "",
+    "text": "Type: Journal Article Venue: Remote Sensing of Environment Year: 2022\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/mortimer-benchmarking-2022/index.html#abstract",
+    "href": "publications/articles/mortimer-benchmarking-2022/index.html#abstract",
+    "title": "Benchmarking algorithm changes to the snow CCI+ snow water equivalent product",
+    "section": "Abstract",
+    "text": "Abstract\nThe European Space Agency (ESA) Snow Climate Change Initiative (CCI+) provides long-term, global time series of daily snow cover fraction and snow water equivalent (SWE). The Snow CCI+ SWE Version 1 (CCIv1) product is built on the GlobSnow algorithm, which combines passive microwave (PMW) data with in situ snow depth (SD) measurements to estimate SWE. While CCIv1 remains algorithmically similar to the most recent GlobSnow product (GlobSnow Version 3), Snow CCI+ SWE Version 2 (CCIv2) incorporates two notable differences. CCIv2 uses updated PMW data from the NASA MEaSUREs Calibrated Passive Microwave Daily EASE-Grid 2.0 Earth Science Data Record and is generated in EASE-Grid 2.0 with 12.5 km grid spacing. It also adjusts SWE retrievals in post-processing by incorporating spatially and temporally varying snow density information. Due to the phased product development framework CCI+ employs, proposed changes between CCIv1 and CCIv2 were implemented in a series of step-wise developmental datasets. Using these developmental datasets, we analyze how changes to input PMW and SD data and the snow density parameterization affect the resulting SWE product. Using in situ snow courses as reference data, we demonstrate that the correlation and RMSE of the CCIv2 developmental product improved 18% (0.10) and 12% (5 mm), respectively, relative to CCIv1. The timing of peak snow mass is shifted two weeks later and a temporal discontinuity in the monthly northern hemisphere snow mass time series associated with the shift from the Special Sensor Microwave/Imager (SSM/I) to the Special Sensor Microwave Imager/Sounder (SSMIS) in 2009 is also removed."
+  },
+  {
+    "objectID": "publications/articles/mortimer-benchmarking-2022/index.html#citation",
+    "href": "publications/articles/mortimer-benchmarking-2022/index.html#citation",
+    "title": "Benchmarking algorithm changes to the snow CCI+ snow water equivalent product",
+    "section": "Citation",
+    "text": "Citation\nC. Mortimer, L. Mudryk, C. Derksen, M. Brady, K. Luojus, P. Venäläinen, M. Moisander, J. Lemmetyinen, M. Takala, C. Tanis, and J. Pulliainen (2022). Benchmarking algorithm changes to the snow CCI+ snow water equivalent product. Remote Sensing of Environment. https://doi.org/https://doi.org/10.1016/j.rse.2022.112988"
+  },
+  {
+    "objectID": "publications/articles/mortimer-benchmarking-2022/index.html#bibtex",
+    "href": "publications/articles/mortimer-benchmarking-2022/index.html#bibtex",
+    "title": "Benchmarking algorithm changes to the snow CCI+ snow water equivalent product",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{mortimer_benchmarking_2022,\n    title = {Benchmarking algorithm changes to the Snow {CCI}+ snow water equivalent product},\n    volume = {274},\n    issn = {0034-4257},\n    url = {https://www.sciencedirect.com/science/article/pii/S003442572200102X},\n    doi = {https://doi.org/10.1016/j.rse.2022.112988},\n    abstract = {The European Space Agency ({ESA}) Snow Climate Change Initiative ({CCI}+) provides long-term, global time series of daily snow cover fraction and snow water equivalent ({SWE}). The Snow {CCI}+ {SWE} Version 1 ({CCIv}1) product is built on the {GlobSnow} algorithm, which combines passive microwave ({PMW}) data with in situ snow depth ({SD}) measurements to estimate {SWE}. While {CCIv}1 remains algorithmically similar to the most recent {GlobSnow} product ({GlobSnow} Version 3), Snow {CCI}+ {SWE} Version 2 ({CCIv}2) incorporates two notable differences. {CCIv}2 uses updated {PMW} data from the {NASA} {MEaSUREs} Calibrated Passive Microwave Daily {EASE}-Grid 2.0 Earth Science Data Record and is generated in {EASE}-Grid 2.0 with 12.5 km grid spacing. It also adjusts {SWE} retrievals in post-processing by incorporating spatially and temporally varying snow density information. Due to the phased product development framework {CCI}+ employs, proposed changes between {CCIv}1 and {CCIv}2 were implemented in a series of step-wise developmental datasets. Using these developmental datasets, we analyze how changes to input {PMW} and {SD} data and the snow density parameterization affect the resulting {SWE} product. Using in situ snow courses as reference data, we demonstrate that the correlation and {RMSE} of the {CCIv}2 developmental product improved 18\\% (0.10) and 12\\% (5 mm), respectively, relative to {CCIv}1. The timing of peak snow mass is shifted two weeks later and a temporal discontinuity in the monthly northern hemisphere snow mass time series associated with the shift from the Special Sensor Microwave/Imager ({SSM}/I) to the Special Sensor Microwave Imager/Sounder ({SSMIS}) in 2009 is also removed.},\n    pages = {112988},\n    journaltitle = {Remote Sensing of Environment},\n    author = {Mortimer, C. and Mudryk, L. and Derksen, C. and Brady, M. and Luojus, K. and Venäläinen, P. and Moisander, M. and Lemmetyinen, J. and Takala, M. and Tanis, C. and Pulliainen, J.},\n    date = {2022-06-01},\n}"
+  },
+  {
+    "objectID": "publications/articles/mortimer-benchmarking-2022/index.html#notes",
+    "href": "publications/articles/mortimer-benchmarking-2022/index.html#notes",
+    "title": "Benchmarking algorithm changes to the snow CCI+ snow water equivalent product",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-sea-2024/index.html",
+    "href": "publications/articles/howell-sea-2024/index.html",
+    "title": "Sea ice transport and replenishment across and within the canadian arctic archipelago, 2016–2022",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2024\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-sea-2024/index.html#citation",
+    "href": "publications/articles/howell-sea-2024/index.html#citation",
+    "title": "Sea ice transport and replenishment across and within the canadian arctic archipelago, 2016–2022",
+    "section": "Citation",
+    "text": "Citation\nS. E. L. Howell, D. G. Babb, J. C. Landy, I. A. Glissenaar, K. McNeil, B. Montpetit, and M. Brady (2024). Sea ice transport and replenishment across and within the canadian arctic archipelago, 2016–2022. The Cryosphere. https://doi.org/10.5194/tc-18-2321-2024"
+  },
+  {
+    "objectID": "publications/articles/howell-sea-2024/index.html#bibtex",
+    "href": "publications/articles/howell-sea-2024/index.html#bibtex",
+    "title": "Sea ice transport and replenishment across and within the canadian arctic archipelago, 2016–2022",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_sea_2024,\n    title = {Sea ice transport and replenishment across and within the Canadian Arctic Archipelago, 2016–2022},\n    volume = {18},\n    url = {https://tc.copernicus.org/articles/18/2321/2024/},\n    doi = {10.5194/tc-18-2321-2024},\n    pages = {2321--2333},\n    number = {5},\n    journaltitle = {The Cryosphere},\n    author = {Howell, S. E. L. and Babb, D. G. and Landy, J. C. and Glissenaar, I. A. and {McNeil}, K. and Montpetit, B. and Brady, M.},\n    date = {2024-05-07},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-sea-2024/index.html#notes",
+    "href": "publications/articles/howell-sea-2024/index.html#notes",
+    "title": "Sea ice transport and replenishment across and within the canadian arctic archipelago, 2016–2022",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-baffin-2024/index.html",
+    "href": "publications/articles/howell-baffin-2024/index.html",
+    "title": "Baffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022",
+    "section": "",
+    "text": "Type: Journal Article Venue: Geophysical Research Letters Year: 2024\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-baffin-2024/index.html#abstract",
+    "href": "publications/articles/howell-baffin-2024/index.html#abstract",
+    "title": "Baffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Baffin Bay is located between Greenland and several islands of the Canadian Arctic, providing a conduit for the downstream transport of ice and freshwater to the North Atlantic via Davis Strait. Using satellite observations from Sentinel-1, the RADARSAT Constellation Mission, and CryoSat-2, we estimated the sea ice export through Davis Strait and winter ice production in Baffin Bay from 2016 to 2022. The average annual ice export for this 6-year period was 981 ± 193 × 103 km2 for area 816 ± 130 km3 for volume, and 653 ± 130 km3 for solid freshwater, all of which are considerably higher than previously reported estimates. The average winter ice area production upstream of Davis Strait was 758 × 103 km2 and the volume production was 589 km3 indicating that more than 80% of the ice exported out of Baffin Bay was produced locally. Compared to Fram Strait, sea ice fluxes through Davis Strait represent ∼59% of the volume and ∼111% of the area."
+  },
+  {
+    "objectID": "publications/articles/howell-baffin-2024/index.html#citation",
+    "href": "publications/articles/howell-baffin-2024/index.html#citation",
+    "title": "Baffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022",
+    "section": "Citation",
+    "text": "Citation\nS. E. L. Howell, D. G. Babb, J. C. Landy, G. W. K. Moore, T. J. Ballinger, K. McNeil, B. Montpetit, and M. Brady (2024). Baffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022. Geophysical Research Letters. https://doi.org/https://doi.org/10.1029/2024GL111364"
+  },
+  {
+    "objectID": "publications/articles/howell-baffin-2024/index.html#bibtex",
+    "href": "publications/articles/howell-baffin-2024/index.html#bibtex",
+    "title": "Baffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_baffin_2024,\n    title = {Baffin Bay Ice Export and Production From Sentinel-1, the {RADARSAT} Constellation Mission, and {CryoSat}-2: 2016–2022},\n    volume = {51},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024GL111364},\n    doi = {https://doi.org/10.1029/2024GL111364},\n    abstract = {Abstract Baffin Bay is located between Greenland and several islands of the Canadian Arctic, providing a conduit for the downstream transport of ice and freshwater to the North Atlantic via Davis Strait. Using satellite observations from Sentinel-1, the {RADARSAT} Constellation Mission, and {CryoSat}-2, we estimated the sea ice export through Davis Strait and winter ice production in Baffin Bay from 2016 to 2022. The average annual ice export for this 6-year period was 981 ± 193 × 103 km2 for area 816 ± 130 km3 for volume, and 653 ± 130 km3 for solid freshwater, all of which are considerably higher than previously reported estimates. The average winter ice area production upstream of Davis Strait was 758 × 103 km2 and the volume production was 589 km3 indicating that more than 80\\% of the ice exported out of Baffin Bay was produced locally. Compared to Fram Strait, sea ice fluxes through Davis Strait represent ∼59\\% of the volume and ∼111\\% of the area.},\n    pages = {e2024GL111364},\n    number = {22},\n    journaltitle = {Geophysical Research Letters},\n    author = {Howell, S. E. L. and Babb, D. G. and Landy, J. C. and Moore, G. W. K. and Ballinger, T. J. and {McNeil}, K. and Montpetit, B. and Brady, M.},\n    date = {2024-11-28},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024GL111364},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-baffin-2024/index.html#notes",
+    "href": "publications/articles/howell-baffin-2024/index.html#notes",
+    "title": "Baffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/mortimer-use-2024/index.html",
+    "href": "publications/articles/mortimer-use-2024/index.html",
+    "title": "Use of multiple reference data sources to cross-validate gridded snow water equivalent products over north america",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2024\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/mortimer-use-2024/index.html#citation",
+    "href": "publications/articles/mortimer-use-2024/index.html#citation",
+    "title": "Use of multiple reference data sources to cross-validate gridded snow water equivalent products over north america",
+    "section": "Citation",
+    "text": "Citation\nC. Mortimer, L. Mudryk, E. Cho, C. Derksen, M. Brady, and C. Vuyovich (2024). Use of multiple reference data sources to cross-validate gridded snow water equivalent products over north america. The Cryosphere. https://doi.org/10.5194/tc-18-5619-2024"
+  },
+  {
+    "objectID": "publications/articles/mortimer-use-2024/index.html#bibtex",
+    "href": "publications/articles/mortimer-use-2024/index.html#bibtex",
+    "title": "Use of multiple reference data sources to cross-validate gridded snow water equivalent products over north america",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{mortimer_use_2024,\n    title = {Use of multiple reference data sources to cross-validate gridded snow water equivalent products over North America},\n    volume = {18},\n    url = {https://tc.copernicus.org/articles/18/5619/2024/},\n    doi = {10.5194/tc-18-5619-2024},\n    pages = {5619--5639},\n    number = {12},\n    journaltitle = {The Cryosphere},\n    author = {Mortimer, C. and Mudryk, L. and Cho, E. and Derksen, C. and Brady, M. and Vuyovich, C.},\n    date = {2024-12-05},\n}"
+  },
+  {
+    "objectID": "publications/articles/mortimer-use-2024/index.html#notes",
+    "href": "publications/articles/mortimer-use-2024/index.html#notes",
+    "title": "Use of multiple reference data sources to cross-validate gridded snow water equivalent products over north america",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/driedger-melt-2025/index.html",
+    "href": "publications/articles/driedger-melt-2025/index.html",
+    "title": "Melt onset variability in the northern canadian arctic archipelago from synthetic aperture radar and passive microwave satellite observations, 1979–2024",
+    "section": "",
+    "text": "Type: Journal Article Venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing Year: 2025\nDOI BibTeX"
+  },
+  {
+    "objectID": "publications/articles/driedger-melt-2025/index.html#citation",
+    "href": "publications/articles/driedger-melt-2025/index.html#citation",
+    "title": "Melt onset variability in the northern canadian arctic archipelago from synthetic aperture radar and passive microwave satellite observations, 1979–2024",
+    "section": "Citation",
+    "text": "Citation\nClaire Driedger, Mallik Mahmud, Maisha Mahboob, Stephen E. L. Howell, Alex Cabaj, and Mike Brady (2025). Melt onset variability in the northern canadian arctic archipelago from synthetic aperture radar and passive microwave satellite observations, 1979–2024. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. https://doi.org/10.1109/JSTARS.2025.3622035"
+  },
+  {
+    "objectID": "publications/articles/driedger-melt-2025/index.html#bibtex",
+    "href": "publications/articles/driedger-melt-2025/index.html#bibtex",
+    "title": "Melt onset variability in the northern canadian arctic archipelago from synthetic aperture radar and passive microwave satellite observations, 1979–2024",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{driedger_melt_2025,\n    title = {Melt Onset Variability in the Northern Canadian Arctic Archipelago From Synthetic Aperture Radar and Passive Microwave Satellite Observations, 1979–2024},\n    volume = {18},\n    doi = {10.1109/JSTARS.2025.3622035},\n    pages = {27092--27102},\n    journaltitle = {{IEEE} Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n    author = {Driedger, Claire and Mahmud, Mallik and Mahboob, Maisha and Howell, Stephen E.L. and Cabaj, Alex and Brady, Mike},\n    date = {2025-10-15},\n    keywords = {Arctic, sea ice, Backscatter, C-band, melt onset ({MO}), Microwave {FET} integrated circuits, Microwave imaging, Microwave integrated circuits, Microwave radiometry, Microwave theory and techniques, Sea ice, sentinel-1, Sentinel-1, Synthetic aperture radar},\n}"
+  },
+  {
+    "objectID": "publications/articles/driedger-melt-2025/index.html#notes",
+    "href": "publications/articles/driedger-melt-2025/index.html#notes",
+    "title": "Melt onset variability in the northern canadian arctic archipelago from synthetic aperture radar and passive microwave satellite observations, 1979–2024",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-estimating-2019/index.html",
+    "href": "publications/articles/howell-estimating-2019/index.html",
+    "title": "Estimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter",
+    "section": "",
+    "text": "Type: Journal Article Venue: Remote Sensing of Environment Year: 2019\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-estimating-2019/index.html#abstract",
+    "href": "publications/articles/howell-estimating-2019/index.html#abstract",
+    "title": "Estimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter",
+    "section": "Abstract",
+    "text": "Abstract\nInformation on the timing of melt onset over sea ice is important for understanding the Arctic’s changing climate. The daily temporal resolution of passive microwave brightness temperatures provides the most widely utilized observations to detect melt onset but are limited to a spatial resolution of 25 km. Wide-swath synthetic aperture radar (SAR) imagery provides a much higher spatial resolution (20–100 m) but melt onset detection remains challenging because of i) insufficient temporal resolution to facilitate accurate melt onset detection, ii) inconsistent viewing geometries and iii) limited image availability across the Arctic. Here, we construct high temporal resolution composite gamma nought backscatter products (1 day, 1–2 day and 2–4 day) using Sentinel-1 and RADARSAT-2 over a close-to-seamless revisit region located in northern Canadian Arctic and Greenland for estimating melt onset over Arctic sea ice in 2016 and 2017. We employ the necessary radiometric terrain flattening and local resolution weighting techniques to generate normalised backscatter over the entire study region, removing restrictions limiting analysis to a single sensor or track’s swath width by integrating both ascending and descending passes into the composite products. Results indicate that higher temporal resolution multi-sensor composite gamma nought products (1 day) that make use of the most imagery provide a robust temporal evolution of the backscatter. This allows for more representative estimates of melt onset as it is easier to separate the melt onset threshold from winter variability that is otherwise a considerable challenge for SAR based melt onset algorithms because of inconsistent temporal resolution. Multi-sensor composite gamma naught melt onset detection is in good agreement with melt onset estimates derived from the Advance Scatterometer (ASCAT) backscatter values and passive microwave brightness temperatures over homogenous sea ice regions but very noticeable improvement was found within narrow channels and regions with more heterogeneous sea ice. In anticipation of the availability of data from even more SAR satellites with the launch of the RADARSAT Constellation Mission, the multi-sensor composite gamma nought approach presented here may offer the most robust approach to estimate the timing of melt onset over sea ice across the Arctic using high spatiotemporal resolution SAR."
+  },
+  {
+    "objectID": "publications/articles/howell-estimating-2019/index.html#citation",
+    "href": "publications/articles/howell-estimating-2019/index.html#citation",
+    "title": "Estimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter",
+    "section": "Citation",
+    "text": "Citation\nStephen E. L. Howell, David Small, Christoph Rohner, Mallik S. Mahmud, John J. Yackel, and Michael Brady (2019). Estimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter. Remote Sensing of Environment. https://doi.org/https://doi.org/10.1016/j.rse.2019.04.031"
+  },
+  {
+    "objectID": "publications/articles/howell-estimating-2019/index.html#bibtex",
+    "href": "publications/articles/howell-estimating-2019/index.html#bibtex",
+    "title": "Estimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_estimating_2019,\n    title = {Estimating melt onset over Arctic sea ice from time series multi-sensor Sentinel-1 and {RADARSAT}-2 backscatter},\n    volume = {229},\n    issn = {0034-4257},\n    url = {https://www.sciencedirect.com/science/article/pii/S0034425719301828},\n    doi = {https://doi.org/10.1016/j.rse.2019.04.031},\n    abstract = {Information on the timing of melt onset over sea ice is important for understanding the Arctic's changing climate. The daily temporal resolution of passive microwave brightness temperatures provides the most widely utilized observations to detect melt onset but are limited to a spatial resolution of 25 km. Wide-swath synthetic aperture radar ({SAR}) imagery provides a much higher spatial resolution (20–100 m) but melt onset detection remains challenging because of i) insufficient temporal resolution to facilitate accurate melt onset detection, ii) inconsistent viewing geometries and iii) limited image availability across the Arctic. Here, we construct high temporal resolution composite gamma nought backscatter products (1 day, 1–2 day and 2–4 day) using Sentinel-1 and {RADARSAT}-2 over a close-to-seamless revisit region located in northern Canadian Arctic and Greenland for estimating melt onset over Arctic sea ice in 2016 and 2017. We employ the necessary radiometric terrain flattening and local resolution weighting techniques to generate normalised backscatter over the entire study region, removing restrictions limiting analysis to a single sensor or track's swath width by integrating both ascending and descending passes into the composite products. Results indicate that higher temporal resolution multi-sensor composite gamma nought products (1 day) that make use of the most imagery provide a robust temporal evolution of the backscatter. This allows for more representative estimates of melt onset as it is easier to separate the melt onset threshold from winter variability that is otherwise a considerable challenge for {SAR} based melt onset algorithms because of inconsistent temporal resolution. Multi-sensor composite gamma naught melt onset detection is in good agreement with melt onset estimates derived from the Advance Scatterometer ({ASCAT}) backscatter values and passive microwave brightness temperatures over homogenous sea ice regions but very noticeable improvement was found within narrow channels and regions with more heterogeneous sea ice. In anticipation of the availability of data from even more {SAR} satellites with the launch of the {RADARSAT} Constellation Mission, the multi-sensor composite gamma nought approach presented here may offer the most robust approach to estimate the timing of melt onset over sea ice across the Arctic using high spatiotemporal resolution {SAR}.},\n    pages = {48--59},\n    journaltitle = {Remote Sensing of Environment},\n    author = {Howell, Stephen E. L. and Small, David and Rohner, Christoph and Mahmud, Mallik S. and Yackel, John J. and Brady, Michael},\n    date = {2019-05-08},\n    keywords = {Sea ice, Sentinel-1, Gamma naught, Melt onset, {RADARSAT}-2, {SAR}},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-estimating-2019/index.html#notes",
+    "href": "publications/articles/howell-estimating-2019/index.html#notes",
+    "title": "Estimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/montpetit-snow-2025/index.html",
+    "href": "publications/articles/montpetit-snow-2025/index.html",
+    "title": "Snow water equivalent from airborne ku-band data: The trail valley creek 2018/19 snow experiment",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2025\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/montpetit-snow-2025/index.html#citation",
+    "href": "publications/articles/montpetit-snow-2025/index.html#citation",
+    "title": "Snow water equivalent from airborne ku-band data: The trail valley creek 2018/19 snow experiment",
+    "section": "Citation",
+    "text": "Citation\nB. Montpetit, J. Meloche, V. Vionnet, C. Derksen, G. Woolley, N. R. Leroux, P. Siqueira, J. M. Adam, and M. Brady (2025). Snow water equivalent from airborne ku-band data: The trail valley creek 2018/19 snow experiment. The Cryosphere. https://doi.org/10.5194/tc-19-5465-2025"
+  },
+  {
+    "objectID": "publications/articles/montpetit-snow-2025/index.html#bibtex",
+    "href": "publications/articles/montpetit-snow-2025/index.html#bibtex",
+    "title": "Snow water equivalent from airborne ku-band data: The trail valley creek 2018/19 snow experiment",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{montpetit_snow_2025,\n    title = {Snow Water Equivalent from airborne Ku-band data: the Trail Valley Creek 2018/19 snow experiment},\n    volume = {19},\n    url = {https://tc.copernicus.org/articles/19/5465/2025/},\n    doi = {10.5194/tc-19-5465-2025},\n    pages = {5465--5484},\n    number = {11},\n    journaltitle = {The Cryosphere},\n    author = {Montpetit, B. and Meloche, J. and Vionnet, V. and Derksen, C. and Woolley, G. and Leroux, N. R. and Siqueira, P. and Adam, J. M. and Brady, M.},\n    date = {2025-11-07},\n}"
+  },
+  {
+    "objectID": "publications/articles/montpetit-snow-2025/index.html#notes",
+    "href": "publications/articles/montpetit-snow-2025/index.html#notes",
+    "title": "Snow water equivalent from airborne ku-band data: The trail valley creek 2018/19 snow experiment",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/mudryk-impact-2021/index.html",
+    "href": "publications/articles/mudryk-impact-2021/index.html",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "section": "",
+    "text": "Type: Journal Article Venue: Nature Climate Change Year: 2021\nDOI URL BibTeX"
+  },
+  {
+    "objectID": "publications/articles/mudryk-impact-2021/index.html#abstract",
+    "href": "publications/articles/mudryk-impact-2021/index.html#abstract",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "section": "Abstract",
+    "text": "Abstract\nClimate change-driven reductions in sea ice have facilitated increased shipping traffic volumes across the Arctic. Here, we use climate model simulations to investigate changing navigability in the Canadian Arctic for major trade routes and coastal community resupply under 1, 2 and 4 °C of global warming above pre-industrial levels, on the basis of operational Polar Code regulations. Profound shifts in ship-accessible season length are projected across the Canadian Arctic, with the largest increases in the Beaufort region (100–200 d at 2 °C to 200–300 d at 4 °C). Projections along the Northwest Passage and Arctic Bridge trade routes indicate 100% navigation probability for part of the year, regardless of vessel type, above 2 °C of global warming. Along some major trade routes, substantial increases to season length are possible if operators assume additional risk and operate under marginally unsafe conditions. Local changes in accessibility for maritime resupply depend strongly on community location."
+  },
+  {
+    "objectID": "publications/articles/mudryk-impact-2021/index.html#citation",
+    "href": "publications/articles/mudryk-impact-2021/index.html#citation",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "section": "Citation",
+    "text": "Citation\nLawrence R. Mudryk, Jackie Dawson, Stephen E. L. Howell, Chris Derksen, Thomas A. Zagon, and Mike Brady (2021). Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic. Nature Climate Change. https://doi.org/10.1038/s41558-021-01087-6"
+  },
+  {
+    "objectID": "publications/articles/mudryk-impact-2021/index.html#bibtex",
+    "href": "publications/articles/mudryk-impact-2021/index.html#bibtex",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{mudryk_impact_2021,\n    title = {Impact of 1, 2 and 4 °C of global warming on ship navigation in the Canadian Arctic},\n    volume = {11},\n    issn = {1758-6798},\n    url = {https://doi.org/10.1038/s41558-021-01087-6},\n    doi = {10.1038/s41558-021-01087-6},\n    abstract = {Climate change-driven reductions in sea ice have facilitated increased shipping traffic volumes across the Arctic. Here, we use climate model simulations to investigate changing navigability in the Canadian Arctic for major trade routes and coastal community resupply under 1, 2 and 4 °C of global warming above pre-industrial levels, on the basis of operational Polar Code regulations. Profound shifts in ship-accessible season length are projected across the Canadian Arctic, with the largest increases in the Beaufort region (100–200 d at 2 °C to 200–300 d at 4 °C). Projections along the Northwest Passage and Arctic Bridge trade routes indicate 100\\% navigation probability for part of the year, regardless of vessel type, above 2 °C of global warming. Along some major trade routes, substantial increases to season length are possible if operators assume additional risk and operate under marginally unsafe conditions. Local changes in accessibility for maritime resupply depend strongly on community location.},\n    pages = {673--679},\n    number = {8},\n    journaltitle = {Nature Climate Change},\n    shortjournal = {Nature Climate Change},\n    author = {Mudryk, Lawrence R. and Dawson, Jackie and Howell, Stephen E. L. and Derksen, Chris and Zagon, Thomas A. and Brady, Mike},\n    date = {2021-08-01},\n}"
+  },
+  {
+    "objectID": "publications/articles/mudryk-impact-2021/index.html#notes",
+    "href": "publications/articles/mudryk-impact-2021/index.html#notes",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "section": "Notes",
+    "text": "Notes\nLinked map page"
+  },
+  {
+    "objectID": "publications/articles/moore-evolving-2023/index.html",
+    "href": "publications/articles/moore-evolving-2023/index.html",
+    "title": "Evolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya",
+    "section": "",
+    "text": "Type: Journal Article Venue: Scientific Reports Year: 2023\nDOI URL BibTeX"
+  },
+  {
+    "objectID": "publications/articles/moore-evolving-2023/index.html#abstract",
+    "href": "publications/articles/moore-evolving-2023/index.html#abstract",
+    "title": "Evolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya",
+    "section": "Abstract",
+    "text": "Abstract\nNares Strait, the waterway that separates northwest Greenland from Ellesmere Island, is a major pathway along which sea ice leaves the Arctic, including the planet’s oldest and thickest sea ice that is experiencing an accelerated loss. Ice arches that develop during the winter at the Strait’s northern or southern terminus can remain stable for months at a time during which the transport of sea ice ceases. The Arctic’s most productive polynya, the North Water (NOW) or Pikialasorsuaq (West Greenlandic for “great upwelling”) forms at the Strait’s southern end. There is evidence that a warming climate and the concomitant thinning of Arctic sea ice is weakening the arches and it has been proposed that this may impact the stability of NOW and the complex ecosystem that it sustains. Here we employ a categorization of recent winters with respect to the presence or absence of ice arches to explore their impact on sea ice along the Strait and over the NOW. We find that winters during which a southern ice arch is absent are associated with a reduced and thinner ice cover along the Strait with ice conditions over the NOW similar to that during winters with a southern arch. In winters, without a southern arch, there is also an acceleration of the winds along the Strait that contributes to the presence of reduced ice cover. Ocean color remote sensing data suggests that current levels of primary productivity over the NOW are independent of the presence or absence of an ice arch. The results suggest more research is needed to assess the stability of the NOW, with respect to reduced ice cover and primary productivity, in a future where ice arches cease to form along Nares Strait."
+  },
+  {
+    "objectID": "publications/articles/moore-evolving-2023/index.html#citation",
+    "href": "publications/articles/moore-evolving-2023/index.html#citation",
+    "title": "Evolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya",
+    "section": "Citation",
+    "text": "Citation\nG. W. K. Moore, S. E. L. Howell, and M. Brady (2023). Evolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya. Scientific Reports. https://doi.org/10.1038/s41598-023-36179-0"
+  },
+  {
+    "objectID": "publications/articles/moore-evolving-2023/index.html#bibtex",
+    "href": "publications/articles/moore-evolving-2023/index.html#bibtex",
+    "title": "Evolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{moore_evolving_2023,\n    title = {Evolving relationship of Nares Strait ice arches on sea ice along the Strait and the North Water, the Arctic’s most productive polynya},\n    volume = {13},\n    issn = {2045-2322},\n    url = {https://doi.org/10.1038/s41598-023-36179-0},\n    doi = {10.1038/s41598-023-36179-0},\n    abstract = {Nares Strait, the waterway that separates northwest Greenland from Ellesmere Island, is a major pathway along which sea ice leaves the Arctic, including the planet’s oldest and thickest sea ice that is experiencing an accelerated loss. Ice arches that develop during the winter at the Strait’s northern or southern terminus can remain stable for months at a time during which the transport of sea ice ceases. The Arctic’s most productive polynya, the North Water ({NOW}) or Pikialasorsuaq (West Greenlandic for ‘great upwelling’) forms at the Strait’s southern end. There is evidence that a warming climate and the concomitant thinning of Arctic sea ice is weakening the arches and it has been proposed that this may impact the stability of {NOW} and the complex ecosystem that it sustains. Here we employ a categorization of recent winters with respect to the presence or absence of ice arches to explore their impact on sea ice along the Strait and over the {NOW}. We find that winters during which a southern ice arch is absent are associated with a reduced and thinner ice cover along the Strait with ice conditions over the {NOW} similar to that during winters with a southern arch. In winters, without a southern arch, there is also an acceleration of the winds along the Strait that contributes to the presence of reduced ice cover. Ocean color remote sensing data suggests that current levels of primary productivity over the {NOW} are independent of the presence or absence of an ice arch. The results suggest more research is needed to assess the stability of the {NOW}, with respect to reduced ice cover and primary productivity, in a future where ice arches cease to form along Nares Strait.},\n    pages = {9809},\n    number = {1},\n    journaltitle = {Scientific Reports},\n    shortjournal = {Scientific Reports},\n    author = {Moore, G. W. K. and Howell, S. E. L. and Brady, M.},\n    date = {2023-06-17},\n}"
+  },
+  {
+    "objectID": "publications/articles/moore-evolving-2023/index.html#notes",
+    "href": "publications/articles/moore-evolving-2023/index.html#notes",
+    "title": "Evolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-spring-2020/index.html",
+    "href": "publications/articles/howell-spring-2020/index.html",
+    "title": "Spring melt pond fraction in the canadian arctic archipelago predicted from RADARSAT-2",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2020\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-spring-2020/index.html#citation",
+    "href": "publications/articles/howell-spring-2020/index.html#citation",
+    "title": "Spring melt pond fraction in the canadian arctic archipelago predicted from RADARSAT-2",
+    "section": "Citation",
+    "text": "Citation\nS. E. L. Howell, R. K. Scharien, J. Landy, and M. Brady (2020). Spring melt pond fraction in the canadian arctic archipelago predicted from RADARSAT-2. The Cryosphere. https://doi.org/10.5194/tc-14-4675-2020"
+  },
+  {
+    "objectID": "publications/articles/howell-spring-2020/index.html#bibtex",
+    "href": "publications/articles/howell-spring-2020/index.html#bibtex",
+    "title": "Spring melt pond fraction in the canadian arctic archipelago predicted from RADARSAT-2",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_spring_2020,\n    title = {Spring melt pond fraction in the Canadian Arctic Archipelago predicted from {RADARSAT}-2},\n    volume = {14},\n    url = {https://tc.copernicus.org/articles/14/4675/2020/},\n    doi = {10.5194/tc-14-4675-2020},\n    pages = {4675--4686},\n    number = {12},\n    journaltitle = {The Cryosphere},\n    author = {Howell, S. E. L. and Scharien, R. K. and Landy, J. and Brady, M.},\n    date = {2020-12-21},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-spring-2020/index.html#notes",
+    "href": "publications/articles/howell-spring-2020/index.html#notes",
+    "title": "Spring melt pond fraction in the canadian arctic archipelago predicted from RADARSAT-2",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-comparison-2023/index.html",
+    "href": "publications/articles/howell-comparison-2023/index.html",
+    "title": "A comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago",
+    "section": "",
+    "text": "Type: Journal Article Venue: Journal of Geophysical Research: Oceans Year: 2023\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-comparison-2023/index.html#abstract",
+    "href": "publications/articles/howell-comparison-2023/index.html#abstract",
+    "title": "A comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Nares Strait and the channels of the Canadian Arctic Archipelago (CAA) act as conduits for sea ice export from the Arctic Ocean but have never been directly compared. Here, we perform such a comparison for both the sea ice area and volume fluxes from October 2016 to December 2021. Nares Strait provided the largest average seasonal (October through September) ice area flux of 95 ± 8 × 103 km2 followed by the CAA regions of the Queen Elizabeth Islands (QEI) at 41 ± 7 × 103 km2 and M’Clure Strait at 2 ± 8 × 103 km2 with corresponding ice volume fluxes of 177 ± 15 km3, 59 ± 10 km3, and 8 ± 8 km3, respectively. Larger Arctic Ocean ice export at Nares Strait was associated with a shorter ice arch duration (237 days) compared to M’Clure Strait (163 days) and QEI (65 days). Seasonal Arctic Ocean ice export was dominated by Nares Strait in 2017–2019 and 2021 but was remarkably exceeded by the QEI in 2020. Large-scale atmospheric circulation patterns were found to influence the ice area flux in the absence of ice arches but no occurrence of coherent Arctic Ocean ice export events coinciding across all gates were observed. Average net seasonal Arctic Ocean ice area and volume export were 138 × 103 km2 and 245 km3, which represent ∼16% of the area and ∼25% of the volume of sea ice export from Fram Strait. Divergent Arctic Ocean export ice trajectories are apparent for Nares Strait and the QEI when compared to Fram Strait."
+  },
+  {
+    "objectID": "publications/articles/howell-comparison-2023/index.html#citation",
+    "href": "publications/articles/howell-comparison-2023/index.html#citation",
+    "title": "A comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago",
+    "section": "Citation",
+    "text": "Citation\nS. E. L. Howell, D. G. Babb, J. C. Landy, G. W. K. Moore, B. Montpetit, and M. Brady (2023). A comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago. Journal of Geophysical Research: Oceans. https://doi.org/https://doi.org/10.1029/2023JC019687"
+  },
+  {
+    "objectID": "publications/articles/howell-comparison-2023/index.html#bibtex",
+    "href": "publications/articles/howell-comparison-2023/index.html#bibtex",
+    "title": "A comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_comparison_2023,\n    title = {A Comparison of Arctic Ocean Sea Ice Export Between Nares Strait and the Canadian Arctic Archipelago},\n    volume = {128},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2023JC019687},\n    doi = {https://doi.org/10.1029/2023JC019687},\n    abstract = {Abstract Nares Strait and the channels of the Canadian Arctic Archipelago ({CAA}) act as conduits for sea ice export from the Arctic Ocean but have never been directly compared. Here, we perform such a comparison for both the sea ice area and volume fluxes from October 2016 to December 2021. Nares Strait provided the largest average seasonal (October through September) ice area flux of 95 ± 8 × 103 km2 followed by the {CAA} regions of the Queen Elizabeth Islands ({QEI}) at 41 ± 7 × 103 km2 and M’Clure Strait at 2 ± 8 × 103 km2 with corresponding ice volume fluxes of 177 ± 15 km3, 59 ± 10 km3, and 8 ± 8 km3, respectively. Larger Arctic Ocean ice export at Nares Strait was associated with a shorter ice arch duration (237 days) compared to M’Clure Strait (163 days) and {QEI} (65 days). Seasonal Arctic Ocean ice export was dominated by Nares Strait in 2017–2019 and 2021 but was remarkably exceeded by the {QEI} in 2020. Large-scale atmospheric circulation patterns were found to influence the ice area flux in the absence of ice arches but no occurrence of coherent Arctic Ocean ice export events coinciding across all gates were observed. Average net seasonal Arctic Ocean ice area and volume export were 138 × 103 km2 and 245 km3, which represent ∼16\\% of the area and ∼25\\% of the volume of sea ice export from Fram Strait. Divergent Arctic Ocean export ice trajectories are apparent for Nares Strait and the {QEI} when compared to Fram Strait.},\n    pages = {e2023JC019687},\n    number = {4},\n    journaltitle = {Journal of Geophysical Research: Oceans},\n    author = {Howell, S. E. L. and Babb, D. G. and Landy, J. C. and Moore, G. W. K. and Montpetit, B. and Brady, M.},\n    date = {2023-04-13},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023JC019687},\n    keywords = {Nares Strait, sea ice, area flux, {CAA}, dynamics, volume flux},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-comparison-2023/index.html#notes",
+    "href": "publications/articles/howell-comparison-2023/index.html#notes",
+    "title": "A comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "posts/post-content/gdal-modis-conversion-2021/index.html",
+    "href": "posts/post-content/gdal-modis-conversion-2021/index.html",
+    "title": "MODIS Greenland Data Conversion",
+    "section": "",
+    "text": "Started as a quick response on Twitter\n\n… but then formalized in a Gist:"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "NSIDC Ice Age Exploration\n\n\n\npython\n\nxarray\n\netl\n\nsea-ice\n\n\n\nHistorical Beaufort Sea conditions with Dask/Xarray\n\n\n\n\n\nJan 16, 2022\n\n\nMike Brady\n\n\n\n\n\n\n\n\n\n\n\n\nMODIS Greenland Data Conversion\n\n\n\ngdal\n\nearth-observation\n\netl\n\n\n\nConverting NSIDC products from NetCDF to GeoTIFF\n\n\n\n\n\nApr 6, 2021\n\n\nMike Brady\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "maps/map-content/mudryk-impact-2021/index.html",
+    "href": "maps/map-content/mudryk-impact-2021/index.html",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "section": "",
+    "text": "Figure 1. Trans-Arctic and Canadian shipping routes.\n\n\nPublication reference"
+  },
+  {
+    "objectID": "maps/index.html",
+    "href": "maps/index.html",
+    "title": "Maps and Figures",
+    "section": "",
+    "text": "Below you can find a curated collection of my maps and figures. Most maps are created through desktop GIS (QGIS, ArcGIS Pro) but graphs and figures usually Python.\n\n\n\n\n\n\n\n\n\n\n\n\nArcticNet Figures\n\n\n\ncanadian-arctic\n\nclimate-change\n\narcgis-pro\n\n\n\nMap figures created for presentation at ArcticNet Scientific Meeting 2022\n\n\n\n\n\n\nFeb 17, 2022\n\n\n\n\n\n\n\n\n\n\n\nImpact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic\n\n\n\ncanadian-arctic\n\nshipping\n\nclimate-change\n\narcgis-pro\n\n\n\nLawrence R. Mudryk, Jackie Dawson, Stephen E. L. Howell, Chris Derksen, Thomas A. Zagon, and Mike Brady (2021). Impact of 1, 2 and 4 °c of global warming on ship navigation…\n\n\n\n\n\n\nAug 1, 2021\n\n\n\n\n\n\n\n\n\n\n\nLocal-scale variability of snow density on arctic sea ice\n\n\n\ncanadian-arctic\n\nsea-ice\n\nearth-observation\n\narcmap\n\n\n\nJ. King, S. Howell, M. Brady, P. Toose, C. Derksen, C. Haas, and J. Beckers (2020). Local-scale variability of snow density on arctic sea ice. The Cryosphere.…\n\n\n\n\n\n\nDec 2, 2020\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "maps/map-content/king-local-scale-2020/index.html",
+    "href": "maps/map-content/king-local-scale-2020/index.html",
+    "title": "Local-scale variability of snow density on arctic sea ice",
+    "section": "",
+    "text": "Figure 1. Overview of the Eureka and Arctic Ocean (AO) snow on sea ice campaigns (a). Unidirectional SnowMicroPen (SMP) transects were collected at multiple sites to evaluate spatial variability of snowpack properties (b; Eureka MYI site shown) with sets of 10 profiles separated at distances of 0.1, 1, and 10 m, in sequence (c). Co-located SMP profiles were collected at all snow pit locations to calibrate the SMP density model of Proksch et al. (2015). Background of (b) shows RADARSAT-2 imagery near Eureka where bight returns indicate rough multi-year ice. RADARSAT-2 data and products © MacDonald, Dettwiler and Associates Ltd. (2019). All rights reserved. RADARSAT is an official trademark of the Canadian Space Agency.\n\n\nPublication reference"
+  },
+  {
+    "objectID": "posts/post-content/nsidc-iceage-xarray-2022/index.html",
+    "href": "posts/post-content/nsidc-iceage-xarray-2022/index.html",
+    "title": "NSIDC Ice Age Exploration",
+    "section": "",
+    "text": "☝️ End result of the following code snippets 👇\n\n\nChecking out a really neat historical sea ice age dataset from NSIDC: https://nsidc.org/data/nsidc-0611\n\n\nPackage Imports\nfrom io import BytesIO\nfrom netrc import netrc\nfrom pathlib import Path\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport pandas as pd\nimport requests\nimport xarray as xr\nfrom matplotlib.colors import ListedColormap\n\n\nWe need to get the data first (requires a NASA EarthData account!)\n\n\nLoading Ice Age Data\nlocal_nc = Path('./iceage_nsidc.nc')\nif local_nc.exists():\n    ds = xr.open_dataset(\n        local_nc\n    ).chunk(\n        {'time': 200, 'x': 722, 'y': 722} # try to have ~100MB chunks\n    )\nelse:\n    resp = input(\n        'Local dataset does not exist - confirm you ' \\\n        'want to download from NSIDC? (Approx bandwidth usage: 1GB)'\n    )\n    if resp.lower() == 'y':\n        base_url = 'https://daacdata.apps.nsidc.org/pub/DATASETS/' \\\n                   'nsidc0611_seaice_age_v4/data/' \\\n                   'iceage_nh_12.5km_{year}0101_{year}1231_v4.1.nc'\n        urls = [\n            base_url.format(year=y)\n            for y in range(1984,2021)  # 2021 is still preliminary\n        ]\n        try:\n            user, _, password = netrc().authenticators('urs.earthdata.nasa.gov')\n        except KeyError:\n            print(\"No EarthData entry in ~/.netrc\")\n            raise ValueError\n        with requests.Session() as sesh:\n            sesh.auth = (user, password)\n            ds = xr.open_mfdataset(\n                [\n                    BytesIO(sesh.get(url).content)\n                    for url in urls\n                ], \n                data_vars=['age_of_sea_ice']\n            )\n    else:\n        raise FileNotFoundError(\n            'Local dataset not found user decided not to download'\n        )\n\n\n\nds\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.Dataset&gt; Size: 1GB\nDimensions:         (time: 1924, y: 722, x: 722)\nCoordinates:\n  * time            (time) object 15kB 1984-01-01 00:00:00 ... 2020-12-23 00:...\n  * y               (y) float32 3kB -4.518e+06 -4.506e+06 ... 4.518e+06\n  * x               (x) float32 3kB -4.518e+06 -4.506e+06 ... 4.518e+06\nData variables:\n    crs             int32 4B ...\n    age_of_sea_ice  (time, y, x) uint8 1GB dask.array&lt;chunksize=(200, 722, 722), meta=np.ndarray&gt;\n    latitude        (y, x) float32 2MB dask.array&lt;chunksize=(722, 722), meta=np.ndarray&gt;\n    longitude       (y, x) float32 2MB dask.array&lt;chunksize=(722, 722), meta=np.ndarray&gt;\nAttributes:\n    version:       4.1\n    release_date:  April 2019\n    Conventions:   CF-1.4\n    citation:      Tschudi, M. A., Meier, W. N., and Stewart, J. S.: An enhan...\n    dataset_doi:   10.5067/UTAV7490FEPBxarray.DatasetDimensions:time: 1924y: 722x: 722Coordinates: (3)time(time)object1984-01-01 00:00:00 ... 2020-12-...standard_name :timeaxis :Tarray([cftime.DatetimeJulian(1984, 1, 1, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1984, 1, 8, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1984, 1, 15, 0, 0, 0, 0, has_year_zero=False),\n       ...,\n       cftime.DatetimeJulian(2020, 12, 9, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 12, 16, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 12, 23, 0, 0, 0, 0, has_year_zero=False)],\n      shape=(1924,), dtype=object)y(y)float32-4.518e+06 -4.506e+06 ... 4.518e+06standard_name :projection_y_coordinatecoverage_content_type :coordinatelong_name :yunits :metersaxis :Yarray([-4.518422e+06, -4.505888e+06, -4.493354e+06, ...,  4.493354e+06,\n        4.505888e+06,  4.518422e+06], shape=(722,), dtype=float32)x(x)float32-4.518e+06 -4.506e+06 ... 4.518e+06standard_name :projection_x_coordinatecoverage_content_type :coordinatelong_name :xunits :metersaxis :Xarray([-4.518422e+06, -4.505888e+06, -4.493354e+06, ...,  4.493354e+06,\n        4.505888e+06,  4.518422e+06], shape=(722,), dtype=float32)Data variables: (4)crs()int32...grid_mapping_name :lambert_azimuthal_equal_arealongitude_of_projection_origin :0false_easting :0false_northing :0long_name :EASEgrid_N12.5km_pole_centeredlatitude_of_projection_origin :90srid :urn:ogc:def:crs:EPSG::3408proj4text :+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +a=6371228 +b=6371228 +units=m +no_defscrs_wkt :PROJCS[\"NSIDC EASE-Grid North\",GEOGCS[\"Unspecified datum based upon the International 1924 Authalic Sphere\",DATUM[\"Not_specified_based_on_International_1924_Authalic_Sphere\",SPHEROID[\"International 1924 Authalic Sphere\",6371228,0,AUTHORITY[\"EPSG\",\"7057\"]],AUTHORITY[\"EPSG\",\"6053\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.01745329251994328,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4053\"]],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],PROJECTION[\"Lambert_Azimuthal_Equal_Area\"],PARAMETER[\"latitude_of_center\",90],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],AUTHORITY[\"EPSG\",\"3408\"],AXIS[\"X\",UNKNOWN],AXIS[\"Y\",UNKNOWN]][1 values with dtype=int32]age_of_sea_ice(time, y, x)uint8dask.array&lt;chunksize=(200, 722, 722), meta=np.ndarray&gt;short_name :ice agelong_name :age_of_sea_icestandard_name :age_of_sea_iceunits :yearflag_values :[20 21]grid_mapping :crscomment :Ice of this age is up-to-this-number of years old.  A value of 1 indicates first-year ice, which is up to one year old.  Age value of 20 indicate the dilated land mask.  Age values of 21 indicate ocean where ice age cannot be calculated because the ice motion is not provided near coasts and in lakes\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n0.93 GiB\n99.43 MiB\n\n\nShape\n(1924, 722, 722)\n(200, 722, 722)\n\n\nDask graph\n10 chunks in 2 graph layers\n\n\nData type\nuint8 numpy.ndarray\n\n\n\n\n                                           722 722 1924\n\n\n\n\nlatitude(y, x)float32dask.array&lt;chunksize=(722, 722), meta=np.ndarray&gt;standard_name :latitudeunits :degrees_north\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n1.99 MiB\n1.99 MiB\n\n\nShape\n(722, 722)\n(722, 722)\n\n\nDask graph\n1 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n         722 722\n\n\n\n\nlongitude(y, x)float32dask.array&lt;chunksize=(722, 722), meta=np.ndarray&gt;standard_name :longitudeunits :degrees_east\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n1.99 MiB\n1.99 MiB\n\n\nShape\n(722, 722)\n(722, 722)\n\n\nDask graph\n1 chunks in 2 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n         722 722\n\n\n\n\nAttributes: (5)version :4.1release_date :April 2019Conventions :CF-1.4citation :Tschudi, M. A., Meier, W. N., and Stewart, J. S.: An enhancement to sea ice motion and age products, The Cryosphere Discuss., https://doi.org/10.5194/tc-2019-40, in review, 2019.dataset_doi :10.5067/UTAV7490FEPB\n\n\n\nds['age_of_sea_ice']\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.DataArray 'age_of_sea_ice' (time: 1924, y: 722, x: 722)&gt; Size: 1GB\ndask.array&lt;xarray-age_of_sea_ice, shape=(1924, 722, 722), dtype=uint8, chunksize=(200, 722, 722), chunktype=numpy.ndarray&gt;\nCoordinates:\n  * time     (time) object 15kB 1984-01-01 00:00:00 ... 2020-12-23 00:00:00\n  * y        (y) float32 3kB -4.518e+06 -4.506e+06 ... 4.506e+06 4.518e+06\n  * x        (x) float32 3kB -4.518e+06 -4.506e+06 ... 4.506e+06 4.518e+06\nAttributes:\n    short_name:     ice age\n    long_name:      age_of_sea_ice\n    standard_name:  age_of_sea_ice\n    units:          year\n    flag_values:    [20 21]\n    grid_mapping:   crs\n    comment:        Ice of this age is up-to-this-number of years old.  A val...xarray.DataArray'age_of_sea_ice'time: 1924y: 722x: 722dask.array&lt;chunksize=(200, 722, 722), meta=np.ndarray&gt;\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n0.93 GiB\n99.43 MiB\n\n\nShape\n(1924, 722, 722)\n(200, 722, 722)\n\n\nDask graph\n10 chunks in 2 graph layers\n\n\nData type\nuint8 numpy.ndarray\n\n\n\n\n                                           722 722 1924\n\n\n\n\nCoordinates: (3)time(time)object1984-01-01 00:00:00 ... 2020-12-...standard_name :timeaxis :Tarray([cftime.DatetimeJulian(1984, 1, 1, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1984, 1, 8, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1984, 1, 15, 0, 0, 0, 0, has_year_zero=False),\n       ...,\n       cftime.DatetimeJulian(2020, 12, 9, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 12, 16, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 12, 23, 0, 0, 0, 0, has_year_zero=False)],\n      shape=(1924,), dtype=object)y(y)float32-4.518e+06 -4.506e+06 ... 4.518e+06standard_name :projection_y_coordinatecoverage_content_type :coordinatelong_name :yunits :metersaxis :Yarray([-4.518422e+06, -4.505888e+06, -4.493354e+06, ...,  4.493354e+06,\n        4.505888e+06,  4.518422e+06], shape=(722,), dtype=float32)x(x)float32-4.518e+06 -4.506e+06 ... 4.518e+06standard_name :projection_x_coordinatecoverage_content_type :coordinatelong_name :xunits :metersaxis :Xarray([-4.518422e+06, -4.505888e+06, -4.493354e+06, ...,  4.493354e+06,\n        4.505888e+06,  4.518422e+06], shape=(722,), dtype=float32)Attributes: (7)short_name :ice agelong_name :age_of_sea_icestandard_name :age_of_sea_iceunits :yearflag_values :[20 21]grid_mapping :crscomment :Ice of this age is up-to-this-number of years old.  A value of 1 indicates first-year ice, which is up to one year old.  Age value of 20 indicate the dilated land mask.  Age values of 21 indicate ocean where ice age cannot be calculated because the ice motion is not provided near coasts and in lakes\n\n\n\n\nHow big is the dataset in megabytes?\nprint('Approximate size of uncompressed dataset: %.2f MB' % (\n    ds.nbytes / 1024**2\n))\n\n\nApproximate size of uncompressed dataset: 960.49 MB\n\n\nHere we take a single time slice and try to figure out the best way to get a Beaufort-Only subset\n\ntime_slice = ds.isel(time=1200)\ntime_slice['age_of_sea_ice']\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.DataArray 'age_of_sea_ice' (y: 722, x: 722)&gt; Size: 521kB\ndask.array&lt;getitem, shape=(722, 722), dtype=uint8, chunksize=(722, 722), chunktype=numpy.ndarray&gt;\nCoordinates:\n  * y        (y) float32 3kB -4.518e+06 -4.506e+06 ... 4.506e+06 4.518e+06\n  * x        (x) float32 3kB -4.518e+06 -4.506e+06 ... 4.506e+06 4.518e+06\n    time     object 8B 2007-01-29 00:00:00\nAttributes:\n    short_name:     ice age\n    long_name:      age_of_sea_ice\n    standard_name:  age_of_sea_ice\n    units:          year\n    flag_values:    [20 21]\n    grid_mapping:   crs\n    comment:        Ice of this age is up-to-this-number of years old.  A val...xarray.DataArray'age_of_sea_ice'y: 722x: 722dask.array&lt;chunksize=(722, 722), meta=np.ndarray&gt;\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n509.07 kiB\n509.07 kiB\n\n\nShape\n(722, 722)\n(722, 722)\n\n\nDask graph\n1 chunks in 3 graph layers\n\n\nData type\nuint8 numpy.ndarray\n\n\n\n\n         722 722\n\n\n\n\nCoordinates: (3)y(y)float32-4.518e+06 -4.506e+06 ... 4.518e+06standard_name :projection_y_coordinatecoverage_content_type :coordinatelong_name :yunits :metersaxis :Yarray([-4.518422e+06, -4.505888e+06, -4.493354e+06, ...,  4.493354e+06,\n        4.505888e+06,  4.518422e+06], shape=(722,), dtype=float32)x(x)float32-4.518e+06 -4.506e+06 ... 4.518e+06standard_name :projection_x_coordinatecoverage_content_type :coordinatelong_name :xunits :metersaxis :Xarray([-4.518422e+06, -4.505888e+06, -4.493354e+06, ...,  4.493354e+06,\n        4.505888e+06,  4.518422e+06], shape=(722,), dtype=float32)time()object2007-01-29 00:00:00standard_name :timeaxis :Tarray(cftime.DatetimeJulian(2007, 1, 29, 0, 0, 0, 0, has_year_zero=False),\n      dtype=object)Attributes: (7)short_name :ice agelong_name :age_of_sea_icestandard_name :age_of_sea_iceunits :yearflag_values :[20 21]grid_mapping :crscomment :Ice of this age is up-to-this-number of years old.  A value of 1 indicates first-year ice, which is up to one year old.  Age value of 20 indicate the dilated land mask.  Age values of 21 indicate ocean where ice age cannot be calculated because the ice motion is not provided near coasts and in lakes\n\n\n\n\nWhat does this slice look like?\ntime_slice['age_of_sea_ice'].plot(add_colorbar=False);\n\n\n\n\n\n\n\n\n\nLet’s plot with the NSIDC colormap\n\n\nDefining the NSIDC colormap\n# this implementation is imperfect but seems to work okay\ncmap = ListedColormap(\n    [\n        '#FFFFFF', '#3F51A3', '#6FCBDB', '#69BF4E', '#F3B226', \n        '#F12411', '#F12411', '#F12411', '#F12411', '#F12411',\n        '#F12411', '#F12411', '#F12411', '#F12411', '#F12411',\n        '#F12411'\n    ],\n    name='Sea Ice Age'\n)\ncmap.set_over('#A1A1A1')\ncmap\n\n\nSea Ice Age  underbad over \n\n\n\n\nPlotting the slice with the NSIDC colormap\n# note how we mask out the land/channels with a nice little conditional\nxr.where(\n    time_slice['age_of_sea_ice'] &gt;= 20,\n    np.nan,\n    time_slice['age_of_sea_ice']\n).plot(\n    cmap=cmap,\n    add_colorbar=False\n);\n\n\n\n\n\n\n\n\n\nCreate a Mask based on Dave’s Figure 1B: https://doi.org/10.1002/essoar.10509833.1\n\n\n\nDefining the Figure1B bounding box\n# approximate bounding box\nmin_lon = -150\nmax_lon = -120\nmin_lat = 68\nmax_lat = 76\nlons = time_slice['longitude'].data.copy()\nlons[lons &lt; min_lon] = np.nan\nlons[lons &gt; max_lon] = np.nan\nlons[~np.isnan(lons)] = 1\nlats = time_slice['latitude'].data.copy()\nlats[lats &gt; max_lat] = np.nan\nlats[lats &lt; min_lat] = np.nan\nlats[~np.isnan(lats)] = 1\nmask = lons * lats\nfig, (\n    (ax_lons, ax_lats), (ax_mask, ax_data)\n) = plt.subplots(ncols=2, nrows=2)\nax_lons.imshow(lons, origin='lower')\nax_lons.set_title('Beaufort Lon mask\\n(&gt;= -150 and &lt;= -120)')\nax_lats.imshow(lats, origin='lower')\nax_lats.set_title('Beaufort Lat mask\\n(&gt;= 68 and &lt;=76)')\nax_mask.imshow(mask, origin='lower')\nax_mask.imshow(lons, origin='lower', cmap='Greens_r', alpha=0.4, zorder=-2)\nax_mask.imshow(lats, origin='lower', cmap='Blues_r', alpha=0.4, zorder=-2)\nax_mask.set_title('Beaufort mask (lon * lat)')\nax_mask.set_xlim(150, 350)\nax_mask.set_ylim(375, 575)\nax_data.imshow(time_slice['age_of_sea_ice'] * mask, cmap=cmap, vmin=0, vmax=16)\nax_data.set_title('Masked Ice Age data')\nax_data.set_xlim(150, 350)\nax_data.set_ylim(375, 575)\nfig.tight_layout();\n\n\n\n\n\n\n\n\n\nLet’s also reduce our spatial grid size to further minimize the footprint of the masked dataset\n\n\nEyeballing the grid reduction\n# just eyeballed these based on the above figure\nxs = xr.DataArray(range(220, 300), dims='x')\nys = xr.DataArray(range(415, 535), dims='y')\n(time_slice['age_of_sea_ice'] * mask).isel(\n    x=xs, y=ys\n).plot(cmap=cmap, vmin=0, vmax=16, add_colorbar=False);\n\n\n\n\n\n\n\n\n\nNow that we have our slicers we can reduce the dataset to just the Beaufort AOI\n\nresult = (ds['age_of_sea_ice'].isel(x=xs, y=ys) * mask[415:535, 220:300])\nresult\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.DataArray (time: 1924, y: 120, x: 80)&gt; Size: 74MB\ndask.array&lt;mul, shape=(1924, 120, 80), dtype=float32, chunksize=(200, 120, 80), chunktype=numpy.ndarray&gt;\nCoordinates:\n  * time     (time) object 15kB 1984-01-01 00:00:00 ... 2020-12-23 00:00:00\n  * y        (y) float32 480B 6.831e+05 6.956e+05 ... 2.162e+06 2.175e+06\n  * x        (x) float32 320B -1.761e+06 -1.748e+06 ... -7.834e+05 -7.708e+05\nAttributes:\n    short_name:     ice age\n    long_name:      age_of_sea_ice\n    standard_name:  age_of_sea_ice\n    units:          year\n    flag_values:    [20 21]\n    grid_mapping:   crs\n    comment:        Ice of this age is up-to-this-number of years old.  A val...xarray.DataArraytime: 1924y: 120x: 80dask.array&lt;chunksize=(200, 120, 80), meta=np.ndarray&gt;\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n70.46 MiB\n7.32 MiB\n\n\nShape\n(1924, 120, 80)\n(200, 120, 80)\n\n\nDask graph\n10 chunks in 27 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                                           80 120 1924\n\n\n\n\nCoordinates: (3)time(time)object1984-01-01 00:00:00 ... 2020-12-...standard_name :timeaxis :Tarray([cftime.DatetimeJulian(1984, 1, 1, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1984, 1, 8, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1984, 1, 15, 0, 0, 0, 0, has_year_zero=False),\n       ...,\n       cftime.DatetimeJulian(2020, 12, 9, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 12, 16, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 12, 23, 0, 0, 0, 0, has_year_zero=False)],\n      shape=(1924,), dtype=object)y(y)float326.831e+05 6.956e+05 ... 2.175e+06standard_name :projection_y_coordinatecoverage_content_type :coordinatelong_name :yunits :metersaxis :Yarray([6.830901e+05, 6.956238e+05, 7.081576e+05, 7.206914e+05, 7.332251e+05,\n       7.457589e+05, 7.582926e+05, 7.708264e+05, 7.833601e+05, 7.958939e+05,\n       8.084277e+05, 8.209614e+05, 8.334952e+05, 8.460290e+05, 8.585628e+05,\n       8.710965e+05, 8.836302e+05, 8.961640e+05, 9.086978e+05, 9.212316e+05,\n       9.337653e+05, 9.462991e+05, 9.588328e+05, 9.713666e+05, 9.839004e+05,\n       9.964341e+05, 1.008968e+06, 1.021502e+06, 1.034035e+06, 1.046569e+06,\n       1.059103e+06, 1.071637e+06, 1.084170e+06, 1.096704e+06, 1.109238e+06,\n       1.121772e+06, 1.134306e+06, 1.146839e+06, 1.159373e+06, 1.171907e+06,\n       1.184440e+06, 1.196974e+06, 1.209508e+06, 1.222042e+06, 1.234576e+06,\n       1.247109e+06, 1.259643e+06, 1.272177e+06, 1.284711e+06, 1.297244e+06,\n       1.309778e+06, 1.322312e+06, 1.334846e+06, 1.347380e+06, 1.359913e+06,\n       1.372447e+06, 1.384981e+06, 1.397514e+06, 1.410048e+06, 1.422582e+06,\n       1.435116e+06, 1.447650e+06, 1.460183e+06, 1.472717e+06, 1.485251e+06,\n       1.497785e+06, 1.510318e+06, 1.522852e+06, 1.535386e+06, 1.547920e+06,\n       1.560453e+06, 1.572987e+06, 1.585521e+06, 1.598055e+06, 1.610588e+06,\n       1.623122e+06, 1.635656e+06, 1.648190e+06, 1.660724e+06, 1.673257e+06,\n       1.685791e+06, 1.698325e+06, 1.710859e+06, 1.723392e+06, 1.735926e+06,\n       1.748460e+06, 1.760994e+06, 1.773527e+06, 1.786061e+06, 1.798595e+06,\n       1.811129e+06, 1.823662e+06, 1.836196e+06, 1.848730e+06, 1.861264e+06,\n       1.873798e+06, 1.886331e+06, 1.898865e+06, 1.911399e+06, 1.923932e+06,\n       1.936466e+06, 1.949000e+06, 1.961534e+06, 1.974068e+06, 1.986601e+06,\n       1.999135e+06, 2.011669e+06, 2.024203e+06, 2.036736e+06, 2.049270e+06,\n       2.061804e+06, 2.074338e+06, 2.086872e+06, 2.099405e+06, 2.111939e+06,\n       2.124473e+06, 2.137006e+06, 2.149540e+06, 2.162074e+06, 2.174608e+06],\n      dtype=float32)x(x)float32-1.761e+06 ... -7.708e+05standard_name :projection_x_coordinatecoverage_content_type :coordinatelong_name :xunits :metersaxis :Xarray([-1.760994e+06, -1.748460e+06, -1.735926e+06, -1.723392e+06,\n       -1.710859e+06, -1.698325e+06, -1.685791e+06, -1.673257e+06,\n       -1.660724e+06, -1.648190e+06, -1.635656e+06, -1.623122e+06,\n       -1.610588e+06, -1.598055e+06, -1.585521e+06, -1.572987e+06,\n       -1.560453e+06, -1.547920e+06, -1.535386e+06, -1.522852e+06,\n       -1.510318e+06, -1.497785e+06, -1.485251e+06, -1.472717e+06,\n       -1.460183e+06, -1.447650e+06, -1.435116e+06, -1.422582e+06,\n       -1.410048e+06, -1.397514e+06, -1.384981e+06, -1.372447e+06,\n       -1.359913e+06, -1.347380e+06, -1.334846e+06, -1.322312e+06,\n       -1.309778e+06, -1.297244e+06, -1.284711e+06, -1.272177e+06,\n       -1.259643e+06, -1.247109e+06, -1.234576e+06, -1.222042e+06,\n       -1.209508e+06, -1.196974e+06, -1.184440e+06, -1.171907e+06,\n       -1.159373e+06, -1.146839e+06, -1.134306e+06, -1.121772e+06,\n       -1.109238e+06, -1.096704e+06, -1.084170e+06, -1.071637e+06,\n       -1.059103e+06, -1.046569e+06, -1.034035e+06, -1.021502e+06,\n       -1.008968e+06, -9.964341e+05, -9.839004e+05, -9.713666e+05,\n       -9.588328e+05, -9.462991e+05, -9.337653e+05, -9.212316e+05,\n       -9.086978e+05, -8.961640e+05, -8.836302e+05, -8.710965e+05,\n       -8.585628e+05, -8.460290e+05, -8.334952e+05, -8.209614e+05,\n       -8.084277e+05, -7.958939e+05, -7.833601e+05, -7.708264e+05],\n      dtype=float32)Attributes: (7)short_name :ice agelong_name :age_of_sea_icestandard_name :age_of_sea_iceunits :yearflag_values :[20 21]grid_mapping :crscomment :Ice of this age is up-to-this-number of years old.  A value of 1 indicates first-year ice, which is up to one year old.  Age value of 20 indicate the dilated land mask.  Age values of 21 indicate ocean where ice age cannot be calculated because the ice motion is not provided near coasts and in lakes\n\n\n\n\nHow big is the minimized dataset in megabytes?\nprint('Approximate size of minimized dataset: %.2f MB' % (\n    result.nbytes / 1024**2\n))\n\n\nApproximate size of minimized dataset: 70.46 MB\n\n\n\n\nWhat does the mean ice age look like?\nfig, ax = plt.subplots()\nxr.where(\n    result &gt;= 20,\n    np.nan,\n    result\n).mean(dim='time').plot(\n    cmap=cmap,\n    ax=ax, \n    vmin=0, \n    vmax=16, \n    add_colorbar=False\n)\nax.set_title(\n    'Mean Ice Age ' +\\\n    result[\"time\"].min().dt.strftime(\"%Y-%m-%d\").data +\\\n    ' to ' +\\\n    result[\"time\"].max().dt.strftime(\"%Y-%m-%d\").data\n);\n\n\n\n\n\n\n\n\n\n\n\nWhat about the last week of April like in Dave’s paper?\n# any ice age greater than 5 will be given the \"5+\" moniker\ndata = xr.where(result &gt;= 20, np.nan, result)\ndata = xr.where(data &gt; 5, 5, data)\n# imperfect but works\nlast_week_apr = data.loc[\n    (data['time'].dt.month == 4) & \n    ((31 - data['time'].dt.day) &lt; 5)\n]\nassert \\\n    len(last_week_apr['time']) == \\\n    len(range(\n        data['time.year'].min().values,\n        data['time.year'].max().values+1\n    ))\nlast_week_apr\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;xarray.DataArray (time: 37, y: 120, x: 80)&gt; Size: 1MB\ndask.array&lt;getitem, shape=(37, 120, 80), dtype=float32, chunksize=(37, 120, 80), chunktype=numpy.ndarray&gt;\nCoordinates:\n  * time     (time) object 296B 1984-04-29 00:00:00 ... 2020-04-29 00:00:00\n  * y        (y) float32 480B 6.831e+05 6.956e+05 ... 2.162e+06 2.175e+06\n  * x        (x) float32 320B -1.761e+06 -1.748e+06 ... -7.834e+05 -7.708e+05xarray.DataArraytime: 37y: 120x: 80dask.array&lt;chunksize=(37, 120, 80), meta=np.ndarray&gt;\n\n\n\n\n\n\n\n\n\n\n\nArray\nChunk\n\n\n\n\nBytes\n1.35 MiB\n1.35 MiB\n\n\nShape\n(37, 120, 80)\n(37, 120, 80)\n\n\nDask graph\n1 chunks in 32 graph layers\n\n\nData type\nfloat32 numpy.ndarray\n\n\n\n\n                         80 120 37\n\n\n\n\nCoordinates: (3)time(time)object1984-04-29 00:00:00 ... 2020-04-...array([cftime.DatetimeJulian(1984, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1985, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1986, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1987, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1988, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1989, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1990, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1991, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1992, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1993, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1994, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1995, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1996, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1997, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1998, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(1999, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2000, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2001, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2002, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2003, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2004, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2005, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2006, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2007, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2008, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2009, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2010, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2011, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2012, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2013, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2014, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2015, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2016, 4, 29, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2017, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2018, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2019, 4, 30, 0, 0, 0, 0, has_year_zero=False),\n       cftime.DatetimeJulian(2020, 4, 29, 0, 0, 0, 0, has_year_zero=False)],\n      dtype=object)y(y)float326.831e+05 6.956e+05 ... 2.175e+06array([6.830901e+05, 6.956238e+05, 7.081576e+05, 7.206914e+05, 7.332251e+05,\n       7.457589e+05, 7.582926e+05, 7.708264e+05, 7.833601e+05, 7.958939e+05,\n       8.084277e+05, 8.209614e+05, 8.334952e+05, 8.460290e+05, 8.585628e+05,\n       8.710965e+05, 8.836302e+05, 8.961640e+05, 9.086978e+05, 9.212316e+05,\n       9.337653e+05, 9.462991e+05, 9.588328e+05, 9.713666e+05, 9.839004e+05,\n       9.964341e+05, 1.008968e+06, 1.021502e+06, 1.034035e+06, 1.046569e+06,\n       1.059103e+06, 1.071637e+06, 1.084170e+06, 1.096704e+06, 1.109238e+06,\n       1.121772e+06, 1.134306e+06, 1.146839e+06, 1.159373e+06, 1.171907e+06,\n       1.184440e+06, 1.196974e+06, 1.209508e+06, 1.222042e+06, 1.234576e+06,\n       1.247109e+06, 1.259643e+06, 1.272177e+06, 1.284711e+06, 1.297244e+06,\n       1.309778e+06, 1.322312e+06, 1.334846e+06, 1.347380e+06, 1.359913e+06,\n       1.372447e+06, 1.384981e+06, 1.397514e+06, 1.410048e+06, 1.422582e+06,\n       1.435116e+06, 1.447650e+06, 1.460183e+06, 1.472717e+06, 1.485251e+06,\n       1.497785e+06, 1.510318e+06, 1.522852e+06, 1.535386e+06, 1.547920e+06,\n       1.560453e+06, 1.572987e+06, 1.585521e+06, 1.598055e+06, 1.610588e+06,\n       1.623122e+06, 1.635656e+06, 1.648190e+06, 1.660724e+06, 1.673257e+06,\n       1.685791e+06, 1.698325e+06, 1.710859e+06, 1.723392e+06, 1.735926e+06,\n       1.748460e+06, 1.760994e+06, 1.773527e+06, 1.786061e+06, 1.798595e+06,\n       1.811129e+06, 1.823662e+06, 1.836196e+06, 1.848730e+06, 1.861264e+06,\n       1.873798e+06, 1.886331e+06, 1.898865e+06, 1.911399e+06, 1.923932e+06,\n       1.936466e+06, 1.949000e+06, 1.961534e+06, 1.974068e+06, 1.986601e+06,\n       1.999135e+06, 2.011669e+06, 2.024203e+06, 2.036736e+06, 2.049270e+06,\n       2.061804e+06, 2.074338e+06, 2.086872e+06, 2.099405e+06, 2.111939e+06,\n       2.124473e+06, 2.137006e+06, 2.149540e+06, 2.162074e+06, 2.174608e+06],\n      dtype=float32)x(x)float32-1.761e+06 ... -7.708e+05array([-1.760994e+06, -1.748460e+06, -1.735926e+06, -1.723392e+06,\n       -1.710859e+06, -1.698325e+06, -1.685791e+06, -1.673257e+06,\n       -1.660724e+06, -1.648190e+06, -1.635656e+06, -1.623122e+06,\n       -1.610588e+06, -1.598055e+06, -1.585521e+06, -1.572987e+06,\n       -1.560453e+06, -1.547920e+06, -1.535386e+06, -1.522852e+06,\n       -1.510318e+06, -1.497785e+06, -1.485251e+06, -1.472717e+06,\n       -1.460183e+06, -1.447650e+06, -1.435116e+06, -1.422582e+06,\n       -1.410048e+06, -1.397514e+06, -1.384981e+06, -1.372447e+06,\n       -1.359913e+06, -1.347380e+06, -1.334846e+06, -1.322312e+06,\n       -1.309778e+06, -1.297244e+06, -1.284711e+06, -1.272177e+06,\n       -1.259643e+06, -1.247109e+06, -1.234576e+06, -1.222042e+06,\n       -1.209508e+06, -1.196974e+06, -1.184440e+06, -1.171907e+06,\n       -1.159373e+06, -1.146839e+06, -1.134306e+06, -1.121772e+06,\n       -1.109238e+06, -1.096704e+06, -1.084170e+06, -1.071637e+06,\n       -1.059103e+06, -1.046569e+06, -1.034035e+06, -1.021502e+06,\n       -1.008968e+06, -9.964341e+05, -9.839004e+05, -9.713666e+05,\n       -9.588328e+05, -9.462991e+05, -9.337653e+05, -9.212316e+05,\n       -9.086978e+05, -8.961640e+05, -8.836302e+05, -8.710965e+05,\n       -8.585628e+05, -8.460290e+05, -8.334952e+05, -8.209614e+05,\n       -8.084277e+05, -7.958939e+05, -7.833601e+05, -7.708264e+05],\n      dtype=float32)\n\n\nNow that we have our last-week-of-April timeseries we can construct a nice figure\n\n\nGenerating the figure\n# if it's stupid and it works - it's not stupid\ndf = pd.DataFrame({\n    'Year': [],\n    'FYI': [],\n    'MYI 2': [],\n    'MYI 3': [],\n    'MYI 4': [],\n    'MYI 5+': []\n})\nfor year in last_week_apr['time.year'].values:\n    flat = last_week_apr.isel(time=last_week_apr['time.year'].isin([year])).values.ravel()\n    vals, counts = np.unique(flat[~np.isnan(flat)], return_counts=True)\n    if vals[0] != 0:\n        df = pd.concat([\n                df,\n                pd.DataFrame({\n                    'Year': [year], \n                    'FYI': [counts[0]], \n                    'MYI 2': [counts[1]], \n                    'MYI 3': [counts[2]], \n                    'MYI 4': [counts[3]], \n                    'MYI 5+': [counts[4]]\n                })\n            ],\n            ignore_index=True\n        )\n    else:\n        df = pd.concat([\n                df, \n                pd.DataFrame({\n                    'Year': [year], \n                    'FYI': [counts[1]], \n                    'MYI 2': [counts[2]], \n                    'MYI 3': [counts[3]], \n                    'MYI 4': [counts[4]], \n                    'MYI 5+': [counts[5]]\n                })\n            ],\n            ignore_index=True\n        )\ndf = df.set_index(df['Year'].astype('uint32')).drop('Year', axis=1)\n\n# convert pixel counts into fraction of total\ntotals = df.sum(axis=1) / 100\nfor col in df.columns:\n    df[col] /= totals\n\n# put it all together\nfig, ax = plt.subplots(figsize=(22,9))\n# need to invert column order to match dave's figure 3c\ndf[df.columns[::-1]].plot(\n    kind='bar', \n    stacked=True, \n    ax=ax, \n    width=0.9, \n    color=['#3F51A3', '#6FCBDB', '#69BF4E', '#F3B226', '#F12411'][::-1],\n    edgecolor='k'\n)\nax.set_xlim(-0.5, len(df)-0.5)\nax.set_ylim(0, 100)\nax.set_ylabel('Ice Age Distribution [%]')\nax.legend(framealpha=1, loc='upper right', fontsize=12)\n[lab.set_rotation(0) for lab in ax.get_xticklabels()]\nax.set_title('Beaufort Sea - Sea Ice Age Distribution for Last Week of April');"
+  },
+  {
+    "objectID": "publications/articles/howell-near-2025/index.html",
+    "href": "publications/articles/howell-near-2025/index.html",
+    "title": "Near sea ice-free conditions in the northern route of the northwest passage at the end of the 2024 melt season",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2025\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-near-2025/index.html#citation",
+    "href": "publications/articles/howell-near-2025/index.html#citation",
+    "title": "Near sea ice-free conditions in the northern route of the northwest passage at the end of the 2024 melt season",
+    "section": "Citation",
+    "text": "Citation\nS. E. L. Howell, A. Cabaj, D. G. Babb, J. C. Landy, J. Dawson, M. Mahmud, and M. Brady (2025). Near sea ice-free conditions in the northern route of the northwest passage at the end of the 2024 melt season. The Cryosphere. https://doi.org/10.5194/tc-19-6711-2025"
+  },
+  {
+    "objectID": "publications/articles/howell-near-2025/index.html#bibtex",
+    "href": "publications/articles/howell-near-2025/index.html#bibtex",
+    "title": "Near sea ice-free conditions in the northern route of the northwest passage at the end of the 2024 melt season",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_near_2025,\n    title = {Near sea ice-free conditions in the northern route of the Northwest Passage at the end of the 2024 melt season},\n    volume = {19},\n    url = {https://tc.copernicus.org/articles/19/6711/2025/},\n    doi = {10.5194/tc-19-6711-2025},\n    pages = {6711--6725},\n    number = {12},\n    journaltitle = {The Cryosphere},\n    author = {Howell, S. E. L. and Cabaj, A. and Babb, D. G. and Landy, J. C. and Dawson, J. and Mahmud, M. and Brady, M.},\n    date = {2025-12-11},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-near-2025/index.html#notes",
+    "href": "publications/articles/howell-near-2025/index.html#notes",
+    "title": "Near sea ice-free conditions in the northern route of the northwest passage at the end of the 2024 melt season",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-dynamic-2019/index.html",
+    "href": "publications/articles/howell-dynamic-2019/index.html",
+    "title": "The dynamic response of sea ice to warming in the canadian arctic archipelago",
+    "section": "",
+    "text": "Type: Journal Article Venue: Geophysical Research Letters Year: 2019\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-dynamic-2019/index.html#abstract",
+    "href": "publications/articles/howell-dynamic-2019/index.html#abstract",
+    "title": "The dynamic response of sea ice to warming in the canadian arctic archipelago",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Ice arches in the Canadian Arctic Archipelago (CAA) block the inflow of Arctic Ocean ice for the majority of the year. A 22 year record (1997–2018) of Arctic Ocean-CAA ice exchange was used to investigate the effect of warming on CAA sea ice dynamics. Larger ice area flux values were associated with longer flow duration and faster ice speed facilitated by increased open water leeway from the CAA’s transition to a younger and thinner ice regime, which together have contributed to a significant ice area flux increase (103 km2/year) from Arctic Ocean into the northern CAA from 1997 to 2018. Remarkably, the 2016 Arctic Ocean ice area flux into the CAA (161 × 103 km2) was 7 times greater than the 1997–2018 average (23 × 103 km2) and almost double the 2007 ice area flux into Nares Strait (87 × 103 km2). Continued warming may result in the CAA becoming a larger outlet for Arctic Ocean ice area loss."
+  },
+  {
+    "objectID": "publications/articles/howell-dynamic-2019/index.html#citation",
+    "href": "publications/articles/howell-dynamic-2019/index.html#citation",
+    "title": "The dynamic response of sea ice to warming in the canadian arctic archipelago",
+    "section": "Citation",
+    "text": "Citation\nStephen E. L. Howell and Mike Brady (2019). The dynamic response of sea ice to warming in the canadian arctic archipelago. Geophysical Research Letters. https://doi.org/https://doi.org/10.1029/2019GL085116"
+  },
+  {
+    "objectID": "publications/articles/howell-dynamic-2019/index.html#bibtex",
+    "href": "publications/articles/howell-dynamic-2019/index.html#bibtex",
+    "title": "The dynamic response of sea ice to warming in the canadian arctic archipelago",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_dynamic_2019,\n    title = {The Dynamic Response of Sea Ice to Warming in the Canadian Arctic Archipelago},\n    volume = {46},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL085116},\n    doi = {https://doi.org/10.1029/2019GL085116},\n    abstract = {Abstract Ice arches in the Canadian Arctic Archipelago ({CAA}) block the inflow of Arctic Ocean ice for the majority of the year. A 22 year record (1997–2018) of Arctic Ocean-{CAA} ice exchange was used to investigate the effect of warming on {CAA} sea ice dynamics. Larger ice area flux values were associated with longer flow duration and faster ice speed facilitated by increased open water leeway from the {CAA}'s transition to a younger and thinner ice regime, which together have contributed to a significant ice area flux increase (103 km2/year) from Arctic Ocean into the northern {CAA} from 1997 to 2018. Remarkably, the 2016 Arctic Ocean ice area flux into the {CAA} (161 × 103 km2) was 7 times greater than the 1997–2018 average (23 × 103 km2) and almost double the 2007 ice area flux into Nares Strait (87 × 103 km2). Continued warming may result in the {CAA} becoming a larger outlet for Arctic Ocean ice area loss.},\n    pages = {13119--13125},\n    number = {22},\n    journaltitle = {Geophysical Research Letters},\n    author = {Howell, Stephen E. L. and Brady, Mike},\n    date = {2019-11-13},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2019GL085116},\n    keywords = {sea ice, area flux, dynamics, volume flux, Arctic Ocean, Canadain Arctic Archipelago},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-dynamic-2019/index.html#notes",
+    "href": "publications/articles/howell-dynamic-2019/index.html#notes",
+    "title": "The dynamic response of sea ice to warming in the canadian arctic archipelago",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/moore-anomalous-2021/index.html",
+    "href": "publications/articles/moore-anomalous-2021/index.html",
+    "title": "Anomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice",
+    "section": "",
+    "text": "Type: Journal Article Venue: Nature Communications Year: 2021\nDOI URL BibTeX"
+  },
+  {
+    "objectID": "publications/articles/moore-anomalous-2021/index.html#abstract",
+    "href": "publications/articles/moore-anomalous-2021/index.html#abstract",
+    "title": "Anomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice",
+    "section": "Abstract",
+    "text": "Abstract\nThe ice arches that usually develop at the northern and southern ends of Nares Strait play an important role in modulating the export of Arctic Ocean multi-year sea ice. The Arctic Ocean is evolving towards an ice pack that is younger, thinner, and more mobile and the fate of its multi-year ice is becoming of increasing interest. Here, we use sea ice motion retrievals from Sentinel-1 imagery to report on the recent behavior of these ice arches and the associated ice fluxes. We show that the duration of arch formation has decreased over the past 20 years, while the ice area and volume fluxes along Nares Strait have both increased. These results suggest that a transition is underway towards a state where the formation of these arches will become atypical with a concomitant increase in the export of multi-year ice accelerating the transition towards a younger and thinner Arctic ice pack."
+  },
+  {
+    "objectID": "publications/articles/moore-anomalous-2021/index.html#citation",
+    "href": "publications/articles/moore-anomalous-2021/index.html#citation",
+    "title": "Anomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice",
+    "section": "Citation",
+    "text": "Citation\nG. W. K. Moore, S. E. L. Howell, M. Brady, X. Xu, and K. McNeil (2021). Anomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice. Nature Communications. https://doi.org/10.1038/s41467-020-20314-w"
+  },
+  {
+    "objectID": "publications/articles/moore-anomalous-2021/index.html#bibtex",
+    "href": "publications/articles/moore-anomalous-2021/index.html#bibtex",
+    "title": "Anomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{moore_anomalous_2021,\n    title = {Anomalous collapses of Nares Strait ice arches leads to enhanced export of Arctic sea ice},\n    volume = {12},\n    issn = {2041-1723},\n    url = {https://doi.org/10.1038/s41467-020-20314-w},\n    doi = {10.1038/s41467-020-20314-w},\n    abstract = {The ice arches that usually develop at the northern and southern ends of Nares Strait play an important role in modulating the export of Arctic Ocean multi-year sea ice. The Arctic Ocean is evolving towards an ice pack that is younger, thinner, and more mobile and the fate of its multi-year ice is becoming of increasing interest. Here, we use sea ice motion retrievals from Sentinel-1 imagery to report on the recent behavior of these ice arches and the associated ice fluxes. We show that the duration of arch formation has decreased over the past 20 years, while the ice area and volume fluxes along Nares Strait have both increased. These results suggest that a transition is underway towards a state where the formation of these arches will become atypical with a concomitant increase in the export of multi-year ice accelerating the transition towards a younger and thinner Arctic ice pack.},\n    pages = {1},\n    number = {1},\n    journaltitle = {Nature Communications},\n    shortjournal = {Nature Communications},\n    author = {Moore, G. W. K. and Howell, S. E. L. and Brady, M. and Xu, X. and {McNeil}, K.},\n    date = {2021-01-04},\n}"
+  },
+  {
+    "objectID": "publications/articles/moore-anomalous-2021/index.html#notes",
+    "href": "publications/articles/moore-anomalous-2021/index.html#notes",
+    "title": "Anomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-comparing-2018/index.html",
+    "href": "publications/articles/howell-comparing-2018/index.html",
+    "title": "Comparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes",
+    "section": "",
+    "text": "Type: Journal Article Venue: Remote Sensing of Environment Year: 2018\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-comparing-2018/index.html#abstract",
+    "href": "publications/articles/howell-comparing-2018/index.html#abstract",
+    "title": "Comparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes",
+    "section": "Abstract",
+    "text": "Abstract\nEstimating sea ice motion from synthetic aperture radar (SAR) imagery at C-band is the most reliable approach because of its high spatial resolution and ever increasing temporal resolution given the multiple current and upcoming SAR platforms. However, there is still uncertainty in SAR derived sea ice motion depending on the ice type and its thermodynamic state. There have been suggestions (mostly theoretical) that use of L-band SAR and its inherent longer wavelength (15–30cm) and subsequent increased penetration capability could be beneficial for estimating sea ice motion, especially during the melt season. Here, we estimate and analyze sea ice motion for 9 pairs of C- and L-band SAR imagery from RADARSAT-2, PALSAR-1 and PALSAR-2 located in the Canadian Arctic over a variety of sea ice types at different thermodynamic states. Results show that the increased signal penetration of L-band SAR into multi-year ice (MYI) during the melt season facilitates the detection of more motion vectors with stronger cross-correlation coefficients compared to C-band SAR. Over newly formed ice and dry first-year ice, the reduced sensitivity to surface scattering and richer texture from L-band SAR imagery facilitates the detection of more motion vectors with stronger cross-correlation coefficients compared to C-band SAR. Over dry MYI, L-band provided stronger cross-correlation coefficients but C-band detected more motion vectors with a more representative spatial distribution. With Arctic sea ice continuing shift from a multi-year to first-year dominated icescape, coupled with an increasing melt season length, L-band SAR’s ability to provide improved sea ice motion estimates during both the melt and freeze-up time periods could prove even more useful in the coming decades."
+  },
+  {
+    "objectID": "publications/articles/howell-comparing-2018/index.html#citation",
+    "href": "publications/articles/howell-comparing-2018/index.html#citation",
+    "title": "Comparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes",
+    "section": "Citation",
+    "text": "Citation\nStephen E. L. Howell, Alexander S. Komarov, Mohammed Dabboor, Benoit Montpetit, Michael Brady, Randall K. Scharien, Mallik S. Mahmud, Vishnu Nandan, Torsten Geldsetzer, and John J. Yackel (2018). Comparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes. Remote Sensing of Environment. https://doi.org/https://doi.org/10.1016/j.rse.2017.10.017"
+  },
+  {
+    "objectID": "publications/articles/howell-comparing-2018/index.html#bibtex",
+    "href": "publications/articles/howell-comparing-2018/index.html#bibtex",
+    "title": "Comparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_comparing_2018,\n    title = {Comparing L- and C-band synthetic aperture radar estimates of sea ice motion over different ice regimes},\n    volume = {204},\n    issn = {0034-4257},\n    url = {https://www.sciencedirect.com/science/article/pii/S0034425717304819},\n    doi = {https://doi.org/10.1016/j.rse.2017.10.017},\n    abstract = {Estimating sea ice motion from synthetic aperture radar ({SAR}) imagery at C-band is the most reliable approach because of its high spatial resolution and ever increasing temporal resolution given the multiple current and upcoming {SAR} platforms. However, there is still uncertainty in {SAR} derived sea ice motion depending on the ice type and its thermodynamic state. There have been suggestions (mostly theoretical) that use of L-band {SAR} and its inherent longer wavelength (15–30cm) and subsequent increased penetration capability could be beneficial for estimating sea ice motion, especially during the melt season. Here, we estimate and analyze sea ice motion for 9 pairs of C- and L-band {SAR} imagery from {RADARSAT}-2, {PALSAR}-1 and {PALSAR}-2 located in the Canadian Arctic over a variety of sea ice types at different thermodynamic states. Results show that the increased signal penetration of L-band {SAR} into multi-year ice ({MYI}) during the melt season facilitates the detection of more motion vectors with stronger cross-correlation coefficients compared to C-band {SAR}. Over newly formed ice and dry first-year ice, the reduced sensitivity to surface scattering and richer texture from L-band {SAR} imagery facilitates the detection of more motion vectors with stronger cross-correlation coefficients compared to C-band {SAR}. Over dry {MYI}, L-band provided stronger cross-correlation coefficients but C-band detected more motion vectors with a more representative spatial distribution. With Arctic sea ice continuing shift from a multi-year to first-year dominated icescape, coupled with an increasing melt season length, L-band {SAR}'s ability to provide improved sea ice motion estimates during both the melt and freeze-up time periods could prove even more useful in the coming decades.},\n    pages = {380--391},\n    journaltitle = {Remote Sensing of Environment},\n    author = {Howell, Stephen E. L. and Komarov, Alexander S. and Dabboor, Mohammed and Montpetit, Benoit and Brady, Michael and Scharien, Randall K. and Mahmud, Mallik S. and Nandan, Vishnu and Geldsetzer, Torsten and Yackel, John J.},\n    date = {2018-11-27},\n    keywords = {C-band, Sea ice, {SAR}, Ice motion, L-band, {PALSAR}, {RADARSAT}},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-comparing-2018/index.html#notes",
+    "href": "publications/articles/howell-comparing-2018/index.html#notes",
+    "title": "Comparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-generating-2022/index.html",
+    "href": "publications/articles/howell-generating-2022/index.html",
+    "title": "Generating large-scale sea ice motion from sentinel-1 and the RADARSAT constellation mission using the environment and climate change canada automated sea ice tracking system",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2022\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-generating-2022/index.html#citation",
+    "href": "publications/articles/howell-generating-2022/index.html#citation",
+    "title": "Generating large-scale sea ice motion from sentinel-1 and the RADARSAT constellation mission using the environment and climate change canada automated sea ice tracking system",
+    "section": "Citation",
+    "text": "Citation\nS. E. L. Howell, M. Brady, and A. S. Komarov (2022). Generating large-scale sea ice motion from sentinel-1 and the RADARSAT constellation mission using the environment and climate change canada automated sea ice tracking system. The Cryosphere. https://doi.org/10.5194/tc-16-1125-2022"
+  },
+  {
+    "objectID": "publications/articles/howell-generating-2022/index.html#bibtex",
+    "href": "publications/articles/howell-generating-2022/index.html#bibtex",
+    "title": "Generating large-scale sea ice motion from sentinel-1 and the RADARSAT constellation mission using the environment and climate change canada automated sea ice tracking system",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_generating_2022,\n    title = {Generating large-scale sea ice motion from Sentinel-1 and the {RADARSAT} Constellation Mission using the Environment and Climate Change Canada automated sea ice tracking system},\n    volume = {16},\n    url = {https://tc.copernicus.org/articles/16/1125/2022/},\n    doi = {10.5194/tc-16-1125-2022},\n    pages = {1125--1139},\n    number = {3},\n    journaltitle = {The Cryosphere},\n    author = {Howell, S. E. L. and Brady, M. and Komarov, A. S.},\n    date = {2022-03-31},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-generating-2022/index.html#notes",
+    "href": "publications/articles/howell-generating-2022/index.html#notes",
+    "title": "Generating large-scale sea ice motion from sentinel-1 and the RADARSAT constellation mission using the environment and climate change canada automated sea ice tracking system",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/king-local-scale-2020/index.html",
+    "href": "publications/articles/king-local-scale-2020/index.html",
+    "title": "Local-scale variability of snow density on arctic sea ice",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2020\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/king-local-scale-2020/index.html#citation",
+    "href": "publications/articles/king-local-scale-2020/index.html#citation",
+    "title": "Local-scale variability of snow density on arctic sea ice",
+    "section": "Citation",
+    "text": "Citation\nJ. King, S. Howell, M. Brady, P. Toose, C. Derksen, C. Haas, and J. Beckers (2020). Local-scale variability of snow density on arctic sea ice. The Cryosphere. https://doi.org/10.5194/tc-14-4323-2020"
+  },
+  {
+    "objectID": "publications/articles/king-local-scale-2020/index.html#bibtex",
+    "href": "publications/articles/king-local-scale-2020/index.html#bibtex",
+    "title": "Local-scale variability of snow density on arctic sea ice",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{king_local-scale_2020,\n    title = {Local-scale variability of snow density on Arctic sea ice},\n    volume = {14},\n    url = {https://tc.copernicus.org/articles/14/4323/2020/},\n    doi = {10.5194/tc-14-4323-2020},\n    pages = {4323--4339},\n    number = {12},\n    journaltitle = {The Cryosphere},\n    author = {King, J. and Howell, S. and Brady, M. and Toose, P. and Derksen, C. and Haas, C. and Beckers, J.},\n    date = {2020-12-02},\n}"
+  },
+  {
+    "objectID": "publications/articles/king-local-scale-2020/index.html#notes",
+    "href": "publications/articles/king-local-scale-2020/index.html#notes",
+    "title": "Local-scale variability of snow density on arctic sea ice",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/plante-sea-2025/index.html",
+    "href": "publications/articles/plante-sea-2025/index.html",
+    "title": "A sea ice deformation and rotation rate dataset (2017–2023) from the environment and climate change canada automated sea ice tracking system (ECCC-ASITS)",
+    "section": "",
+    "text": "Type: Journal Article Venue: Earth System Science Data Year: 2025\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/plante-sea-2025/index.html#citation",
+    "href": "publications/articles/plante-sea-2025/index.html#citation",
+    "title": "A sea ice deformation and rotation rate dataset (2017–2023) from the environment and climate change canada automated sea ice tracking system (ECCC-ASITS)",
+    "section": "Citation",
+    "text": "Citation\nM. Plante, J.-F. Lemieux, L. B. Tremblay, A. Bouchat, D. Ringeisen, P. Blain, S. Howell, M. Brady, A. S. Komarov, B. Duval, L. Yakuden, and F. Labelle (2025). A sea ice deformation and rotation rate dataset (2017–2023) from the environment and climate change canada automated sea ice tracking system (ECCC-ASITS). Earth System Science Data. https://doi.org/10.5194/essd-17-423-2025"
+  },
+  {
+    "objectID": "publications/articles/plante-sea-2025/index.html#bibtex",
+    "href": "publications/articles/plante-sea-2025/index.html#bibtex",
+    "title": "A sea ice deformation and rotation rate dataset (2017–2023) from the environment and climate change canada automated sea ice tracking system (ECCC-ASITS)",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{plante_sea_2025,\n    title = {A sea ice deformation and rotation rate dataset (2017–2023) from the Environment and Climate Change Canada automated sea ice tracking system ({ECCC}-{ASITS})},\n    volume = {17},\n    url = {https://essd.copernicus.org/articles/17/423/2025/},\n    doi = {10.5194/essd-17-423-2025},\n    pages = {423--434},\n    number = {2},\n    journaltitle = {Earth System Science Data},\n    author = {Plante, M. and Lemieux, J.-F. and Tremblay, L. B. and Bouchat, A. and Ringeisen, D. and Blain, P. and Howell, S. and Brady, M. and Komarov, A. S. and Duval, B. and Yakuden, L. and Labelle, F.},\n    date = {2025-02-05},\n}"
+  },
+  {
+    "objectID": "publications/articles/plante-sea-2025/index.html#notes",
+    "href": "publications/articles/plante-sea-2025/index.html#notes",
+    "title": "A sea ice deformation and rotation rate dataset (2017–2023) from the environment and climate change canada automated sea ice tracking system (ECCC-ASITS)",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/howell-multiyear-2015/index.html",
+    "href": "publications/articles/howell-multiyear-2015/index.html",
+    "title": "Multiyear ice replenishment in the canadian arctic archipelago: 1997–2013",
+    "section": "",
+    "text": "Type: Journal Article Venue: Journal of Geophysical Research: Oceans Year: 2015\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/howell-multiyear-2015/index.html#abstract",
+    "href": "publications/articles/howell-multiyear-2015/index.html#abstract",
+    "title": "Multiyear ice replenishment in the canadian arctic archipelago: 1997–2013",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract In the Canadian Arctic Archipelago (CAA), multiyear ice (MYI) replenishment from first-year ice aging (CAAMYI-Oct-1) and Arctic Ocean MYI exchange (CAAMYI-exchange) contribute to the CAA’s relatively heavy sea ice conditions at the end of the summer melt season. We estimate these components using RADARSAT and the Canadian Ice Service Digital Archive and explore processes responsible for interannual variability from 1997 to 2013. CAAMYI-Oct-1 (52 ± 36 × 103 km2) provides a larger contribution than CAAMYI-exchange (13 ± 11 × 103 km2). CAAMYI-Oct-1 represents ∼10% of the amount that occurs in the Arctic Ocean. CAAMYI-exchange represents ∼50% of Nares Strait MYI export to Baffin Bay and ∼12% of Fram Strait MYI export to the Greenland Sea. CAAMYI-Oct-1 exhibits dependence on warmer (cooler) summers that increase (decrease) melt evident from strong relationships to surface air temperature (SAT), albedo and total absorbed solar radiation (Qtotal). CAAMYI-exchange is influenced by summer sea level pressure (SLP) anomalies over the Beaufort Sea and Canadian Basin which shifts the primary source of CAAMYI-exchange between less obstructed M’Clure Strait (low SLP anomalies) and the more obstructed Queen Elizabeth Islands (high SLP anomalies). Over the 17-record, appreciable replenishment occurred for most years from 1997 to 2004, reduced replenishment from 2005 to 2012, and large replenishment in 2013. The reduced replenishment period was associated with positive SAT, negative albedo, and positive Qtotal anomalies that facilitated more melt and less CAAMYI-Oct-1, together with high SLP anomalies that facilitated less CAAMYI-exchange. Large replenishment in 2013 was primarily from CAAMYI-Oct-1 attributed to strongly negative SAT and Qtotal anomalies and strongly positive albedo that impeded melt."
+  },
+  {
+    "objectID": "publications/articles/howell-multiyear-2015/index.html#citation",
+    "href": "publications/articles/howell-multiyear-2015/index.html#citation",
+    "title": "Multiyear ice replenishment in the canadian arctic archipelago: 1997–2013",
+    "section": "Citation",
+    "text": "Citation\nStephen E. L. Howell, Chris Derksen, Larissa Pizzolato, and Michael Brady (2015). Multiyear ice replenishment in the canadian arctic archipelago: 1997–2013. Journal of Geophysical Research: Oceans. https://doi.org/https://doi.org/10.1002/2015JC010696"
+  },
+  {
+    "objectID": "publications/articles/howell-multiyear-2015/index.html#bibtex",
+    "href": "publications/articles/howell-multiyear-2015/index.html#bibtex",
+    "title": "Multiyear ice replenishment in the canadian arctic archipelago: 1997–2013",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{howell_multiyear_2015,\n    title = {Multiyear ice replenishment in the Canadian Arctic Archipelago: 1997–2013},\n    volume = {120},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015JC010696},\n    doi = {https://doi.org/10.1002/2015JC010696},\n    abstract = {Abstract In the Canadian Arctic Archipelago ({CAA}), multiyear ice ({MYI}) replenishment from first-year ice aging ({CAAMYI}-Oct-1) and Arctic Ocean {MYI} exchange ({CAAMYI}-exchange) contribute to the {CAA}'s relatively heavy sea ice conditions at the end of the summer melt season. We estimate these components using {RADARSAT} and the Canadian Ice Service Digital Archive and explore processes responsible for interannual variability from 1997 to 2013. {CAAMYI}-Oct-1 (52 ± 36 × 103 km2) provides a larger contribution than {CAAMYI}-exchange (13 ± 11 × 103 km2). {CAAMYI}-Oct-1 represents ∼10\\% of the amount that occurs in the Arctic Ocean. {CAAMYI}-exchange represents ∼50\\% of Nares Strait {MYI} export to Baffin Bay and ∼12\\% of Fram Strait {MYI} export to the Greenland Sea. {CAAMYI}-Oct-1 exhibits dependence on warmer (cooler) summers that increase (decrease) melt evident from strong relationships to surface air temperature ({SAT}), albedo and total absorbed solar radiation (Qtotal). {CAAMYI}-exchange is influenced by summer sea level pressure ({SLP}) anomalies over the Beaufort Sea and Canadian Basin which shifts the primary source of {CAAMYI}-exchange between less obstructed M'Clure Strait (low {SLP} anomalies) and the more obstructed Queen Elizabeth Islands (high {SLP} anomalies). Over the 17-record, appreciable replenishment occurred for most years from 1997 to 2004, reduced replenishment from 2005 to 2012, and large replenishment in 2013. The reduced replenishment period was associated with positive {SAT}, negative albedo, and positive Qtotal anomalies that facilitated more melt and less {CAAMYI}-Oct-1, together with high {SLP} anomalies that facilitated less {CAAMYI}-exchange. Large replenishment in 2013 was primarily from {CAAMYI}-Oct-1 attributed to strongly negative {SAT} and Qtotal anomalies and strongly positive albedo that impeded melt.},\n    pages = {1623--1637},\n    number = {3},\n    journaltitle = {Journal of Geophysical Research: Oceans},\n    author = {Howell, Stephen E. L. and Derksen, Chris and Pizzolato, Larissa and Brady, Michael},\n    date = {2015-02-06},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015JC010696},\n    keywords = {sea ice, Canadian Arctic Archipelago, multiyear ice, Northwest Passage, replenishment},\n}"
+  },
+  {
+    "objectID": "publications/articles/howell-multiyear-2015/index.html#notes",
+    "href": "publications/articles/howell-multiyear-2015/index.html#notes",
+    "title": "Multiyear ice replenishment in the canadian arctic archipelago: 1997–2013",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/montpetit-retrieval-2024/index.html",
+    "href": "publications/articles/montpetit-retrieval-2024/index.html",
+    "title": "Retrieval of snow and soil properties for forward radiative transfer modeling of airborne ku-band SAR to estimate snow water equivalent: The trail valley creek 2018/19 snow experiment",
+    "section": "",
+    "text": "Type: Journal Article Venue: The Cryosphere Year: 2024\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/montpetit-retrieval-2024/index.html#citation",
+    "href": "publications/articles/montpetit-retrieval-2024/index.html#citation",
+    "title": "Retrieval of snow and soil properties for forward radiative transfer modeling of airborne ku-band SAR to estimate snow water equivalent: The trail valley creek 2018/19 snow experiment",
+    "section": "Citation",
+    "text": "Citation\nB. Montpetit, J. King, J. Meloche, C. Derksen, P. Siqueira, J. M. Adam, P. Toose, M. Brady, A. Wendleder, V. Vionnet, and N. R. Leroux (2024). Retrieval of snow and soil properties for forward radiative transfer modeling of airborne ku-band SAR to estimate snow water equivalent: The trail valley creek 2018/19 snow experiment. The Cryosphere. https://doi.org/10.5194/tc-18-3857-2024"
+  },
+  {
+    "objectID": "publications/articles/montpetit-retrieval-2024/index.html#bibtex",
+    "href": "publications/articles/montpetit-retrieval-2024/index.html#bibtex",
+    "title": "Retrieval of snow and soil properties for forward radiative transfer modeling of airborne ku-band SAR to estimate snow water equivalent: The trail valley creek 2018/19 snow experiment",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{montpetit_retrieval_2024,\n    title = {Retrieval of snow and soil properties for forward radiative transfer modeling of airborne Ku-band {SAR} to estimate snow water equivalent: the Trail Valley Creek 2018/19 snow experiment},\n    volume = {18},\n    url = {https://tc.copernicus.org/articles/18/3857/2024/},\n    doi = {10.5194/tc-18-3857-2024},\n    pages = {3857--3874},\n    number = {8},\n    journaltitle = {The Cryosphere},\n    author = {Montpetit, B. and King, J. and Meloche, J. and Derksen, C. and Siqueira, P. and Adam, J. M. and Toose, P. and Brady, M. and Wendleder, A. and Vionnet, V. and Leroux, N. R.},\n    date = {2024-08-28},\n}"
+  },
+  {
+    "objectID": "publications/articles/montpetit-retrieval-2024/index.html#notes",
+    "href": "publications/articles/montpetit-retrieval-2024/index.html#notes",
+    "title": "Retrieval of snow and soil properties for forward radiative transfer modeling of airborne ku-band SAR to estimate snow water equivalent: The trail valley creek 2018/19 snow experiment",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/chikhar-sensitivity-2019/index.html",
+    "href": "publications/articles/chikhar-sensitivity-2019/index.html",
+    "title": "Sensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model",
+    "section": "",
+    "text": "Type: Journal Article Venue: Atmosphere-Ocean Year: 2019\nDOI URL BibTeX"
+  },
+  {
+    "objectID": "publications/articles/chikhar-sensitivity-2019/index.html#abstract",
+    "href": "publications/articles/chikhar-sensitivity-2019/index.html#abstract",
+    "title": "Sensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model",
+    "section": "Abstract",
+    "text": "Abstract\nA pan-Arctic sea-ice–ocean prediction system is assessed in terms of its ability to predict sea-ice velocity. This system is based on the Regional Ice Ocean Prediction System running operationally at the Canadian Centre for Meteorological and Environmental Prediction. A form drag parameterization is implemented in the system to allow spatially and temporally varying neutral drag coefficients depending on the sea-ice morphological characteristics. Simulated ice velocity is assessed using data from the International Arctic Buoy Programme, as well as ice motion derived from Environment and Climate Change Canada’s synthetic aperture radar automated ice-tracking system. Results indicate that introducing the form drag parameterization systematically increases the sea-ice velocity and exacerbates a positive bias in summer already present in the previous version in which constant neutral drag coefficients were used. The ice strength parameterization used in the model rheology is found to affect the simulated ice drift significantly. Introducing modifications to the ice strength formulation and the empirical parameters helped alleviate the ice velocity bias."
+  },
+  {
+    "objectID": "publications/articles/chikhar-sensitivity-2019/index.html#citation",
+    "href": "publications/articles/chikhar-sensitivity-2019/index.html#citation",
+    "title": "Sensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model",
+    "section": "Citation",
+    "text": "Citation\nKamel Chikhar, Jean-François Lemieux, Frédéric Dupont, François Roy, Gregory C. Smith, Michael Brady, Stephen E. L. Howell, and Rodrigue Beaini (2019). Sensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model. Atmosphere-Ocean. https://doi.org/10.1080/07055900.2019.1694859"
+  },
+  {
+    "objectID": "publications/articles/chikhar-sensitivity-2019/index.html#bibtex",
+    "href": "publications/articles/chikhar-sensitivity-2019/index.html#bibtex",
+    "title": "Sensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{chikhar_sensitivity_2019,\n    title = {Sensitivity of Ice Drift to Form Drag and Ice Strength Parameterization in a Coupled Ice–Ocean Model},\n    volume = {57},\n    url = {https://doi.org/10.1080/07055900.2019.1694859},\n    doi = {10.1080/07055900.2019.1694859},\n    abstract = {A pan-Arctic sea-ice–ocean prediction system is assessed in terms of its ability to predict sea-ice velocity. This system is based on the Regional Ice Ocean Prediction System running operationally at the Canadian Centre for Meteorological and Environmental Prediction. A form drag parameterization is implemented in the system to allow spatially and temporally varying neutral drag coefficients depending on the sea-ice morphological characteristics. Simulated ice velocity is assessed using data from the International Arctic Buoy Programme, as well as ice motion derived from Environment and Climate Change Canada’s synthetic aperture radar automated ice-tracking system. Results indicate that introducing the form drag parameterization systematically increases the sea-ice velocity and exacerbates a positive bias in summer already present in the previous version in which constant neutral drag coefficients were used. The ice strength parameterization used in the model rheology is found to affect the simulated ice drift significantly. Introducing modifications to the ice strength formulation and the empirical parameters helped alleviate the ice velocity bias.},\n    pages = {329--349},\n    number = {5},\n    journaltitle = {Atmosphere-Ocean},\n    publisher = {Taylor \\& Francis},\n    author = {Chikhar, Kamel and Lemieux, Jean-François and Dupont, Frédéric and Roy, François and Smith, Gregory C. and Brady, Michael and Howell, Stephen E. L. and Beaini, Rodrigue},\n    date = {2019-12-19},\n    note = {\\_eprint: https://doi.org/10.1080/07055900.2019.1694859},\n}"
+  },
+  {
+    "objectID": "publications/articles/chikhar-sensitivity-2019/index.html#notes",
+    "href": "publications/articles/chikhar-sensitivity-2019/index.html#notes",
+    "title": "Sensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/mcneil-synoptic-2026/index.html",
+    "href": "publications/articles/mcneil-synoptic-2026/index.html",
+    "title": "Synoptic controls of extreme ice area flux events along nares strait",
+    "section": "",
+    "text": "Type: Journal Article Venue: Journal of Geophysical Research: Oceans Year: 2026\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/mcneil-synoptic-2026/index.html#abstract",
+    "href": "publications/articles/mcneil-synoptic-2026/index.html#abstract",
+    "title": "Synoptic controls of extreme ice area flux events along nares strait",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Nares Strait, the channel between Ellesmere Island and northwest Greenland, connects the Arctic Ocean’s Lincoln Sea to northern Baffin Bay. The transport of thick, multi-year sea ice southward down the Strait contributes to the overall loss of this important ice class from the Arctic. Using sea ice motion derived from synthetic aperture radar imagery, we characterize the variability and extremes in ice transport across a flux gate situated at its northern terminus. Although the long-term mean daily ice area flux over the January 2016-January 2024 period, excluding periods with an ice arch present, is approximately 316 km2/day southwards, we observe frequent, large, and short-lived reversals during which the ice is transported northwards into the Lincoln Sea with extreme events exceeding 590 km2/day. Here, we characterize the synoptic conditions associated with extreme ice transport events along the Strait, defined by the 5th and 95th percentiles of the ice area flux over the 8-year period of study. Extreme southward transport events exceeding 1,070 km2/day are associated with a synoptic-scale environment characterized by higher sea-level pressures over the Arctic Ocean and lower sea-level pressures over the Davis Strait and the Labrador Sea. The identified extreme northward transport events are associated with a reversal in the pressure gradient as well as a pan-Arctic reversal in ice motion. Extreme ice area flux events can present hazards to marine activity and reversals in conditions are important to document as changes as they may be a signal of larger scale changes in the climate system."
+  },
+  {
+    "objectID": "publications/articles/mcneil-synoptic-2026/index.html#citation",
+    "href": "publications/articles/mcneil-synoptic-2026/index.html#citation",
+    "title": "Synoptic controls of extreme ice area flux events along nares strait",
+    "section": "Citation",
+    "text": "Citation\nK. McNeil, G. W. K. Moore, S. E. L. Howell, and M. Brady (2026). Synoptic controls of extreme ice area flux events along nares strait. Journal of Geophysical Research: Oceans. https://doi.org/https://doi.org/10.1029/2025JC022973"
+  },
+  {
+    "objectID": "publications/articles/mcneil-synoptic-2026/index.html#bibtex",
+    "href": "publications/articles/mcneil-synoptic-2026/index.html#bibtex",
+    "title": "Synoptic controls of extreme ice area flux events along nares strait",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{mcneil_synoptic_2026,\n    title = {Synoptic Controls of Extreme Ice Area Flux Events Along Nares Strait},\n    volume = {131},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JC022973},\n    doi = {https://doi.org/10.1029/2025JC022973},\n    abstract = {Abstract Nares Strait, the channel between Ellesmere Island and northwest Greenland, connects the Arctic Ocean's Lincoln Sea to northern Baffin Bay. The transport of thick, multi-year sea ice southward down the Strait contributes to the overall loss of this important ice class from the Arctic. Using sea ice motion derived from synthetic aperture radar imagery, we characterize the variability and extremes in ice transport across a flux gate situated at its northern terminus. Although the long-term mean daily ice area flux over the January 2016-January 2024 period, excluding periods with an ice arch present, is approximately 316 km2/day southwards, we observe frequent, large, and short-lived reversals during which the ice is transported northwards into the Lincoln Sea with extreme events exceeding 590 km2/day. Here, we characterize the synoptic conditions associated with extreme ice transport events along the Strait, defined by the 5th and 95th percentiles of the ice area flux over the 8-year period of study. Extreme southward transport events exceeding 1,070 km2/day are associated with a synoptic-scale environment characterized by higher sea-level pressures over the Arctic Ocean and lower sea-level pressures over the Davis Strait and the Labrador Sea. The identified extreme northward transport events are associated with a reversal in the pressure gradient as well as a pan-Arctic reversal in ice motion. Extreme ice area flux events can present hazards to marine activity and reversals in conditions are important to document as changes as they may be a signal of larger scale changes in the climate system.},\n    pages = {e2025JC022973},\n    number = {3},\n    journaltitle = {Journal of Geophysical Research: Oceans},\n    author = {{McNeil}, K. and Moore, G. W. K. and Howell, S. E. L. and Brady, M.},\n    date = {2026-03-03},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JC022973},\n    keywords = {air sea ice interactions, Arctic, Nares Strait, sea ice},\n}"
+  },
+  {
+    "objectID": "publications/articles/mcneil-synoptic-2026/index.html#notes",
+    "href": "publications/articles/mcneil-synoptic-2026/index.html#notes",
+    "title": "Synoptic controls of extreme ice area flux events along nares strait",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/babb-sea-2021/index.html",
+    "href": "publications/articles/babb-sea-2021/index.html",
+    "title": "Sea ice dynamics in hudson strait and its impact on winter shipping operations",
+    "section": "",
+    "text": "Type: Journal Article Venue: Journal of Geophysical Research: Oceans Year: 2021\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/babb-sea-2021/index.html#abstract",
+    "href": "publications/articles/babb-sea-2021/index.html#abstract",
+    "title": "Sea ice dynamics in hudson strait and its impact on winter shipping operations",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract Hudson Strait is seasonally ice covered and is the only part of the Canadian Arctic where winter shipping takes place. Yet, very little is known about the thickness and dynamics of this ice pack. During winter operations, icebreakers often face besetting events, which can slow or immobilize vessels for up to a few days. Using in situ observations of ice draft and drift collected by moored sonars at two sites in Hudson Strait from 2005 to 2009, we provide the first detailed analysis of sea ice dynamics within Hudson Strait and provide insights into the processes that dictate ice thickness and internal pressure along this unique winter shipping corridor. Prevailing northwesterly winds drive south-southeastward ice motion within the Strait, maintaining polynyas along Baffin Island on the north side of the Strait, and compressing the ice pack against Nunavik on the southern side. As a result, ice on the northern side remains young and thin throughout winter ( = 1.25 m), whereas ice on the southern side is older, heavily deformed and ∼60% thicker by March ( = 2.01 m). Intermittent reversals to southeasterly winds decompress the ice pack on the southern side, increasing the presence of leads and easing navigation through the ice pack to the port in Deception Bay. The spatial variability in sea ice thickness elucidated by the moorings is corroborated at the regional scale using satellite observations from ICESat-2 during winter 2019, 2020, and 2021, and complimented by high-resolution fields of sea ice motion during winter 2021."
+  },
+  {
+    "objectID": "publications/articles/babb-sea-2021/index.html#citation",
+    "href": "publications/articles/babb-sea-2021/index.html#citation",
+    "title": "Sea ice dynamics in hudson strait and its impact on winter shipping operations",
+    "section": "Citation",
+    "text": "Citation\nD. G. Babb, S. Kirillov, R. J. Galley, F. Straneo, J. K. Ehn, S. E. L. Howell, M. Brady, N. A. Ridenour, and D. G. Barber (2021). Sea ice dynamics in hudson strait and its impact on winter shipping operations. Journal of Geophysical Research: Oceans. https://doi.org/https://doi.org/10.1029/2021JC018024"
+  },
+  {
+    "objectID": "publications/articles/babb-sea-2021/index.html#bibtex",
+    "href": "publications/articles/babb-sea-2021/index.html#bibtex",
+    "title": "Sea ice dynamics in hudson strait and its impact on winter shipping operations",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{babb_sea_2021,\n    title = {Sea Ice Dynamics in Hudson Strait and Its Impact on Winter Shipping Operations},\n    volume = {126},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021JC018024},\n    doi = {https://doi.org/10.1029/2021JC018024},\n    abstract = {Abstract Hudson Strait is seasonally ice covered and is the only part of the Canadian Arctic where winter shipping takes place. Yet, very little is known about the thickness and dynamics of this ice pack. During winter operations, icebreakers often face besetting events, which can slow or immobilize vessels for up to a few days. Using in situ observations of ice draft and drift collected by moored sonars at two sites in Hudson Strait from 2005 to 2009, we provide the first detailed analysis of sea ice dynamics within Hudson Strait and provide insights into the processes that dictate ice thickness and internal pressure along this unique winter shipping corridor. Prevailing northwesterly winds drive south-southeastward ice motion within the Strait, maintaining polynyas along Baffin Island on the north side of the Strait, and compressing the ice pack against Nunavik on the southern side. As a result, ice on the northern side remains young and thin throughout winter ( = 1.25 m), whereas ice on the southern side is older, heavily deformed and ∼60\\% thicker by March ( = 2.01 m). Intermittent reversals to southeasterly winds decompress the ice pack on the southern side, increasing the presence of leads and easing navigation through the ice pack to the port in Deception Bay. The spatial variability in sea ice thickness elucidated by the moorings is corroborated at the regional scale using satellite observations from {ICESat}-2 during winter 2019, 2020, and 2021, and complimented by high-resolution fields of sea ice motion during winter 2021.},\n    pages = {e2021JC018024},\n    number = {12},\n    journaltitle = {Journal of Geophysical Research: Oceans},\n    author = {Babb, D. G. and Kirillov, S. and Galley, R. J. and Straneo, F. and Ehn, J. K. and Howell, S. E. L. and Brady, M. and Ridenour, N. A. and Barber, D. G.},\n    date = {2021-12-03},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2021JC018024},\n    keywords = {Sea ice, Arctic shipping, Hudson Strait, Ice Ridges, Polynya, Sea ice dynamics, Sea ice thickness},\n}"
+  },
+  {
+    "objectID": "publications/articles/babb-sea-2021/index.html#notes",
+    "href": "publications/articles/babb-sea-2021/index.html#notes",
+    "title": "Sea ice dynamics in hudson strait and its impact on winter shipping operations",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/thoman-arctic-2025/index.html",
+    "href": "publications/articles/thoman-arctic-2025/index.html",
+    "title": "The arctic",
+    "section": "",
+    "text": "Type: Journal Article Venue: Bulletin of the American Meteorological Society Year: 2025\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/thoman-arctic-2025/index.html#citation",
+    "href": "publications/articles/thoman-arctic-2025/index.html#citation",
+    "title": "The arctic",
+    "section": "Citation",
+    "text": "Citation\nR. L. Thoman, T. A. Moon, M. L. Druckenmiller, Thomas G. Askjaer, Thomas J. Ballinger, Uma S. Bhatt, Logan T. Berner, Germar H. Bernhard, Siiri Bigalke, Jarle W. Bjerke, Angela Bliss, Jason E. Box, Mike Brady, Brian Brettschneider, Amy H. Butler, Hanne H. Christiansen, Alex Crawford, Bertrand Decharme, Chris Derksen, Dmitry Divine, Alesksandra Elias Chereque, Howard E. Epstein, Sinead Farrell, Robert S. Fausto, Xavier Fettweis, Vitali E. Fioletov, Bruce C. Forbes, Gerald V. (JJ) Frost, Sebastian Gerland, Jens-Uwe Grooß, Edward Hanna, Stefan Hendricks, Stephen Howell, Iolanda Ialongo, Ketil Isaksen, Gensuo Jia, Bjørn Johnsen, Lars Kaleschke, Seong-Joong Kim, Zachary M. Labe, Rick Lader, Kaisa Lakkala, Mark J. Lara, Simon H. Lee, Bryant D. Loomis, Kari Luojus, Matthew J. Macander, Rúna Í Magnússon, Ken D. Mankoff, James W. McClelland, Brooke Medley, Walter N. Meier, Paul M. Montesano, Thomas L. Mote, Herdis Motrøen Gjelten, Lawrence Mudryk, Rolf Müller, Christopher S. R. Neigh, Kelsey E. Nyland, James E. Overland, Donald K. Perovich, Alek Petty, Gareth K. Phoenix, Kristin Poinar, Robert Ricker, Vladimir E. Romanovsky, Johan H. Scheller, Mark C. Serreze, Alexander I. Shiklomanov, Nikolay I. Shiklomanov, Benjamin E. Smith, Sharon L. Smith, Robert G. M. Spencer, Dmitry A. Streletskiy, Anya Suslova, Tove Svendby, Suzanne E. Tank, Xiangshan Tian-Kunze, Marco Tedesco, Mary-Louise Timmermans, Hans Tømmervik, Mikhail Tretiakov, Christine F. Waigl, Donald (Skip) A. Walker, John E. Walsh, Muyin Wang, Melinda Webster, Dedi Yang, and Scott Zolkos (2025). The arctic. Bulletin of the American Meteorological Society. https://doi.org/10.1175/BAMS-D-25-0104.1"
+  },
+  {
+    "objectID": "publications/articles/thoman-arctic-2025/index.html#bibtex",
+    "href": "publications/articles/thoman-arctic-2025/index.html#bibtex",
+    "title": "The arctic",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{thoman_arctic_2025,\n    location = {Boston {MA}, {USA}},\n    title = {The Arctic},\n    volume = {106},\n    url = {https://journals.ametsoc.org/view/journals/bams/106/8/BAMS-D-25-0104.1.xml},\n    doi = {10.1175/BAMS-D-25-0104.1},\n    pages = {S300 -- S356},\n    number = {8},\n    journaltitle = {Bulletin of the American Meteorological Society},\n    publisher = {American Meteorological Society},\n    author = {Thoman, R. L. and Moon, T. A. and Druckenmiller, M. L. and Askjaer, Thomas G. and Ballinger, Thomas J. and Bhatt, Uma S. and Berner, Logan T. and Bernhard, Germar H. and Bigalke, Siiri and Bjerke, Jarle W. and Bliss, Angela and Box, Jason E. and Brady, Mike and Brettschneider, Brian and Butler, Amy H. and Christiansen, Hanne H. and Crawford, Alex and Decharme, Bertrand and Derksen, Chris and Divine, Dmitry and Chereque, Alesksandra Elias and Epstein, Howard E. and Farrell, Sinead and Fausto, Robert S. and Fettweis, Xavier and Fioletov, Vitali E. and Forbes, Bruce C. and Frost, Gerald V. ({JJ}) and Gerland, Sebastian and Grooß, Jens-Uwe and Hanna, Edward and Hendricks, Stefan and Howell, Stephen and Ialongo, Iolanda and Isaksen, Ketil and Jia, Gensuo and Johnsen, Bjørn and Kaleschke, Lars and Kim, Seong-Joong and Labe, Zachary M. and Lader, Rick and Lakkala, Kaisa and Lara, Mark J. and Lee, Simon H. and Loomis, Bryant D. and Luojus, Kari and Macander, Matthew J. and Magnússon, Rúna Í and Mankoff, Ken D. and {McClelland}, James W. and Medley, Brooke and Meier, Walter N. and Montesano, Paul M. and Mote, Thomas L. and Gjelten, Herdis Motrøen and Mudryk, Lawrence and Müller, Rolf and Neigh, Christopher S. R. and Nyland, Kelsey E. and Overland, James E. and Perovich, Donald K. and Petty, Alek and Phoenix, Gareth K. and Poinar, Kristin and Ricker, Robert and Romanovsky, Vladimir E. and Scheller, Johan H. and Serreze, Mark C. and Shiklomanov, Alexander I. and Shiklomanov, Nikolay I. and Smith, Benjamin E. and Smith, Sharon L. and Spencer, Robert G. M. and Streletskiy, Dmitry A. and Suslova, Anya and Svendby, Tove and Tank, Suzanne E. and Tian-Kunze, Xiangshan and Tedesco, Marco and Timmermans, Mary-Louise and Tømmervik, Hans and Tretiakov, Mikhail and Waigl, Christine F. and Walker, Donald (Skip) A. and Walsh, John E. and Wang, Muyin and Webster, Melinda and Yang, Dedi and Zolkos, Scott},\n    date = {2025-08-14},\n}"
+  },
+  {
+    "objectID": "publications/articles/thoman-arctic-2025/index.html#notes",
+    "href": "publications/articles/thoman-arctic-2025/index.html#notes",
+    "title": "The arctic",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/cook-sea-2024/index.html",
+    "href": "publications/articles/cook-sea-2024/index.html",
+    "title": "Sea ice choke points reduce the length of the shipping season in the northwest passage",
+    "section": "",
+    "text": "Type: Journal Article Venue: Communications Earth & Environment Year: 2024\nDOI URL BibTeX"
+  },
+  {
+    "objectID": "publications/articles/cook-sea-2024/index.html#abstract",
+    "href": "publications/articles/cook-sea-2024/index.html#abstract",
+    "title": "Sea ice choke points reduce the length of the shipping season in the northwest passage",
+    "section": "Abstract",
+    "text": "Abstract\nArctic sea ice has shifted from a perennial (older, thicker ice) to a seasonal (younger, thinner) ice regime, leading to the increasingly common belief that shipping through Canada’s Northwest Passage is becoming more viable. Here, we use the Risk Index Outcome values derived from the Polar Operational Limit Assessment Risk Indexing System and analyze recent changes to shipping season lengths along individual sections of the Northwest Passage routes from 2007 to 2021. Results show that multi-year ice flushed southward from high-latitude regions maintains the so-called choke points along certain route sections, reducing overall shipping season length. There is considerable spatiotemporal variability in shipping season lengths along the southern and northern routes. Specifically, parts of the northern route exhibit a decrease of up to 14 weeks over the 15 years. The variability of shipping season and, in particular, the shortening of the season will impact not only international shipping but also resupply and the cost of food in many Arctic communities, which require a prompt policy response."
+  },
+  {
+    "objectID": "publications/articles/cook-sea-2024/index.html#citation",
+    "href": "publications/articles/cook-sea-2024/index.html#citation",
+    "title": "Sea ice choke points reduce the length of the shipping season in the northwest passage",
+    "section": "Citation",
+    "text": "Citation\nAlison J. Cook, Jackie Dawson, Stephen E. L. Howell, Jean E. Holloway, and Mike Brady (2024). Sea ice choke points reduce the length of the shipping season in the northwest passage. Communications Earth & Environment. https://doi.org/10.1038/s43247-024-01477-6"
+  },
+  {
+    "objectID": "publications/articles/cook-sea-2024/index.html#bibtex",
+    "href": "publications/articles/cook-sea-2024/index.html#bibtex",
+    "title": "Sea ice choke points reduce the length of the shipping season in the northwest passage",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{cook_sea_2024,\n    title = {Sea ice choke points reduce the length of the shipping season in the Northwest Passage},\n    volume = {5},\n    issn = {2662-4435},\n    url = {https://doi.org/10.1038/s43247-024-01477-6},\n    doi = {10.1038/s43247-024-01477-6},\n    abstract = {Arctic sea ice has shifted from a perennial (older, thicker ice) to a seasonal (younger, thinner) ice regime, leading to the increasingly common belief that shipping through Canada’s Northwest Passage is becoming more viable. Here, we use the Risk Index Outcome values derived from the Polar Operational Limit Assessment Risk Indexing System and analyze recent changes to shipping season lengths along individual sections of the Northwest Passage routes from 2007 to 2021. Results show that multi-year ice flushed southward from high-latitude regions maintains the so-called choke points along certain route sections, reducing overall shipping season length. There is considerable spatiotemporal variability in shipping season lengths along the southern and northern routes. Specifically, parts of the northern route exhibit a decrease of up to 14 weeks over the 15 years. The variability of shipping season and, in particular, the shortening of the season will impact not only international shipping but also resupply and the cost of food in many Arctic communities, which require a prompt policy response.},\n    pages = {362},\n    number = {1},\n    journaltitle = {Communications Earth \\& Environment},\n    shortjournal = {Communications Earth \\& Environment},\n    author = {Cook, Alison J. and Dawson, Jackie and Howell, Stephen E. L. and Holloway, Jean E. and Brady, Mike},\n    date = {2024-07-11},\n}"
+  },
+  {
+    "objectID": "publications/articles/cook-sea-2024/index.html#notes",
+    "href": "publications/articles/cook-sea-2024/index.html#notes",
+    "title": "Sea ice choke points reduce the length of the shipping season in the northwest passage",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/moore-first-2021/index.html",
+    "href": "publications/articles/moore-first-2021/index.html",
+    "title": "First observations of a transient polynya in the last ice area north of ellesmere island",
+    "section": "",
+    "text": "Type: Journal Article Venue: Geophysical Research Letters Year: 2021\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/moore-first-2021/index.html#abstract",
+    "href": "publications/articles/moore-first-2021/index.html#abstract",
+    "title": "First observations of a transient polynya in the last ice area north of ellesmere island",
+    "section": "Abstract",
+    "text": "Abstract\nAbstract The area to the north of Ellesmere Island and Greenland contains the Arctic’s thickest ice and it is predicted to be the last to lose its perennial ice, thus providing an important refuge for ice-dependent species. There is however evidence that this Last Ice Area is, like the entire Arctic, undergoing rapid changes that may reduce its suitability as a refuge. During May 2020, a polynya developed to the north of Ellesmere Island in a region where there are no reports of a previous development. We use a variety of remotely sensed data as well as an atmospheric reanalysis to document the evolution and the dynamics responsible for the polynya. In particular, we argue that anomalously strong divergent winds associated with an intense and long-lived Arctic anti-cyclone contributed to the development of the polynya as well as similar previously unreported events in May 1988 and 2004."
+  },
+  {
+    "objectID": "publications/articles/moore-first-2021/index.html#citation",
+    "href": "publications/articles/moore-first-2021/index.html#citation",
+    "title": "First observations of a transient polynya in the last ice area north of ellesmere island",
+    "section": "Citation",
+    "text": "Citation\nG. W. K. Moore, S. E. L. Howell, and M. Brady (2021). First observations of a transient polynya in the last ice area north of ellesmere island. Geophysical Research Letters. https://doi.org/https://doi.org/10.1029/2021GL095099"
+  },
+  {
+    "objectID": "publications/articles/moore-first-2021/index.html#bibtex",
+    "href": "publications/articles/moore-first-2021/index.html#bibtex",
+    "title": "First observations of a transient polynya in the last ice area north of ellesmere island",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{moore_first_2021,\n    title = {First Observations of a Transient Polynya in the Last Ice Area North of Ellesmere Island},\n    volume = {48},\n    url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GL095099},\n    doi = {https://doi.org/10.1029/2021GL095099},\n    abstract = {Abstract The area to the north of Ellesmere Island and Greenland contains the Arctic's thickest ice and it is predicted to be the last to lose its perennial ice, thus providing an important refuge for ice-dependent species. There is however evidence that this Last Ice Area is, like the entire Arctic, undergoing rapid changes that may reduce its suitability as a refuge. During May 2020, a polynya developed to the north of Ellesmere Island in a region where there are no reports of a previous development. We use a variety of remotely sensed data as well as an atmospheric reanalysis to document the evolution and the dynamics responsible for the polynya. In particular, we argue that anomalously strong divergent winds associated with an intense and long-lived Arctic anti-cyclone contributed to the development of the polynya as well as similar previously unreported events in May 1988 and 2004.},\n    pages = {e2021GL095099},\n    number = {17},\n    journaltitle = {Geophysical Research Letters},\n    author = {Moore, G. W. K. and Howell, S. E. L. and Brady, M.},\n    date = {2021-08-18},\n    note = {\\_eprint: https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL095099},\n    keywords = {Last Ice Area, polynya},\n}"
+  },
+  {
+    "objectID": "publications/articles/moore-first-2021/index.html#notes",
+    "href": "publications/articles/moore-first-2021/index.html#notes",
+    "title": "First observations of a transient polynya in the last ice area north of ellesmere island",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/articles/komarov-role-2026/index.html",
+    "href": "publications/articles/komarov-role-2026/index.html",
+    "title": "The role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years",
+    "section": "",
+    "text": "Type: Journal Article Venue: Remote Sensing of Environment Year: 2026\nDOI Publisher Link BibTeX"
+  },
+  {
+    "objectID": "publications/articles/komarov-role-2026/index.html#abstract",
+    "href": "publications/articles/komarov-role-2026/index.html#abstract",
+    "title": "The role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years",
+    "section": "Abstract",
+    "text": "Abstract\nWe introduce a new pan-Arctic Environment and Climate Change Canada (ECCC) HIgh-Resolution sea Ice Tracking System (HIRITS) operating with the RADARSAT Constellation Mission (RCM) HH and HV synthetic aperture radar (SAR) images resampled at a resolution of 80 m. The spacing between neighbour output vectors was often around 1 km. When combining HH and HV, the resulting ice displacements (over 2 h to 3.5 days) derived for June 1, 2022 – May 31, 2025 were in an excellent agreement with International Arctic Buoy Programme data with the overall root-mean square error (RMSE) of 1.48 km, and correlation of 0.996 for the x and y components. Ice motion vectors provided by HV had consistently greater tracking cross-correlation coefficients (with the average value of 0.56) than those derived from HH (average value of 0.45), implying a higher confidence. The RCM HH + HV ice motion agreed well with the existing passive microwave products from the National Snow and Ice Data Center (NSIDC) and Ocean and Sea Ice Satellite Application Facility (OSI SAF) with RMSEs of 4.19 km/d and 5.03 km/d respectively. We introduced an aggregated sea ice motion pan-Arctic gridded product at 2 km resolution that combines individual RCM ice motion products (HH and HV) derived over 3- and 7-day rolling time windows. A greater number of vectors was derived from HV compared to HH across the pan-Arctic domain, except for the situations where the HV signal is low, such as over smooth land fast ice. The new RCM HH + HV products generated since mid-May 2022 will substantially benefit various applications that require sea ice motion at high spatial resolution including accurate computation of sea ice deformation."
+  },
+  {
+    "objectID": "publications/articles/komarov-role-2026/index.html#citation",
+    "href": "publications/articles/komarov-role-2026/index.html#citation",
+    "title": "The role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years",
+    "section": "Citation",
+    "text": "Citation\nAlexander S. Komarov, Mathieu Plante, Jean-François Lemieux, Stephen E. L. Howell, and Mike Brady (2026). The role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years. Remote Sensing of Environment. https://doi.org/https://doi.org/10.1016/j.rse.2025.115175"
+  },
+  {
+    "objectID": "publications/articles/komarov-role-2026/index.html#bibtex",
+    "href": "publications/articles/komarov-role-2026/index.html#bibtex",
+    "title": "The role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years",
+    "section": "BibTeX",
+    "text": "BibTeX\n@article{komarov_role_2026,\n    title = {The role of cross-polarization in producing high-resolution pan-Arctic sea ice motion from the {RADARSAT} Constellation Mission over several years},\n    volume = {334},\n    issn = {0034-4257},\n    url = {https://www.sciencedirect.com/science/article/pii/S0034425725005796},\n    doi = {https://doi.org/10.1016/j.rse.2025.115175},\n    abstract = {We introduce a new pan-Arctic Environment and Climate Change Canada ({ECCC}) {HIgh}-Resolution sea Ice Tracking System ({HIRITS}) operating with the {RADARSAT} Constellation Mission ({RCM}) {HH} and {HV} synthetic aperture radar ({SAR}) images resampled at a resolution of 80 m. The spacing between neighbour output vectors was often around 1 km. When combining {HH} and {HV}, the resulting ice displacements (over 2 h to 3.5 days) derived for June 1, 2022 – May 31, 2025 were in an excellent agreement with International Arctic Buoy Programme data with the overall root-mean square error ({RMSE}) of 1.48 km, and correlation of 0.996 for the x and y components. Ice motion vectors provided by {HV} had consistently greater tracking cross-correlation coefficients (with the average value of 0.56) than those derived from {HH} (average value of 0.45), implying a higher confidence. The {RCM} {HH} + {HV} ice motion agreed well with the existing passive microwave products from the National Snow and Ice Data Center ({NSIDC}) and Ocean and Sea Ice Satellite Application Facility ({OSI} {SAF}) with {RMSEs} of 4.19 km/d and 5.03 km/d respectively. We introduced an aggregated sea ice motion pan-Arctic gridded product at 2 km resolution that combines individual {RCM} ice motion products ({HH} and {HV}) derived over 3- and 7-day rolling time windows. A greater number of vectors was derived from {HV} compared to {HH} across the pan-Arctic domain, except for the situations where the {HV} signal is low, such as over smooth land fast ice. The new {RCM} {HH} + {HV} products generated since mid-May 2022 will substantially benefit various applications that require sea ice motion at high spatial resolution including accurate computation of sea ice deformation.},\n    pages = {115175},\n    journaltitle = {Remote Sensing of Environment},\n    author = {Komarov, Alexander S. and Plante, Mathieu and Lemieux, Jean-François and Howell, Stephen E. L. and Brady, Mike},\n    date = {2026-03-31},\n    keywords = {Arctic, Cross-polarization ({HV}) added value, {HIgh}-Resolution Ice Tracking System ({HIRITS}), {RADARSAT} Constellation Mission ({RCM}), Sea ice motion, Synthetic aperture radar ({SAR})},\n}"
+  },
+  {
+    "objectID": "publications/articles/komarov-role-2026/index.html#notes",
+    "href": "publications/articles/komarov-role-2026/index.html#notes",
+    "title": "The role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "ORCID ·  Google Scholar ·  ResearchGate\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Journal\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nJournal\n\n\n\n\n\n\n\n\n2026-03-31\n\n\nThe role of cross-polarization in producing high-resolution pan-arctic sea ice motion from the RADARSAT constellation mission over several years\n\n\nRemote Sensing of Environment\n\n\n\n\n\n\n2026-03-03\n\n\nSynoptic controls of extreme ice area flux events along nares strait\n\n\nJournal of Geophysical Research: Oceans\n\n\n\n\n\n\n2025-12-11\n\n\nNear sea ice-free conditions in the northern route of the northwest passage at the end of the 2024 melt season\n\n\nThe Cryosphere\n\n\n\n\n\n\n2025-11-07\n\n\nSnow water equivalent from airborne ku-band data: The trail valley creek 2018/19 snow experiment\n\n\nThe Cryosphere\n\n\n\n\n\n\n2025-10-15\n\n\nMelt onset variability in the northern canadian arctic archipelago from synthetic aperture radar and passive microwave satellite observations, 1979–2024\n\n\nIEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing\n\n\n\n\n\n\n2025-08-14\n\n\nThe arctic\n\n\nBulletin of the American Meteorological Society\n\n\n\n\n\n\n2025-02-05\n\n\nA sea ice deformation and rotation rate dataset (2017–2023) from the environment and climate change canada automated sea ice tracking system (ECCC-ASITS)\n\n\nEarth System Science Data\n\n\n\n\n\n\n2024-12-05\n\n\nUse of multiple reference data sources to cross-validate gridded snow water equivalent products over north america\n\n\nThe Cryosphere\n\n\n\n\n\n\n2024-11-28\n\n\nBaffin bay ice export and production from sentinel-1, the RADARSAT constellation mission, and CryoSat-2: 2016–2022\n\n\nGeophysical Research Letters\n\n\n\n\n\n\n2024-08-28\n\n\nRetrieval of snow and soil properties for forward radiative transfer modeling of airborne ku-band SAR to estimate snow water equivalent: The trail valley creek 2018/19 snow experiment\n\n\nThe Cryosphere\n\n\n\n\n\n\n2024-07-11\n\n\nSea ice choke points reduce the length of the shipping season in the northwest passage\n\n\nCommunications Earth & Environment\n\n\n\n\n\n\n2024-05-07\n\n\nSea ice transport and replenishment across and within the canadian arctic archipelago, 2016–2022\n\n\nThe Cryosphere\n\n\n\n\n\n\n2023-06-17\n\n\nEvolving relationship of nares strait ice arches on sea ice along the strait and the north water, the arctic’s most productive polynya\n\n\nScientific Reports\n\n\n\n\n\n\n2023-04-13\n\n\nA comparison of arctic ocean sea ice export between nares strait and the canadian arctic archipelago\n\n\nJournal of Geophysical Research: Oceans\n\n\n\n\n\n\n2022-10-21\n\n\nMulti-year sea ice conditions in the northwest passage: 1968–2020\n\n\nAtmosphere-Ocean\n\n\n\n\n\n\n2022-06-01\n\n\nBenchmarking algorithm changes to the snow CCI+ snow water equivalent product\n\n\nRemote Sensing of Environment\n\n\n\n\n\n\n2022-03-31\n\n\nGenerating large-scale sea ice motion from sentinel-1 and the RADARSAT constellation mission using the environment and climate change canada automated sea ice tracking system\n\n\nThe Cryosphere\n\n\n\n\n\n\n2021-12-03\n\n\nSea ice dynamics in hudson strait and its impact on winter shipping operations\n\n\nJournal of Geophysical Research: Oceans\n\n\n\n\n\n\n2021-09-24\n\n\nCanadian historical snow water equivalent dataset (CanSWE, 1928–2020)\n\n\nEarth System Science Data\n\n\n\n\n\n\n2021-08-18\n\n\nFirst observations of a transient polynya in the last ice area north of ellesmere island\n\n\nGeophysical Research Letters\n\n\n\n\n\n\n2021-08-01\n\n\nImpact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic\n\n\nNature Climate Change\n\n\n\n\n\n\n2021-01-04\n\n\nAnomalous collapses of nares strait ice arches leads to enhanced export of arctic sea ice\n\n\nNature Communications\n\n\n\n\n\n\n2020-12-21\n\n\nSpring melt pond fraction in the canadian arctic archipelago predicted from RADARSAT-2\n\n\nThe Cryosphere\n\n\n\n\n\n\n2020-12-02\n\n\nLocal-scale variability of snow density on arctic sea ice\n\n\nThe Cryosphere\n\n\n\n\n\n\n2020-07-31\n\n\nHistorical northern hemisphere snow cover trends and projected changes in the CMIP6 multi-model ensemble\n\n\nThe Cryosphere\n\n\n\n\n\n\n2019-12-19\n\n\nSensitivity of ice drift to form drag and ice strength parameterization in a coupled ice–ocean model\n\n\nAtmosphere-Ocean\n\n\n\n\n\n\n2019-11-13\n\n\nThe dynamic response of sea ice to warming in the canadian arctic archipelago\n\n\nGeophysical Research Letters\n\n\n\n\n\n\n2019-09-30\n\n\nComparison and assessment of regional and global land cover datasets for use in CLASS over canada\n\n\nRemote Sensing\n\n\n\n\n\n\n2019-05-08\n\n\nEstimating melt onset over arctic sea ice from time series multi-sensor sentinel-1 and RADARSAT-2 backscatter\n\n\nRemote Sensing of Environment\n\n\n\n\n\n\n2018-11-27\n\n\nComparing l- and c-band synthetic aperture radar estimates of sea ice motion over different ice regimes\n\n\nRemote Sensing of Environment\n\n\n\n\n\n\n2016-03-22\n\n\nRecent changes in sea ice area flux through the beaufort sea during the summer\n\n\nJournal of Geophysical Research: Oceans\n\n\n\n\n\n\n2015-02-06\n\n\nMultiyear ice replenishment in the canadian arctic archipelago: 1997–2013\n\n\nJournal of Geophysical Research: Oceans\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "code/code-content/eodms-api-client/index.html",
+    "href": "code/code-content/eodms-api-client/index.html",
+    "title": "eodms-api-client (archived)",
+    "section": "",
+    "text": "Repository\n\n\n\nScreenshot of documentation page\n\n\nThis repo started as a scripted way of interacting with EODMS (searching for imagery, retrieving metadata, submitting orders, and subsequent download). There was also the side benefit for me to practice packaging Python CLI tools, documentation with Sphinx, submitting to conda-forge, and dealing with behaviour-changing server-side adjustments. You can find the latest documentation at https://m9brady.github.io/eodms-api-client/\nThe eodms-api-client package was heavily influenced by sentinelsat for interacting with the Copernicus Dataspace Ecosystem, which itself was made redundant by other methods.\nEventually, NRCan published its own packages (eodms-cli, eodms-py) which have evolved significantly. Therefore my package has been effectively superceded and no further updates will be made."
+  },
+  {
+    "objectID": "presentations/presentations-content/igs-bremerhaven-2023/index.html",
+    "href": "presentations/presentations-content/igs-bremerhaven-2023/index.html",
+    "title": "Pan-Arctic sea ice motion from synthetic aperture radar using the Environment and Climate Change Canada automated sea ice tracking system",
+    "section": "",
+    "text": "Group photo of the participants on 6 June 2023 (photo: Amy Lauren Richman)."
+  },
+  {
+    "objectID": "code/code-content/pyEM31/index.html",
+    "href": "code/code-content/pyEM31/index.html",
+    "title": "pyEM31",
+    "section": "",
+    "text": "Repository\nOur group at ECCC uses the Geonics Ltd. M31-MK2 and EM31-SH instruments to estimate snow properties. Josh King originally created a Python script to convert the raw data files into human-readable text, and I continued the effort in order to share his work with the rest of the community.\n\n\n\nSupplementary Figure 1 from Haas et. al (2017) Original caption: Photo of the EM31SH ice thickness sounder and Magnaprobe snow thickness sensor used in this study. The EM instrument is strapped onto a toboggan dragged by one person and operated in horizontal dipole mode. The Magnaprobe is carried by another person. Note rather level ice surface morphology (Site 5; cf. Figure 2) and Twin Otter aircraft in the background (small black spot)."
+  },
+  {
+    "objectID": "code/code-content/infrasnow-downloader/index.html",
+    "href": "code/code-content/infrasnow-downloader/index.html",
+    "title": "infrasnow-downloader",
+    "section": "",
+    "text": "Repository\nDue to hardware/software conflicts, our group needed an easier way to offload measurements from the FPGA Company InfraSnow instrument. The tool needed to be multiplatform and user-friendly (i.e. not require python already being installed), so it was a good opportunity to learn how to use PyInstaller as well as github-actions to manage builds and releases.\nThis tool is now used operationally by our field teams.\n\n\n\nInfrasnow logger interface"
+  },
+  {
+    "objectID": "maps/map-content/arcticnet-2022/index.html",
+    "href": "maps/map-content/arcticnet-2022/index.html",
+    "title": "ArcticNet Figures",
+    "section": "",
+    "text": "Created a few figures for a presentation given at ArcticNet 2022. The font used for Inuktitut placenames was sourced from the Government of Nunavut. Icons were from sourced from FontAwesome.\n\n\n\n\n\n\nAny misspellings are unintentional\n\n\n\n\n\n\nLate draft of Inuit Nunangat Regions\n\n\n\n\n\nAnother late draft\n\n\n\n\n\nEarlier draft\n\n\n\n\n\n\n\n\nInuvialuit\n\n\n\n\n\n\n\nNunatsiavut\n\n\n\n\n\n\n\n\n\nNunavik\n\n\n\n\n\n\n\nNunavut"
+  }
+]
