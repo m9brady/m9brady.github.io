@@ -21,6 +21,13 @@
     "text": "Technical Skills\n Satellite Data Processing and Analysis\n Climate Dataset Intercomparison\n GIS Processing and Cartography\n Python Scripting and Packaging\n Distributed and Parallel Computing\n Software Containerization\n Database Design and Administration"
   },
   {
+    "objectID": "code/code-content/pyEM31/index.html",
+    "href": "code/code-content/pyEM31/index.html",
+    "title": "pyEM31",
+    "section": "",
+    "text": "Repository\nOur group at ECCC uses the Geonics Ltd. M31-MK2 and EM31-SH instruments to estimate snow properties. Josh King originally created a Python script to convert the raw data files into human-readable text, and I continued the effort in order to share his work with the rest of the community.\n\n\n\nSupplementary Figure 1 from Haas et. al (2017) Original caption: Photo of the EM31SH ice thickness sounder and Magnaprobe snow thickness sensor used in this study. The EM instrument is strapped onto a toboggan dragged by one person and operated in horizontal dipole mode. The Magnaprobe is carried by another person. Note rather level ice surface morphology (Site 5; cf. Figure 2) and Twin Otter aircraft in the background (small black spot)."
+  },
+  {
     "objectID": "code/index.html",
     "href": "code/index.html",
     "title": "Code",
@@ -553,11 +560,11 @@
     "text": "NSIDC Ice Age Exploration\n\n\n\npython\n\nxarray\n\netl\n\nsea-ice\n\n\n\nHistorical Beaufort Sea conditions with Dask/Xarray\n\n\n\n\n\nJan 16, 2022\n\n\nMike Brady\n\n\n\n\n\n\n\n\n\n\n\n\nMODIS Greenland Data Conversion\n\n\n\ngdal\n\nearth-observation\n\netl\n\n\n\nConverting NSIDC products from NetCDF to GeoTIFF\n\n\n\n\n\nApr 6, 2021\n\n\nMike Brady\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "maps/map-content/mudryk-impact-2021/index.html",
-    "href": "maps/map-content/mudryk-impact-2021/index.html",
-    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
+    "objectID": "maps/map-content/king-local-scale-2020/index.html",
+    "href": "maps/map-content/king-local-scale-2020/index.html",
+    "title": "Local-scale variability of snow density on arctic sea ice",
     "section": "",
-    "text": "Figure 1. Trans-Arctic and Canadian shipping routes.\n\n\nPublication reference"
+    "text": "Figure 1. Overview of the Eureka and Arctic Ocean (AO) snow on sea ice campaigns (a). Unidirectional SnowMicroPen (SMP) transects were collected at multiple sites to evaluate spatial variability of snowpack properties (b; Eureka MYI site shown) with sets of 10 profiles separated at distances of 0.1, 1, and 10 m, in sequence (c). Co-located SMP profiles were collected at all snow pit locations to calibrate the SMP density model of Proksch et al. (2015). Background of (b) shows RADARSAT-2 imagery near Eureka where bight returns indicate rough multi-year ice. RADARSAT-2 data and products © MacDonald, Dettwiler and Associates Ltd. (2019). All rights reserved. RADARSAT is an official trademark of the Canadian Space Agency.\n\n\nPublication reference"
   },
   {
     "objectID": "maps/index.html",
@@ -567,11 +574,18 @@
     "text": "Below you can find a curated collection of my maps and figures. Most maps are created through desktop GIS (QGIS, ArcGIS Pro) but graphs and figures usually Python.\n\n\n\n\n\n\n\n\n\n\n\n\nArcticNet Figures\n\n\n\ncanadian-arctic\n\nclimate-change\n\narcgis-pro\n\n\n\nMap figures created for presentation at ArcticNet Scientific Meeting 2022\n\n\n\n\n\n\nFeb 17, 2022\n\n\n\n\n\n\n\n\n\n\n\nImpact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic\n\n\n\ncanadian-arctic\n\nshipping\n\nclimate-change\n\narcgis-pro\n\n\n\nLawrence R. Mudryk, Jackie Dawson, Stephen E. L. Howell, Chris Derksen, Thomas A. Zagon, and Mike Brady (2021). Impact of 1, 2 and 4 °c of global warming on ship navigation…\n\n\n\n\n\n\nAug 1, 2021\n\n\n\n\n\n\n\n\n\n\n\nLocal-scale variability of snow density on arctic sea ice\n\n\n\ncanadian-arctic\n\nsea-ice\n\nearth-observation\n\narcmap\n\n\n\nJ. King, S. Howell, M. Brady, P. Toose, C. Derksen, C. Haas, and J. Beckers (2020). Local-scale variability of snow density on arctic sea ice. The Cryosphere.…\n\n\n\n\n\n\nDec 2, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "maps/map-content/king-local-scale-2020/index.html",
-    "href": "maps/map-content/king-local-scale-2020/index.html",
-    "title": "Local-scale variability of snow density on arctic sea ice",
+    "objectID": "maps/map-content/mudryk-impact-2021/index.html",
+    "href": "maps/map-content/mudryk-impact-2021/index.html",
+    "title": "Impact of 1, 2 and 4 °c of global warming on ship navigation in the canadian arctic",
     "section": "",
-    "text": "Figure 1. Overview of the Eureka and Arctic Ocean (AO) snow on sea ice campaigns (a). Unidirectional SnowMicroPen (SMP) transects were collected at multiple sites to evaluate spatial variability of snowpack properties (b; Eureka MYI site shown) with sets of 10 profiles separated at distances of 0.1, 1, and 10 m, in sequence (c). Co-located SMP profiles were collected at all snow pit locations to calibrate the SMP density model of Proksch et al. (2015). Background of (b) shows RADARSAT-2 imagery near Eureka where bight returns indicate rough multi-year ice. RADARSAT-2 data and products © MacDonald, Dettwiler and Associates Ltd. (2019). All rights reserved. RADARSAT is an official trademark of the Canadian Space Agency.\n\n\nPublication reference"
+    "text": "Figure 1. Trans-Arctic and Canadian shipping routes.\n\n\nPublication reference"
+  },
+  {
+    "objectID": "maps/map-content/arcticnet-2022/index.html",
+    "href": "maps/map-content/arcticnet-2022/index.html",
+    "title": "ArcticNet Figures",
+    "section": "",
+    "text": "Created a few figures for a presentation given at ArcticNet 2022. The font used for Inuktitut placenames was sourced from the Government of Nunavut. Icons were from sourced from FontAwesome.\n\n\n\n\n\n\nAny misspellings are unintentional\n\n\n\n\n\n\nLate draft of Inuit Nunangat Regions\n\n\n\n\n\nAnother late draft\n\n\n\n\n\nEarlier draft\n\n\n\n\n\n\n\n\nInuvialuit\n\n\n\n\n\n\n\nNunatsiavut\n\n\n\n\n\n\n\n\n\nNunavik\n\n\n\n\n\n\n\nNunavut"
   },
   {
     "objectID": "posts/post-content/nsidc-iceage-xarray-2022/index.html",
@@ -1113,20 +1127,6 @@
     "text": "Repository\n\n\n\nScreenshot of documentation page\n\n\nThis repo started as a scripted way of interacting with EODMS (searching for imagery, retrieving metadata, submitting orders, and subsequent download). There was also the side benefit for me to practice packaging Python CLI tools, documentation with Sphinx, submitting to conda-forge, and dealing with behaviour-changing server-side adjustments. You can find the latest documentation at https://m9brady.github.io/eodms-api-client/\nThe eodms-api-client package was heavily influenced by sentinelsat for interacting with the Copernicus Dataspace Ecosystem, which itself was made redundant by other methods.\nEventually, NRCan published its own packages (eodms-cli, eodms-py) which have evolved significantly. Therefore my package has been effectively superceded and no further updates will be made."
   },
   {
-    "objectID": "presentations/presentations-content/igs-bremerhaven-2023/index.html",
-    "href": "presentations/presentations-content/igs-bremerhaven-2023/index.html",
-    "title": "Pan-Arctic sea ice motion from synthetic aperture radar using the Environment and Climate Change Canada automated sea ice tracking system",
-    "section": "",
-    "text": "Group photo of the participants on 6 June 2023 (photo: Amy Lauren Richman)."
-  },
-  {
-    "objectID": "code/code-content/pyEM31/index.html",
-    "href": "code/code-content/pyEM31/index.html",
-    "title": "pyEM31",
-    "section": "",
-    "text": "Repository\nOur group at ECCC uses the Geonics Ltd. M31-MK2 and EM31-SH instruments to estimate snow properties. Josh King originally created a Python script to convert the raw data files into human-readable text, and I continued the effort in order to share his work with the rest of the community.\n\n\n\nSupplementary Figure 1 from Haas et. al (2017) Original caption: Photo of the EM31SH ice thickness sounder and Magnaprobe snow thickness sensor used in this study. The EM instrument is strapped onto a toboggan dragged by one person and operated in horizontal dipole mode. The Magnaprobe is carried by another person. Note rather level ice surface morphology (Site 5; cf. Figure 2) and Twin Otter aircraft in the background (small black spot)."
-  },
-  {
     "objectID": "code/code-content/infrasnow-downloader/index.html",
     "href": "code/code-content/infrasnow-downloader/index.html",
     "title": "infrasnow-downloader",
@@ -1134,10 +1134,10 @@
     "text": "Repository\nDue to hardware/software conflicts, our group needed an easier way to offload measurements from the FPGA Company InfraSnow instrument. The tool needed to be multiplatform and user-friendly (i.e. not require python already being installed), so it was a good opportunity to learn how to use PyInstaller as well as github-actions to manage builds and releases.\nThis tool is now used operationally by our field teams.\n\n\n\nInfrasnow logger interface"
   },
   {
-    "objectID": "maps/map-content/arcticnet-2022/index.html",
-    "href": "maps/map-content/arcticnet-2022/index.html",
-    "title": "ArcticNet Figures",
+    "objectID": "presentations/presentations-content/igs-bremerhaven-2023/index.html",
+    "href": "presentations/presentations-content/igs-bremerhaven-2023/index.html",
+    "title": "Pan-Arctic sea ice motion from synthetic aperture radar using the Environment and Climate Change Canada automated sea ice tracking system",
     "section": "",
-    "text": "Created a few figures for a presentation given at ArcticNet 2022. The font used for Inuktitut placenames was sourced from the Government of Nunavut. Icons were from sourced from FontAwesome.\n\n\n\n\n\n\nAny misspellings are unintentional\n\n\n\n\n\n\nLate draft of Inuit Nunangat Regions\n\n\n\n\n\nAnother late draft\n\n\n\n\n\nEarlier draft\n\n\n\n\n\n\n\n\nInuvialuit\n\n\n\n\n\n\n\nNunatsiavut\n\n\n\n\n\n\n\n\n\nNunavik\n\n\n\n\n\n\n\nNunavut"
+    "text": "Group photo of the participants on 6 June 2023 (photo: Amy Lauren Richman)."
   }
 ]
